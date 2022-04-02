@@ -6,7 +6,13 @@ module.exports = {
             sans: ["Nunito","sans-serif"],
             serif: ["Permanent Marker", "serif"]
           },
-          colors: {},
+          colors: {
+            pink: "#C9177E",
+            green: "#00A88A",
+            blue: "#034AD8",
+            yellow: "#FCD804",
+            black: "#1C1C1C"
+          },
         },
     },
     plugins: [],
