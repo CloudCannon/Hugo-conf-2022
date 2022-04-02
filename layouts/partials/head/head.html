@@ -13,11 +13,14 @@
     resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $scss.Permalink }}" />
     
+    <!-- Hugo track -->
+    {{ hugo.Generator }}
+    
     <!-- Add tailwind styles -->
-    {{ hugo.Generator }} {{ $styles := resources.Get "css/site.css" }} 
+    {{ $styles := resources.Get "css/site.css" }} 
     {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }} 
     {{ if hugo.IsProduction }} 
-    {{ $styles = $styles | minify }} 
+        {{ $styles = $styles | minify }} 
     {{ else }} 
     {{ $styles = $styles | resources.ExecuteAsTemplate 
         (printf "tailwind.dev.%v.css" now.UnixMilli) . }} 
