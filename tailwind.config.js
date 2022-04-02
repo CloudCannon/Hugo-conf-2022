@@ -1,7 +1,11 @@
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+    content: ["./layouts/**/*.html", "./content/**/*.{md,html}", "./component-library/components/**/*.html"],
+    theme: {
+        fontFamily: {
+        },
+        extend: {
+            colors: {},
+        },
+    },
+    plugins: [],
+};
