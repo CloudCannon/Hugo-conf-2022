@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'hugo-alpine-bookshop-template'
+title = 'Hugo Conf 2022'
 
 [module]
 replacements = "local/component-library -> ../component-library"
