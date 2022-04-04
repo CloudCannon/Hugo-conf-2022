@@ -8,7 +8,9 @@ content_blocks:
       label: Hello
       view_label_icon: true
       border_color: border-blue
-    - _bookshop_name: sections/welcome
-      heading: Test test test
-      content: this is a test
+    - _bookshop_name: sections/hero
+      logo_image: https://place-puppy.com/288x75
+      post_logo: puppies
+    - _bookshop_name: simple/event-date
+      date: date date this is a date
 ---
