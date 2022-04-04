@@ -3,4 +3,4 @@ rm -rf node_modules
 
 # Install and run generate
 npm i
-npx "@bookshop/generate"
+npx @bookshop/up@beta
