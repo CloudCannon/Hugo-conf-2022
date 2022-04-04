@@ -1,38 +1,38 @@
 {
-    "name": "hugo-alpine-bookshop-template",
-    "version": "1.0.0",
-    "description": "Starter template for hugo, alpine, bookshop",
-    "main": "index.js",
-    "scripts": {
-        "start": "run-p javascript hugo-server javascript",
-        "dev": "run-p javascript hugo-server bookshop",
-        "hugo-server": "hugo server -D --watch",
-        "build": "hugo --source ./ --destination public --baseURL /",
-        "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js",
-        "bookshop": "npx @bookshop/browser",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/CloudCannon/hugo-alpine-bookshop-template.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/CloudCannon/hugo-alpine-bookshop-template/issues"
-    },
-    "homepage": "https://github.com/CloudCannon/hugo-alpine-bookshop-template#readme",
-    "dependencies": {
-        "@bookshop/browser": "3.0.0-beta.3",
-        "@bookshop/generate": "3.0.0-beta.3",
-        "@bookshop/hugo-engine": "3.0.0-beta.3",
-        "alpinejs": "^3.9.5",
-        "autoprefixer": "^10.4.4",
-        "esbuild": "^0.14.29",
-        "npm-run-all": "^4.1.5",
-        "postcss": "^8.4.12",
-        "postcss-cli": "^9.1.0",
-        "tailwindcss": "^3.0.23"
-    }
+  "name": "hugo-alpine-bookshop-template",
+  "version": "1.0.0",
+  "description": "Starter template for hugo, alpine, bookshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p javascript hugo-server javascript",
+    "dev": "run-p javascript hugo-server bookshop",
+    "hugo-server": "hugo server -D --watch",
+    "build": "hugo --source ./ --destination public --baseURL /",
+    "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js",
+    "bookshop": "npx @bookshop/browser@beta",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCannon/hugo-alpine-bookshop-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CloudCannon/hugo-alpine-bookshop-template/issues"
+  },
+  "homepage": "https://github.com/CloudCannon/hugo-alpine-bookshop-template#readme",
+  "dependencies": {
+    "@bookshop/browser": "3.0.0-beta.5",
+    "@bookshop/generate": "3.0.0-beta.5",
+    "@bookshop/hugo-engine": "3.0.0-beta.5",
+    "alpinejs": "^3.9.5",
+    "autoprefixer": "^10.4.4",
+    "esbuild": "^0.14.29",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  }
 }
