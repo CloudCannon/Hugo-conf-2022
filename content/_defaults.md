@@ -1,3 +1,3 @@
 ---
-content_blocks: []
+content_blocks:
 ---
