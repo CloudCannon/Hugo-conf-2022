@@ -9,13 +9,13 @@ tags = []
 # Defines the structure of this component, as well as the default values
 [blueprint]
 label = ""
-view_label_icon = "true" #: Adds icon to button
+view_label_icon = true #: Adds icon to button
 border_color = ["border-blue","border-pink","border-white"]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 [preview]
 label = "I am a button"
-border_color = ["border-blue","border-pink","border-white"]
+border_color = "border-blue"
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
