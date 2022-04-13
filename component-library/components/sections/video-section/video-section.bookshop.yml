@@ -15,7 +15,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  notice_message: "This is a notice message"
+  notice_message: <p>Want to speak? Submit your proposal by <b>June 1st</b></p>
   button:
     label: I am a button
     view_label_icon: false

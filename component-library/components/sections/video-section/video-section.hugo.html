@@ -1,9 +1,10 @@
-<div class="c-video-section max-w-5xl grid justify-items-center mx-auto " x-intersect:enter="shown = true">
-    <div class="bg-pink text-white w-11/12 h-20 px-8 grid justify-center text-lg items-center rounded-t-lg">
-        <div class="flex gap-3 place-items-center flex-wrap">
-            {{ .notice_message }}
-            {{ partial "bookshop" (slice "generic/button" .button) }}
-        </div>
+<div class="c-video-section max-w-5xl grid justify-items-center mx-auto">
+  <div
+    class="bg-pink text-white md:w-8/12 w-4/5 py-4 px-8 grid justify-center text-lg items-center rounded-t-lg">
+    <div class="flex gap-3 text-center items-center justify-center flex-wrap">
+      {{ .notice_message | safeHTML }} {{ partial "bookshop" (slice
+      "generic/button" .button) }}
     </div>
-    {{ partial "bookshop" (slice "simple/video" .video ) }}
+  </div>
+  {{ partial "bookshop" (slice "simple/video" .video ) }}
 </div>
