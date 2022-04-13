@@ -1,20 +1,18 @@
 # Metadata about this component, to be used in the CMS
-[spec]
-structures = ['content_blocks']
-label = 'Welcome'
-description = 'Welcome block'
-icon = 'pan_tool'
-tags = []
+spec:
+  structures:
+    - content_blocks
+  label: "Video"
+  description:
+  icon: duo
+  tags: []
 
 # Defines the structure of this component, as well as the default values
-[blueprint]
-heading = ''
-content = ''
+blueprint:
+  url: "https://www.youtube.com/embed/YE7VzlLtp-4"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
-[preview]
-heading = 'Hello'
-content = 'Welcome to this hugo, bookshop, and alpine.js template site'
+preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-[_inputs]
+_inputs:

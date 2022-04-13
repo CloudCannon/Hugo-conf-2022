@@ -1,0 +1,9 @@
+<div class="c-video-section max-w-5xl grid justify-items-center mx-auto " x-intersect:enter="shown = true">
+    <div class="bg-pink text-white w-11/12 h-20 px-8 grid justify-center text-lg items-center rounded-t-lg">
+        <div class="flex gap-3 place-items-center flex-wrap">
+            {{ .notice_message }}
+            {{ partial "bookshop" (slice "generic/button" .button) }}
+        </div>
+    </div>
+    {{ partial "bookshop" (slice "simple/video" .video ) }}
+</div>
