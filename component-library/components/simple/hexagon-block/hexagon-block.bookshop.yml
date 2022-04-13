@@ -9,10 +9,24 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  hexon_color: ""
+  hexagon_color: pink
+  title: title
+  content:
+  _text_alignment: left
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  hexon_color: "stroke-pink"
+  hexagon_color: pink
+  title: I am a title
+  content: <p>Doggo ipsum such treat floofs doge. Maximum borkdrive borkf smol borking doggo with a long snoot for pats clouds waggy wags, what a nice floof snoot. Heckin adorable doggo pupper tungg, boof what a nice floof yapper wow very biscit, length boy bork. He made many woofs borkdrive snoot heckin, doing me a frighten. Fat boi very good spot maximum borkdrive wow such tempt aqua doggo, you are doin </p>
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  content:
+    type: html
+  border_color:
+    type: select
+    options:
+      values:
+        - green
+        - pink
+        - yellow

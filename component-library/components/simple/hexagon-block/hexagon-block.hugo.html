@@ -1,6 +1,17 @@
-<div class="c-hexagon-block">
+<div class="c-hexagon-block h-[456px] max-w-[465px] text-white relative grid place-content-center">
+  <div class="px-[73px] ">
+      <h2 class='font-bold text-2xl {{ if eq ._text_alignment "left" }} text-left {{ else }} text-right {{ end }}'>{{ .title }}</h2>
+      <div class='text-base {{ if eq ._text_alignment "left" }} text-left {{ else }} text-right {{ end }}'>{{ .content | safeHTML }} </div>
+  </div>
   <svg
-    class="stroke-yellow stroke-pink stroke-green"
+    class=' absolute top-0 left-0
+            {{ if eq .hexagon_color "pink" }}
+                stroke-pink
+            {{ else if eq .hexagon_color "green"}}
+                stroke-green
+            {{ else if eq .hexagon_color "yellow"}}
+                stroke-yellow
+            {{ end }}'
     width="465"
     height="459"
     viewBox="0 0 465 459"
@@ -10,4 +21,6 @@
       d="M463 322.037V142.437C463 121.826 451.267 103.012 432.758 93.944L256.569 7.62259C241.602 0.289424 224.086 0.279026 209.11 7.59442L32.2993 93.9604C13.7588 103.017 2 121.847 2 142.481V321.499C2 342.609 14.302 361.784 33.4915 370.584L211.952 452.418C225.302 458.54 240.57 458.96 254.237 453.581L277.311 444.5L432.202 370.798C451.015 361.846 463 342.871 463 322.037Z"
       stroke-width="3" />
   </svg>
+
+
 </div>
