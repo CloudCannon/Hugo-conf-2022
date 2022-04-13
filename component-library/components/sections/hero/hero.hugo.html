@@ -1,10 +1,10 @@
-<section class="c-sections-hero text-white grid justify-items-center   gap-4 min-w-0">
-  <div class="flex flex-wrap items-center justify-center gap-5 " >
-    <img class=" w-48 md:w-72" src="{{ .logo_image }}" alt="{{ .logo_alt }}">
-    <p class="font-serif text-5xl md:text-7xl ">
-      {{ .post_logo }}
-    </p>
+<section
+  class="c-sections-hero text-white grid justify-items-center gap-4 min-w-0">
+  <div class="flex flex-wrap items-center justify-center gap-5">
+    <img class="w-48 md:w-72" src="{{ .logo_image }}" alt="{{ .logo_alt }}" />
+    <p class="font-serif text-5xl md:text-7xl">{{ .post_logo }}</p>
   </div>
-  {{ partial "bookshop" (slice "simple/event-date" .date )  }}
-  {{ partial "bookshop" (slice "generic/button" .button )  }}
+  {{ partial "bookshop" (slice "simple/event-date" .date ) }}
+  <div class="text-center text-2xl font-bold max-w-3xl">{{ .content }}</div>
+  {{ partial "bookshop" (slice "generic/button" .button ) }}
 </section>

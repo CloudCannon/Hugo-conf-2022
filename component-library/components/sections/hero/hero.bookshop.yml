@@ -5,21 +5,21 @@ spec:
   label: Hero
   description: The hero of the page useally gets used at the top of the page
   icon: emoji_events
-  tags:
-    - example
+  tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   logo_image: ""
-  post_logo: "" 
+  post_logo: ""
   date: bookshop:simple/event-date
   button: bookshop:generic/button
+  content: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   logo_image: https://place-puppy.com/288x75
   post_logo: puppies #: Adds text after the logo
-
+  content: "This is content"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
