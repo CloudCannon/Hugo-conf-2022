@@ -10,7 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   hexagon_color: pink
-  title: title
+  title:
   content:
   _text_alignment: left
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -23,7 +23,7 @@ preview:
 _inputs:
   content:
     type: html
-  border_color:
+  hexagon_color:
     type: select
     options:
       values:
