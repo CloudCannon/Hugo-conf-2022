@@ -1,8 +1,10 @@
 module.exports = {
+    mode: 'jit',
     content: [
         "./layouts/**/*.html",
         "./content/**/*.{md,html}",
         "./component-library/components/**/*.html",
+        "./component-library/components/**/*.toml",
     ],
     theme: {
         extend: {
