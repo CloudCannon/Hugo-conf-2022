@@ -31,9 +31,9 @@ content_blocks:
         content: >-
           <p>HugoConf organizers are dedicated to providing a safe, inclusive
           and harassment free environment for all attendees. Please review our
-          <a href="#">code of conduct</a> help build the
-          community by being supportive and constructive.</p><p>&nbsp;</p><p>If
-          you have any questions or suggestions, reach out to <a
+          <a href="#">code of conduct</a> help build the community by being
+          supportive and constructive.</p><p>&nbsp;</p><p>If you have any
+          questions or suggestions, reach out to <a
           href="mailto:team@hugoconf.com">team@hugoconf.com</a>.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
@@ -51,5 +51,21 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
+  - _bookshop_name: simple/register-modal
+    heading: Register today!
+    form:
+      _bookshop_name: simple/form
+      email:
+        _bookshop_name: generic/input
+        type: email
+        name: email
+        label: Email address
+        required: true
+      name:
+        _bookshop_name: generic/input
+        type: text
+        name: Name
+        label: Full name
+        required: true
 ---
 
