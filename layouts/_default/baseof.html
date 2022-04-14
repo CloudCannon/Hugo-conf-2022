@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     {{- partial "head/head.html" . -}}
-    <body class="bg-black">
+    <body class="bg-black grid w-screen overflow-x-hidden">
         <main>
             <!-- Render any additional page content below the page's content blocks -->
             {{ block "main" . }}{{ end }}
         </main>
+        {{- partial "footer/footer.html" . -}}
 
     </body>
 </html>

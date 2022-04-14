@@ -1,0 +1,29 @@
+<footer class=" w-[60vw] text-white grid justify-items-center mt-24 mb-10 mx-auto">
+  {{ with .Site.Data.footer  }}
+    <div class="h-[1px] w-full bg-blue"></div>
+    <div class="flex gap-2 my-6">
+      <p>{{ .preText }}</p>
+      {{ if .logo_image }}
+        <img class=" brightness-0 invert hover:brightness-100 hover:invert-0" src="{{ .logo_image }}" alt="{{ .logo_alt }}">
+      {{ end }}
+    </div>
+    <div class="flex flex-wrap items-center gap-1">
+      {{ $linkLenght := len .links }}
+      {{ range $i, $element := .links }}
+          <span class="flex items-center gap-1 group">
+              {{ with .url }}
+                  <a class=" group-hover:text-pink" href="{{ $element.url }}">{{ $element.label }}</a>
+              {{ else }}
+                  {{ $element.label }}
+              {{ end }}
+              {{ with .icon }}
+                  <img class=" w-4 h-4 grayscale invert group-hover:grayscale-0 group-hover:invert-0" src="{{ . }}" alt="{{ $element.icon_alt }}">
+              {{ end }}
+              {{ if not (eq (add $i 1) $linkLenght )  }}
+          </span>
+              <span>​ | ​</span>
+              {{ end }}
+          {{ end }}
+    </div>
+  {{ end }}
+</footer>
