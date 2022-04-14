@@ -1,8 +1,8 @@
-<div class="c-hexagon-block h-[456px] max-w-[465px] text-white relative grid place-content-center">
-  <div class="px-[73px] ">
-      <h2 class='font-bold text-2xl {{ if eq ._text_alignment "left" }} text-left {{ else }} text-right {{ end }}'>{{ .title }}</h2>
-      <div class='text-base {{ if eq ._text_alignment "left" }} text-left {{ else }} text-right {{ end }}'>{{ .content | safeHTML }} </div>
-  </div>
+<div class="c-hexagon-block h-[456px] max-w-[466px] text-white relative grid mx-[-33px] lg:mx-0 place-content-center last:grow {{ if and .last (not .odd) }} lg:mt-[-4rem] lg:mb-16 {{ end }}">
+    <div class="px-[61px] lg:px-[73px] ">
+        <h2 class='font-bold text-2xl {{ if .odd }} text-right {{ end }} lg:text-left'>{{ .title }}</h2>
+        <div class='text-base {{ if .odd }} text-right {{ end }} lg:text-left'>{{ .content | safeHTML }} </div>
+    </div>
   <svg
     class=' absolute top-0 left-0
             {{ if eq .hexagon_color "pink" }}

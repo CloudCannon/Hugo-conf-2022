@@ -1,0 +1,17 @@
+<div class="text-white c-hexagon-group flex flex-wrap gap-x-20 gap-y-16  max-w-5xl mx-auto justify-center lg:mb-18">
+    {{ $len := (len .hexagons) }}
+    {{ range $i, $element := .hexagons }}
+        {{ $position := add $i 1 }}
+        {{ $odd := modBool $position 2 }}
+        {{ $element := (merge $element (dict "odd" $odd))}}
+        {{ if eq $position $len }}
+            {{ $element := (merge $element (dict "last" true))}}
+            {{ partial "bookshop" (slice "simple/hexagon-block" $element ) }}
+        {{ else }}
+            {{ $element := (merge $element (dict "last" false))}}
+            {{ partial "bookshop" (slice "simple/hexagon-block" $element ) }}
+        {{ end }}
+    {{ end }}
+</div>
+
+

@@ -1,0 +1,25 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Hexagon-group"
+  description:
+  icon: rounded_corner
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  hexagons: [bookshop:simple/hexagon-block]  
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  hexagons:
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+    - bookshop:simple/hexagon-block
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

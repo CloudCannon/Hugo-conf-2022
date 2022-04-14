@@ -1,7 +1,6 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-    - content_blocks
   label: "Hexagon-block"
   description:
   icon: rounded_corner
@@ -12,7 +11,6 @@ blueprint:
   hexagon_color: pink
   title:
   content:
-  _text_alignment: left
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   hexagon_color: pink
