@@ -1,7 +1,7 @@
 <div class="c-hexagon-block h-[456px] max-w-[466px] text-white relative grid mx-[-33px] lg:mx-0 place-content-center last:grow {{ if and .last (not .odd) }} lg:mt-[-4rem] {{ end }}">
     <div class="px-[61px] lg:px-[73px] ">
-        <h2 class='font-bold text-2xl {{ if .odd }} text-right {{ end }} lg:text-left'>{{ .title }}</h2>
-        <div class='text-base {{ if .odd }} text-right {{ end }} lg:text-left'>{{ .content | safeHTML }} </div>
+        <h2 class='font-bold text-2xl {{ if .odd }} text-right {{ end }} lg:text-left mb-2'>{{ .title }}</h2>
+        <div class='font-normal text-base {{ if .odd }} text-right {{ end }} lg:text-left'>{{ .content | safeHTML }} </div>
     </div>
   <svg
     class=' absolute top-0 left-0
