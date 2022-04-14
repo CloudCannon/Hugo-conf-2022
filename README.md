@@ -6,7 +6,7 @@ Starter template for hugo, alpine, bookshop
 
 -   Hugo [install](https://gohugo.io/getting-started/installing/). `brew install hugo`
 -   Go [install](https://go.dev/learn/). `brew install go`
-- Requires Node >=16 [install](https://nodejs.org/en/)
+-   Requires Node >=16 [install](https://nodejs.org/en/)
 
 # Quickstart
 
@@ -15,3 +15,7 @@ Starter template for hugo, alpine, bookshop
 
 -   By default bookshop live browser will be at : [http://localhost:30775/](http://localhost:30775/)
 -   By default the site will be at : [http://localhost:1313/](http://localhost:1313/)
+
+# Create New component
+
+`npm run init` and follow prompts 
