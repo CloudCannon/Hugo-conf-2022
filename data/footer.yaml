@@ -1,5 +1,5 @@
 preText: "Hosted by "
-logo_image: "./uploads/coudcannon-logo.svg"
+logo_image: "/uploads/coudcannon-logo.svg"
 logo_alt: "Dogos"
 links: 
   - url: /
@@ -12,5 +12,5 @@ links:
     icon_alt:
   - url: https://mobile.twitter.com/cloudcannon
     label: Twitter
-    icon: "./uploads/twitter-logo.svg"
+    icon: "/uploads/twitter-logo.svg"
     icon_alt: Twitter
