@@ -1,0 +1,17 @@
+<!-- Modal -->
+<div 
+    x-data="{ open: false }"
+    x-show.transition.duration.500ms="open"
+    x-init="() => { setTimeout(() => { open = true }, 1000); }"
+    class="c-modal fixed z-40 inset-0 bg-gray-900 bg-opacity-80 flex items-center justify-center px-4 md:px-0">
+    <div class="grid  max-w-4xl bg-white rounded-lg border-2 border-pink" @click.away="open = false">
+        <button class="justify-self-end pt-5 pr-5" @click="open = false">
+            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.8277 3.93353C26.5902 3.17103 26.5902 1.93478 25.8277 1.17228V1.17228C25.0652 0.409783 23.8289 0.409784 23.0664 1.17228L14.9142 9.32453C14.1331 10.1056 12.8668 10.1056 12.0857 9.32453L3.9335 1.17228C3.171 0.409785 1.93475 0.409783 1.17225 1.17228V1.17228C0.409753 1.93478 0.409753 3.17103 1.17225 3.93353L9.3245 12.0858C10.1055 12.8668 10.1055 14.1332 9.3245 14.9142L1.17225 23.0665C0.409754 23.8289 0.409753 25.0652 1.17225 25.8277V25.8277C1.93475 26.5902 3.171 26.5902 3.9335 25.8277L12.0857 17.6755C12.8668 16.8944 14.1331 16.8944 14.9142 17.6755L23.0664 25.8277C23.8289 26.5902 25.0652 26.5902 25.8277 25.8277V25.8277C26.5902 25.0652 26.5902 23.8289 25.8277 23.0665L17.6754 14.9142C16.8944 14.1332 16.8944 12.8668 17.6754 12.0858L25.8277 3.93353Z" fill="#FF4088"/>
+            </svg>
+        </button>
+        <div class=" px-7 pb-5 lg:px-20 lg:pb-14">
+            Your content goes here
+        </div>
+    </div>
+</div>
