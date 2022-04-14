@@ -31,10 +31,10 @@ content_blocks:
         content: >-
           <p>HugoConf organizers are dedicated to providing a safe, inclusive
           and harassment free environment for all attendees. Please review our
-          <strong><a href="#">code of conduct</a></strong> help build the
+          <a href="#">code of conduct</a> help build the
           community by being supportive and constructive.</p><p>&nbsp;</p><p>If
-          you have any questions or suggestions, reach out to <strong><a
-          href="mailto:team@hugoconf.com">team@hugoconf.com</a></strong>.</p>
+          you have any questions or suggestions, reach out to <a
+          href="mailto:team@hugoconf.com">team@hugoconf.com</a>.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: Help us organize
