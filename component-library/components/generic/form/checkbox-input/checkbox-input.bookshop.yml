@@ -8,6 +8,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  _name: UUID
   label: ""
   checked: false
 
@@ -17,3 +18,5 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  _name:
+    instance_value: UUID
