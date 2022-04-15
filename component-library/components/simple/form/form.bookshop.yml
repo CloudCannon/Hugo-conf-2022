@@ -11,7 +11,7 @@ spec:
 blueprint:
   _instancevalue: UUID
   inputs: [bookshop:structure:form_blocks]
-  t_and_c_checkbox: bookshop:generic/form/checkbox-input
+  tandc_checkbox: bookshop:generic/form/checkbox-input
   submit_button: bookshop:generic/button
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
