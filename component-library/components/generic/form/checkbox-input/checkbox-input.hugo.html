@@ -1,12 +1,12 @@
 <label class="gg-c-checkbox">
-  <input type="checkbox" class="gg-c-checkbox__checkbox" name="/" {{ if .checked }}checked{{ end }}/>
+  <input type="checkbox" class="gg-c-checkbox__checkbox" name="{{ .name  }}" {{ if .checked }}checked{{ end }}/>
   <span class="gg-c-checkbox__pseudo-checkbox"></span>
   <span class="gg-c-checkbox__text text-white opacity-90"> {{ .label }} </span>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="56"
     height="51"
-    class="gg-c-checkbox__shine fill-white">
+    class="gg-c-checkbox__shine fill-white z-40">
     <g fill-rule="evenodd">
       <rect width="8" height="2" x="48" y="24" rx="2" />
       <rect
