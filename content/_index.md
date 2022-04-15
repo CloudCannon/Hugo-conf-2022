@@ -49,7 +49,7 @@ content_blocks:
                   label: Helping organize the conference
                   checked: false
                   required: false
-          form_checkbox:
+          t_and_c_checkbox:
             _bookshop_name: generic/form/checkbox-input
             _name: 9b983ba8-f6ba-4d5b-925b-26c5d4d24904
             label: I agree to the code of conduct
