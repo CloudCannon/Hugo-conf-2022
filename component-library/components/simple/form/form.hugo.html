@@ -7,7 +7,7 @@
     <input type="text" name="_gotcha" style="display: none;">
     <div class="grid grid-cols-[1fr_auto] items-center">
         <div>
-            {{ if .tandc_checkbox.label }}
+            {{ if .tandc_checkbox }}
                 {{ partial "bookshop" (slice "generic/form/checkbox-input" .tandc_checkbox) }}
             {{ end }}
         </div>
