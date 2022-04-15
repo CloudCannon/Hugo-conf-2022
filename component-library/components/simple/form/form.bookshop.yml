@@ -9,10 +9,13 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  _instancevalue: UUID
   inputs: [bookshop:structure:form_blocks]
+  formCheckBox: bookshop:generic/form/checkbox-input
+  submit_button: bookshop:generic/button
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   inputs:
-    - bookshop:generic/form/input
+    - bookshop:structure:form_blocks
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
