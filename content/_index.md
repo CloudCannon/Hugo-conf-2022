@@ -51,20 +51,5 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
-  - _bookshop_name: simple/register-modal
-    heading: Form heading
-    form:
-      _bookshop_name: simple/form
-      inputs:
-        - _bookshop_name: generic/input
-          type: email
-          name: email
-          label: Email
-          required: true
-        - _bookshop_name: generic/input
-          type: text
-          name: name
-          label: Name
-          required: true
 ---
 
