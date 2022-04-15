@@ -10,8 +10,46 @@ content_blocks:
     button:
       _bookshop_name: generic/button
       label: Register free today!
+      id:
       view_label_icon: true
       border_color: border-blue
+      add_modal: true
+      open_modal: true
+      modal:
+        _bookshop_name: simple/modal
+        heading: Register today!
+        form:
+          _bookshop_name: simple/form
+          _instancevalue: UUID
+          inputs:
+            - _bookshop_name: generic/form/email-input
+              _name: 1496d9b7-eef9-4978-931c-55673d4120ea
+              label: Email address
+              required: true
+            - _bookshop_name: generic/form/text-input
+              _name: UUID
+              label: Full name
+              required: true
+            - _bookshop_name: generic/form/checkbox-group
+              title: 'Are you interested in:'
+              checkboxes:
+                - _bookshop_name: generic/form/checkbox-input
+                  _name: d5f4c371-126d-4e78-8129-a5a3dec2994e
+                  label: Speaking
+                  checked: false
+                  required: false
+                - _bookshop_name: generic/form/checkbox-input
+                  _name: 3c056568-7207-4854-a8e0-793346f88120
+                  label: Teaching a workshop
+                  checked: false
+                  required: false
+                - _bookshop_name: generic/form/checkbox-input
+                  _name: cb8caf4a-d308-4367-8427-a27e325f3c58
+                  label: Helping organize the conference
+                  checked: false
+                  required: false
+          formCheckBox:
+          submit_button:
     content: The free, online conference for everything Hugo
   - _bookshop_name: sections/video-section
     video:
@@ -51,48 +89,5 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
-  - _bookshop_name: simple/modal
-    heading: Register today!
-    form:
-      _bookshop_name: simple/form
-      _instancevalue: UUID
-      inputs:
-        - _bookshop_name: generic/form/text-input
-          _name: UUID
-          label: Full name
-          required: true
-        - _bookshop_name: generic/form/email-input
-          _name: 46529f85-ea18-450b-be45-b2d1b7b7ded7
-          label: Email address
-          required: true
-        - _bookshop_name: generic/form/checkbox-group
-          title: 'Are you interested in:'
-          checkboxes:
-            - _bookshop_name: generic/form/checkbox-input
-              _name: 48b322c0-c9b7-43a1-a5ba-9536700d9385
-              label: Speaking
-              checked: false
-              required: false
-            - _bookshop_name: generic/form/checkbox-input
-              _name: 08975d84-22f7-43ca-9f85-343755a63601
-              label: Teaching a workshop
-              checked: false
-              required: false
-            - _bookshop_name: generic/form/checkbox-input
-              _name: 0ea127af-745a-4381-8fe6-488bb84cf9cf
-              label: Helping organize the conference
-              checked: false
-              required: false
-      formCheckBox:
-        _bookshop_name: generic/form/checkbox-input
-        _name: 7080f9ea-1204-4152-a598-d5228ae1d083
-        label: I agree to the code of conduct
-        checked: false
-        required: true
-      submit_button:
-        _bookshop_name: generic/button
-        label: Register
-        view_label_icon: true
-        border_color: border-pink
 ---
 
