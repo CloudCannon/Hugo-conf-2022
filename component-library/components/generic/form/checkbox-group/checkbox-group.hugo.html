@@ -1,0 +1,8 @@
+<div class="c-checkbox-group grid gap-3">
+    <h3 class="text-white text-lg opacity-90">{{ .title }}</h3>
+    <div class="flex gap-8 flex-wrap">
+        {{ range .checkboxes }}
+            {{ partial "bookshop" (slice "generic/form/checkbox-input" .) }}
+        {{ end }}
+    </div>
+</div>
