@@ -1,5 +1,5 @@
 <form action="" method="get" class="grid gap-y-8 w-full">
-    {{ partial "bookshop" (slice "generic/input" .email ) }}
-    {{ partial "bookshop" (slice "generic/input" .name ) }}
-    <input class=" w-[700px]" type="text">
+    {{ range .form_blocks }}
+        {{ partial "bookshop" . }}
+    {{ end }}
 </form>
