@@ -9,7 +9,6 @@
         <div>
             {{ if .tandc_checkbox.label }}
                 {{ partial "bookshop" (slice "generic/form/checkbox-input" .tandc_checkbox) }}
-                {{ partial "bookshop" (slice "generic/form/checkbox-input" .) }}
             {{ end }}
         </div>
             {{ if .submit_button  }}
