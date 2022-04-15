@@ -4,7 +4,7 @@ spec:
     - form_blocks
   label: "Checkbox-group"
   description:
-  icon:
+  icon: done_all
   tags: []
 
 # Defines the structure of this component, as well as the default values

@@ -2,9 +2,9 @@
 spec:
   structures:
     - content_blocks
-  label: "Simple Form"
+  label: "Form"
   description:
-  icon:
+  icon: dynamic_form
   tags: []
 
 # Defines the structure of this component, as well as the default values
