@@ -72,7 +72,7 @@ content_blocks:
       _bookshop_name: generic/button
       label: Submit your talk
       id:
-      view_label_icon: true
+      view_label_icon: false
       border_color: border-white
       add_modal: true
       open_modal: false
