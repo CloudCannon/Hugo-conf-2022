@@ -51,5 +51,30 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
+  - _bookshop_name: simple/modal
+    heading: Register today
+    form:
+      _bookshop_name: simple/form
+      inputs:
+        - _bookshop_name: generic/form/email-input
+          _name: UUID
+          label: Email address
+          required: true
+        - _bookshop_name: generic/form/text-input
+          _name: UUID
+          label: Full name
+          required: true
+        - _bookshop_name: generic/form/checkbox-group
+          title: 'Are you interested in: '
+          checkboxes:
+            - _bookshop_name: generic/form/checkbox-input
+              label: Speaking
+              checked: false
+            - _bookshop_name: generic/form/checkbox-input
+              label: Teaching a workshop
+              checked: false
+            - _bookshop_name: generic/form/checkbox-input
+              label: Helping organize the conference
+              checked: false
 ---
 
