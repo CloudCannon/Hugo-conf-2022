@@ -9,8 +9,12 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   label: ""
+  id: ""
   view_label_icon: true
   border_color: border-blue
+  add_modal: false
+  open_modal: false
+  modal: bookshop:simple/modal
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -31,3 +35,7 @@ _inputs:
         - border-blue
         - border-pink
         - border-white
+  open_modal:
+    hidden: "!add_modal"
+  modal:
+    hidden: "!add_modal"
