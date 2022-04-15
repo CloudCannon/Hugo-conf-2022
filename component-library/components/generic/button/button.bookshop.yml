@@ -36,6 +36,6 @@ _inputs:
         - border-pink
         - border-white
   open_modal:
-    hidden: "!add_modal"
+    hidden: "add_modal"
   modal:
-    hidden: "!add_modal"
+    hidden: "add_modal"
