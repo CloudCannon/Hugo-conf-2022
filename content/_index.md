@@ -52,12 +52,12 @@ content_blocks:
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
   - _bookshop_name: simple/modal
-    heading: Register today
+    heading: Register today!
     form:
       _bookshop_name: simple/form
       inputs:
         - _bookshop_name: generic/form/email-input
-          _name: UUID
+          _name: 1f6d49f5-830b-49cb-991a-96eb6264094c
           label: Email address
           required: true
         - _bookshop_name: generic/form/text-input
@@ -65,15 +65,18 @@ content_blocks:
           label: Full name
           required: true
         - _bookshop_name: generic/form/checkbox-group
-          title: 'Are you interested in: '
+          title: 'Are you interested in:'
           checkboxes:
             - _bookshop_name: generic/form/checkbox-input
+              _name: 1a75ced9-809f-4956-a7d3-6a5fbb1a536f
               label: Speaking
               checked: false
             - _bookshop_name: generic/form/checkbox-input
+              _name: 37c0143e-e604-4361-ba60-0cadff90fb8e
               label: Teaching a workshop
               checked: false
             - _bookshop_name: generic/form/checkbox-input
+              _name: b98a15cb-c493-417c-b128-ea3efaa5599b
               label: Helping organize the conference
               checked: false
 ---
