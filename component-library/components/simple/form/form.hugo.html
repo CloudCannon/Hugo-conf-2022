@@ -7,8 +7,8 @@
     <input type="text" name="_gotcha" style="display: none;">
     <div class="grid grid-cols-[1fr_auto] items-center">
         <div>
-            {{ if .formCheckBox.label }}
-                {{ partial "bookshop" (slice "generic/form/checkbox-input" .form_checkbox) }}
+            {{ if .t_and_c_checkbox.label }}
+                {{ partial "bookshop" (slice "generic/form/checkbox-input" .t_and_c_checkbox) }}
             {{ end }}
         </div>
             {{ if .submit_button  }}
