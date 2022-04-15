@@ -40,4 +40,5 @@ _inputs:
     type: switch
   modal:
     hidden: "add_modal"
+  add_modal:
     type: switch
