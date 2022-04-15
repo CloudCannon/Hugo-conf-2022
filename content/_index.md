@@ -52,32 +52,47 @@ content_blocks:
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
   - _bookshop_name: simple/modal
-    heading: Register today!
+    heading: hello
     form:
       _bookshop_name: simple/form
+      _instancevalue: UUID
       inputs:
-        - _bookshop_name: generic/form/email-input
-          _name: 1f6d49f5-830b-49cb-991a-96eb6264094c
-          label: Email address
-          required: true
         - _bookshop_name: generic/form/text-input
           _name: UUID
           label: Full name
+          required: true
+        - _bookshop_name: generic/form/email-input
+          _name: 46529f85-ea18-450b-be45-b2d1b7b7ded7
+          label: Email address
           required: true
         - _bookshop_name: generic/form/checkbox-group
           title: 'Are you interested in:'
           checkboxes:
             - _bookshop_name: generic/form/checkbox-input
-              _name: 1a75ced9-809f-4956-a7d3-6a5fbb1a536f
+              _name: 48b322c0-c9b7-43a1-a5ba-9536700d9385
               label: Speaking
               checked: false
+              required: false
             - _bookshop_name: generic/form/checkbox-input
-              _name: 37c0143e-e604-4361-ba60-0cadff90fb8e
+              _name: 08975d84-22f7-43ca-9f85-343755a63601
               label: Teaching a workshop
               checked: false
+              required: false
             - _bookshop_name: generic/form/checkbox-input
-              _name: b98a15cb-c493-417c-b128-ea3efaa5599b
+              _name: 0ea127af-745a-4381-8fe6-488bb84cf9cf
               label: Helping organize the conference
               checked: false
+              required: false
+      formCheckBox:
+        _bookshop_name: generic/form/checkbox-input
+        _name: 7080f9ea-1204-4152-a598-d5228ae1d083
+        label: I agree to the code of conduct
+        checked: false
+        required: true
+      submit_button:
+        _bookshop_name: generic/button
+        label: Register
+        view_label_icon: true
+        border_color: border-pink
 ---
 
