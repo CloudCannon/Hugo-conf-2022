@@ -52,20 +52,19 @@ content_blocks:
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
   - _bookshop_name: simple/register-modal
-    heading: Register today!
+    heading: Form heading
     form:
       _bookshop_name: simple/form
-      email:
-        _bookshop_name: generic/input
-        type: email
-        name: email
-        label: Email address
-        required: true
-      name:
-        _bookshop_name: generic/input
-        type: text
-        name: Name
-        label: Full name
-        required: true
+      inputs:
+        - _bookshop_name: generic/input
+          type: email
+          name: email
+          label: Email
+          required: true
+        - _bookshop_name: generic/input
+          type: text
+          name: name
+          label: Name
+          required: true
 ---
 
