@@ -1,5 +1,5 @@
 <label class="gg-c-checkbox">
-  <input type="checkbox" class="gg-c-checkbox__checkbox" name="{{ .name  }}" {{ if .checked }}checked{{ end }}/>
+  <input type="checkbox" class="gg-c-checkbox__checkbox" name="{{ .name  }}" {{ if .checked }}checked{{ end }} {{ if .required }}required{{ end }}/>
   <span class="gg-c-checkbox__pseudo-checkbox"></span>
   <span class="gg-c-checkbox__text text-white opacity-90"> {{ .label }} </span>
   <svg
