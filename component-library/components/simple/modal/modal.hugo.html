@@ -8,7 +8,9 @@
             </svg>
         </button>
         <div class=" px-7 pb-5 lg:px-20 lg:pb-14">
-            <h2 class=" mb-8 font-bold text-white opacity-90 text-4xl">{{ .heading }}</h2>
+            {{ if .heading }}
+                <h2 class=" mb-8 font-bold text-white opacity-90 text-4xl">{{ .heading }}</h2>
+            {{ end }}
             {{ if .form }}
                 {{ partial "bookshop" (slice "simple/form" .form) }}
             {{ end }}
