@@ -12,8 +12,8 @@ blueprint:
   logo_image: ""
   post_logo: ""
   date: bookshop:simple/event-date
-  button: bookshop:generic/button
   content: ""
+  button: bookshop:generic/button
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
