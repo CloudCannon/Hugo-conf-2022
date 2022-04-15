@@ -52,7 +52,7 @@ content_blocks:
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
   - _bookshop_name: simple/modal
-    heading: hello
+    heading: Register today!
     form:
       _bookshop_name: simple/form
       _instancevalue: UUID
