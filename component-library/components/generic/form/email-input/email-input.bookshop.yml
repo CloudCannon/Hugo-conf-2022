@@ -19,3 +19,5 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  _name:
+    instance_value: UUID
