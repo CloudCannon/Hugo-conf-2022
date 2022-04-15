@@ -8,7 +8,7 @@
     <div class="grid grid-cols-[1fr_auto] items-center">
         <div>
             {{ if .formCheckBox.label }}
-                {{ partial "bookshop" (slice "generic/form/checkbox-input" .formCheckBox) }}
+                {{ partial "bookshop" (slice "generic/form/checkbox-input" .form_checkbox) }}
             {{ end }}
         </div>
             {{ if .submit_button  }}
