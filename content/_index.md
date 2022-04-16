@@ -168,5 +168,12 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
+  - _bookshop_name: sections/side_animation
+    hexagon_numbers: 121
+    colours:
+      - pink
+      - green
+      - blue
+      - yellow
 ---
 
