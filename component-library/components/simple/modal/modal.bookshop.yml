@@ -15,7 +15,6 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   heading: "I am a heading"
-  modal_content: bookshop:simple/form
   
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
