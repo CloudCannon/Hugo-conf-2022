@@ -11,8 +11,8 @@
             {{ if .heading }}
                 <h2 class=" mb-8 font-bold text-white opacity-90 text-4xl">{{ .heading }}</h2>
             {{ end }}
-            {{ if .form }}
-                {{ partial "bookshop" (slice "simple/form" .form) }}
+            {{ range .modal_content }}
+                {{ partial "bookshop" .modal_content }}
             {{ end }}
         </div>
     </div>
