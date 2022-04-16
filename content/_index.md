@@ -96,7 +96,7 @@ content_blocks:
                 label: Company
                 required: false
               - _bookshop_name: generic/form/radiobutton-group
-                title: Type of proposal
+                title: 'Type of proposal:'
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
                     label: Lightning talk (5 minutes)
@@ -104,15 +104,24 @@ content_blocks:
                     label: 'Tech talk (25 minutes) '
                   - _bookshop_name: generic/form/radio-input
                     label: Workshop (45 minutes)
-              - _bookshop_name: generic/form/radiobutton-group
-                title: Who's your target audience
-                radiobuttons:
-                  - _bookshop_name: generic/form/radio-input
+              - _bookshop_name: generic/form/checkbox-group
+                title: 'Who''s your target audience:'
+                checkboxes:
+                  - _bookshop_name: generic/form/checkbox-input
+                    _name: 3285f726-46b1-4f94-b4fd-6520bc8f5c55
                     label: Beginner
-                  - _bookshop_name: generic/form/radio-input
+                    checked: false
+                    required: false
+                  - _bookshop_name: generic/form/checkbox-input
+                    _name: 17d37e79-235f-4c65-b235-10b488e08c56
                     label: Intermediate
-                  - _bookshop_name: generic/form/radio-input
+                    checked: false
+                    required: false
+                  - _bookshop_name: generic/form/checkbox-input
+                    _name: bc74a09e-d76a-4a59-a01c-0663acb9c479
                     label: Advanced
+                    checked: false
+                    required: false
               - _bookshop_name: generic/form/radiobutton-group
                 title: Is this your first time speaking?
                 radiobuttons:
