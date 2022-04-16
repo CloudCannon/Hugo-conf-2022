@@ -19,6 +19,9 @@ module.exports = {
         yellow: "#FCD804",
         black: "#1C1C1C",
       },
+      boxShadow: {
+        'solid': '0 0 0 2px',
+      },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
         shake1: "shake 0.82s cubic-bezier(.36,.07,.19,.97) both",
