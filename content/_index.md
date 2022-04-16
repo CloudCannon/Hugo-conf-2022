@@ -75,85 +75,13 @@ content_blocks:
       view_label_icon: false
       border_color: border-white
       add_modal: true
-      open_modal: false
+      open_modal: true
       modal:
         _bookshop_name: simple/modal
         heading: Submit your talk
-        form:
-          _bookshop_name: simple/form
-          _instancevalue: UUID
-          inputs:
-            - _bookshop_name: generic/form/email-input
-              _name: f3e05182-329e-452a-ab3f-e0e6595bfb34
-              label: Email address
-              required: true
-            - _bookshop_name: generic/form/text-input
-              _name: UUID
-              label: Company
-              required: false
-            - _bookshop_name: generic/form/text-input
-              _name: UUID
-              label: Full name
-              required: true
-            - _bookshop_name: generic/form/checkbox-group
-              title: 'Type of proposal:'
-              checkboxes:
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: f9396a89-5a4b-4ca6-a3f2-a8b0ad1e3d37
-                  label: Lightining talk (5 minutes)
-                  checked: false
-                  required: false
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 8b0b48d8-761a-48b5-94ed-8e2a0a4f0ed9
-                  label: 'Tech talk (25 minutes) '
-                  checked: false
-                  required: false
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 6e10a05b-6ff7-4da0-9a54-8c7cb3188a91
-                  label: Workshop (45 minutes)
-                  checked: false
-                  required: false
-            - _bookshop_name: generic/form/checkbox-group
-              title: 'Who''s your target audience:'
-              checkboxes:
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 5887984c-00f6-4a85-a8ae-138f6e3d18d2
-                  label: Beginner
-                  checked: false
-                  required: false
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 343c117d-7eb1-460a-b01e-683b446e48e3
-                  label: Intermediate
-                  checked: false
-                  required: false
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 1b84e663-ae28-4d89-997e-beb382291899
-                  label: Advanced
-                  checked: false
-                  required: false
-            - _bookshop_name: generic/form/checkbox-group
-              title: Is this your first time speaking?
-              checkboxes:
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 5eae8342-c5ce-4b1f-a9b2-4919a9eeb0c7
-                  label: 'Yes'
-                  checked: false
-                  required: false
-                - _bookshop_name: generic/form/checkbox-input
-                  _name: 07e70258-9885-4944-8cfa-8753c332640a
-                  label: 'No'
-                  checked: false
-                  required: false
-          tandc_checkbox:
-          submit_button:
-            _bookshop_name: generic/button
-            label: Submit proposal
-            id:
-            view_label_icon: true
-            border_color: border-pink
-            add_modal: false
-            open_modal: false
-            modal:
+        modal_content:
+          - _bookshop_name: simple/video
+            url: https://www.youtube.com/embed/YE7VzlLtp-4
     notice_message: <p>Want to speak? Submit your proposal by <strong>June 1st. </strong></p>
   - _bookshop_name: sections/hexagon-group
     hexagons:
