@@ -24,13 +24,13 @@ const getPageDimensions = () => {
   let bodyEl = document.body;
   let htmlEl = document.documentElement;
   windowSize = {
-    width: Math.max(
+    width: (Math.max(
       bodyEl.scrollWidth,
       bodyEl.offsetWidth,
       htmlEl.clientWidth,
       htmlEl.scrollWidth,
       htmlEl.offsetWidth
-    ),
+    ))/2 - 450,
     height: Math.max(
       bodyEl.scrollHeight,
       bodyEl.offsetHeight,
@@ -48,8 +48,8 @@ const initElements = () => {
     if (Object.hasOwnProperty.call(hexagonsEl, key)) {
       const element = hexagonsEl[key];
       let elPosistion = {
-        x: getRandomInt(windowSize.width - hexSize.h),
-        y: getRandomInt(windowSize.height - hexSize.w),
+        y: getRandomInt(windowSize.width - hexSize.h),
+        x: getRandomInt(windowSize.height - hexSize.w),
       };
       placeEl(element, elPosistion);
     }
@@ -82,6 +82,7 @@ const moveAllEl = (elements) => {
     if (Object.hasOwnProperty.call(elements, key)) {
       const element = elements[key];
       moveEl(element);
+      rotateRandom(element);
     }
   }
 };
@@ -93,7 +94,10 @@ const getElPosition = (element) => {
   };
 };
 
-// console.log(getPosition(testEl));
+const rotateRandom = (element) => {
+  element.style.rotate = getRandomInt(100) + "deg";
+}
+
 
 window.addEventListener("resize", initElements);
 
@@ -102,5 +106,4 @@ initElements();
 
 setInterval(() => {
   moveAllEl(hexagonsEl);
-  console.log("there I go 🤯");
 }, movementSpeed);
