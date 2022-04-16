@@ -1,29 +1,106 @@
 import Alpine from "alpinejs";
-import intersect from '@alpinejs/intersect'
-Alpine.plugin(intersect)
- 
+import intersect from "@alpinejs/intersect";
+Alpine.plugin(intersect);
+
 window.Alpine = Alpine;
 
 Alpine.start();
 
-
 // Animate hexagons
+let hexagonsEl = document.getElementsByClassName("js-hex");
+let windowSize;
+const maxMoveDistance = 40;
+const movementSpeed = 1000
+const hexSize = {
+  w: 48,
+  h: 54,
+};
+
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * max);
-}
+};
 
-const sizeOfPage = 1000;
+const getPageDimensions = () => {
+  let bodyEl = document.body;
+  let htmlEl = document.documentElement;
+  windowSize = {
+    width: Math.max(
+      bodyEl.scrollWidth,
+      bodyEl.offsetWidth,
+      htmlEl.clientWidth,
+      htmlEl.scrollWidth,
+      htmlEl.offsetWidth
+    ),
+    height: Math.max(
+      bodyEl.scrollHeight,
+      bodyEl.offsetHeight,
+      htmlEl.clientHeight,
+      htmlEl.scrollHeight,
+      htmlEl.offsetHeight
+    ),
+  };
+};
 
-const getElements = () => {
-  let hexagonsEl = document.getElementsByClassName("js-hex");
+window.addEventListener("resize", getPageDimensions);
+
+const initElements = () => {
   for (const key in hexagonsEl) {
     if (Object.hasOwnProperty.call(hexagonsEl, key)) {
       const element = hexagonsEl[key];
-      element.style.left = getRandomInt(sizeOfPage) + "px";
-      element.style.top = getRandomInt(sizeOfPage) + "px";
+      let elPosistion = {
+        x: getRandomInt(windowSize.width - hexSize.h),
+        y: getRandomInt(windowSize.height - hexSize.w),
+      };
+      placeEl(element, elPosistion);
     }
   }
-}
+};
 
+const placeEl = (element, elPosistion) => {
+  element.style.left = elPosistion.y + "px";
+  element.style.top = elPosistion.x + "px";
+};
 
-getElements();
+const calcMove = (cord) => {
+  if (getRandomInt(2) == 1) {
+    return cord + getRandomInt(maxMoveDistance);
+  }
+  return cord - getRandomInt(maxMoveDistance);
+};
+
+const moveEl = (element) => {
+  let pos = getElPosition(element);
+  pos = {
+    x: calcMove(pos.x),
+    y: calcMove(pos.y),
+  };
+  placeEl(element, pos);
+};
+
+const moveAllEl = (elements) => {
+  for (const key in elements) {
+    if (Object.hasOwnProperty.call(elements, key)) {
+      const element = elements[key];
+      moveEl(element);
+    }
+  }
+};
+
+const getElPosition = (element) => {
+  return {
+    x: parseInt(element.style.top),
+    y: parseInt(element.style.left),
+  };
+};
+
+// console.log(getPosition(testEl));
+
+window.addEventListener("resize", initElements);
+
+getPageDimensions();
+initElements();
+
+setInterval(() => {
+  moveAllEl(hexagonsEl);
+  console.log("there I go 🤯");
+}, movementSpeed);
