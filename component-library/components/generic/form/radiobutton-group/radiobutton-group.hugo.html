@@ -2,7 +2,7 @@
     <legend class="text-white text-lg opacity-90 mb-2">{{ .title }}</legend>
     <div class="flex flex-wrap gap-8">
         {{ range .radiobuttons }}
-            {{ partial "bookshop" (slice "generic/form/radio-input" . )}}
+            {{ partial "bookshop" (slice "generic/form/radio-input" (merge . (dict "_name" .title)) )}}
         {{ end }}
     </div>
 </fieldset>

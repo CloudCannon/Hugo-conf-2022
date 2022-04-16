@@ -1,4 +1,4 @@
 <label class="flex items-center text-white gap-1" for="{{ .label }}">
-    <input class=" ml-0.5 mt-0.5 appearance-none bg-clip-content border-solid border-2 border-pink rounded-full h-5 w-5 checked:bg-pink left-3 top-3 p-0.5 z-10 focus:shadow-cyan-500 focus:shadow-solid" type="radio" id="{{ .label }}" value="{{ .label }}" name="phone" />
+    <input class=" ml-0.5 mt-0.5 appearance-none bg-clip-content border-solid border-2 border-pink rounded-full h-5 w-5 checked:bg-pink left-3 top-3 p-0.5 z-10 focus:shadow-cyan-500 focus:shadow-solid" type="radio" id="{{ .label }}" value="{{ .label }}" name="{{ ._name }}" />
     <div class=" text-base opacity-90">{{ .label }}</div>
 </label>
