@@ -9,7 +9,7 @@
     "init": "npx @bookshop/init@latest",
     "hugo-server": "hugo server -D --watch",
     "build": "hugo --source ./ --destination public --baseURL /",
-    "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js --watch",
+    "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js",
     "bookshop": "npx @bookshop/browser@latest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
