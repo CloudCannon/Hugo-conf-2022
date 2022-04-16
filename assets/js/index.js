@@ -10,11 +10,17 @@ Alpine.start();
 let hexagonsEl = document.getElementsByClassName("js-hex");
 let windowSize;
 const maxMoveDistance = 40;
-const movementSpeed = 1000
+const movementSpeed = 1000;
+const maxRotation = 100;
+const depthsLevels = 4;
 const hexSize = {
   w: 48,
   h: 54,
 };
+
+const genDepthTable = (depthsLevels, elSize ) => {
+}
+
 
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * max);
@@ -24,13 +30,16 @@ const getPageDimensions = () => {
   let bodyEl = document.body;
   let htmlEl = document.documentElement;
   windowSize = {
-    width: (Math.max(
-      bodyEl.scrollWidth,
-      bodyEl.offsetWidth,
-      htmlEl.clientWidth,
-      htmlEl.scrollWidth,
-      htmlEl.offsetWidth
-    ))/2 - 450,
+    width:
+      Math.max(
+        bodyEl.scrollWidth,
+        bodyEl.offsetWidth,
+        htmlEl.clientWidth,
+        htmlEl.scrollWidth,
+        htmlEl.offsetWidth
+      ) /
+        2 -
+      450,
     height: Math.max(
       bodyEl.scrollHeight,
       bodyEl.offsetHeight,
@@ -83,6 +92,7 @@ const moveAllEl = (elements) => {
       const element = elements[key];
       moveEl(element);
       rotateRandom(element);
+      setDepth(element);
     }
   }
 };
@@ -95,8 +105,16 @@ const getElPosition = (element) => {
 };
 
 const rotateRandom = (element) => {
-  element.style.rotate = getRandomInt(100) + "deg";
-}
+  element.style.rotate = getRandomInt(maxRotation) + "deg";
+};
+
+const setDepth = (element) => {
+  const depth = -1 * getRandomInt(depthsLevels)
+  element.style.zIndex = depth;
+  
+};
+
+// const scaleElement = (element, scaling)
 
 
 window.addEventListener("resize", initElements);
