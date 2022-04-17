@@ -1,7 +1,7 @@
 {{ range $index, $num := (seq .hexagon_numbers) }} {{ $posistion:= mod $index
 (len $.colours) }} {{ $color:= index $.colours $posistion }}
 <svg
-  class="transition-all ease-linear -z-10 js-hex fill-pink fill-{{- $color }} absolute"
+  class="hidden xl:block transition-all ease-linear -z-10 js-hex fill-pink fill-{{- $color }} absolute"
   width="48"
   height="54"
   viewBox="0 0 48 54"
