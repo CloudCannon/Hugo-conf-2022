@@ -15,7 +15,7 @@ const movementSpeed = 1500;
 const maxRotation = 180;
 const depthsLevels = 3;
 const depthTable = [];
-const noAnimationSpaceWidth = 450;
+const noAnimationSpaceWidth = 1100;
 const hexSize = {
   w: 48,
   h: 54,
@@ -71,12 +71,40 @@ const initElements = () => {
   for (const key in hexagonsEl) {
     if (Object.hasOwnProperty.call(hexagonsEl, key)) {
       const element = hexagonsEl[key];
-      const allowedBlockDimentions = { width: null, height: null };
+      let allowedBlockDimentions = {};
+      const sideDimentions = (windowSize.width - noAnimationSpaceWidth) / 2;
       if (count <= countEl / 2) {
+        allowedBlockDimentions = {
+          width: {
+            min: hexSize.w,
+            max: sideDimentions,
+          },
+          height: {
+            min: 0,
+            max: windowSize.height - hexSize.h,
+          },
+        };
+      } else {
+        allowedBlockDimentions = {
+          width: {
+            min: sideDimentions + noAnimationSpaceWidth,
+            max: windowSize.width - hexSize.w,
+          },
+          height: {
+            min: 0,
+            max: windowSize.height - hexSize.h,
+          },
+        };
       }
       let elPosistion = {
-        y: getRandomInt(windowSize.width - hexSize.h),
-        x: getRandomInt(windowSize.height - hexSize.w),
+        x: getRandomMinMaxInt(
+          allowedBlockDimentions.width.min,
+          allowedBlockDimentions.width.max
+        ),
+        y: getRandomMinMaxInt(
+          allowedBlockDimentions.height.min,
+          allowedBlockDimentions.height.max
+        ),
       };
       element.style.transitionDuration = movementSpeed + "ms";
       genNewPosistion(element, elPosistion); //TODO: don't fetch from DOM keep track of elements in memory
@@ -89,8 +117,8 @@ const initElements = () => {
 };
 
 const genNewPosistion = (element, elPosistion) => {
-  element.style.left = elPosistion.y + "px";
-  element.style.top = elPosistion.x + "px";
+  element.style.left = elPosistion.x + "px";
+  element.style.top = elPosistion.y + "px";
 };
 
 const calcMove = (cord) => {
@@ -125,8 +153,8 @@ const moveAllEl = (elements) => {
 
 const getElPosition = (element) => {
   return {
-    x: parseInt(element.style.top),
-    y: parseInt(element.style.left),
+    x: parseInt(element.style.left),
+    y: parseInt(element.style.top),
   };
 };
 
