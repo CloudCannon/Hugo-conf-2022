@@ -8,18 +8,20 @@ Alpine.start();
 
 // Animate hexagons
 let hexagonsEl = document.getElementsByClassName("js-hex");
+const countEl = hexagonsEl.length;
 let windowSize;
 const maxMoveDistance = 30;
 const movementSpeed = 1500;
 const maxRotation = 180;
 const depthsLevels = 3;
 const depthTable = [];
+const noAnimationSpaceWidth = 450;
 const hexSize = {
   w: 48,
   h: 54,
 };
 
-const genDepthTable = (depthsLevels, elSize) => {
+const genScalingTable = (depthsLevels, elSize) => {
   for (let i = 0; i < depthsLevels; i++) {
     const level = {
       w: elSize.w / (i + 1),
@@ -33,20 +35,23 @@ const getRandomInt = (max) => {
   return Math.floor(Math.random() * max);
 };
 
+const getRandomMinMaxInt = (min, max) => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
 const getPageDimensions = () => {
   let bodyEl = document.body;
   let htmlEl = document.documentElement;
   windowSize = {
-    width:
-      Math.max(
-        bodyEl.scrollWidth,
-        bodyEl.offsetWidth,
-        htmlEl.clientWidth,
-        htmlEl.scrollWidth,
-        htmlEl.offsetWidth
-      ) /
-        2 -
-      450,
+    width: Math.max(
+      bodyEl.scrollWidth,
+      bodyEl.offsetWidth,
+      htmlEl.clientWidth,
+      htmlEl.scrollWidth,
+      htmlEl.offsetWidth
+    ),
     height: Math.max(
       bodyEl.scrollHeight,
       bodyEl.offsetHeight,
@@ -57,23 +62,28 @@ const getPageDimensions = () => {
   };
 };
 
-genDepthTable(depthsLevels, hexSize);
+genScalingTable(depthsLevels, hexSize);
 
 window.addEventListener("resize", getPageDimensions);
 
 const initElements = () => {
+  let count = 0;
   for (const key in hexagonsEl) {
     if (Object.hasOwnProperty.call(hexagonsEl, key)) {
       const element = hexagonsEl[key];
+      const allowedBlockDimentions = { width: null, height: null };
+      if (count <= countEl / 2) {
+      }
       let elPosistion = {
         y: getRandomInt(windowSize.width - hexSize.h),
         x: getRandomInt(windowSize.height - hexSize.w),
       };
       element.style.transitionDuration = movementSpeed + "ms";
-      genNewPosistion(element, elPosistion); //TODO: don't fetch from DOM
+      genNewPosistion(element, elPosistion); //TODO: don't fetch from DOM keep track of elements in memory
       setNewPosistion(element);
       setRotate(element);
       setDepth(element);
+      count++;
     }
   }
 };
@@ -150,5 +160,3 @@ initElements();
 setInterval(async () => {
   await moveAllEl(hexagonsEl);
 }, movementSpeed);
-
-console.log(depthTable);
