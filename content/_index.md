@@ -169,7 +169,7 @@ content_blocks:
           available later?</strong><br />Yes, all sessions will be recorded and
           publicly available on YouTube.</p>
   - _bookshop_name: sections/side_animation
-    hexagon_numbers: 100
+    hexagon_numbers: 85
     colours:
       - pink
       - green

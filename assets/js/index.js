@@ -10,12 +10,12 @@ Alpine.start();
 let hexagonsEl = document.getElementsByClassName("js-hex");
 const countEl = hexagonsEl.length;
 let windowSize;
-const maxMoveDistance = 30;
+const maxMoveDistance = 35;
 const movementSpeed = 1500;
 const maxRotation = 180;
 const depthsLevels = 3;
 const depthTable = [];
-const noAnimationSpaceWidth = 1100;
+const noAnimationSpaceWidth = 1050;
 const hexSize = {
   w: 48,
   h: 54,
@@ -62,39 +62,54 @@ const getPageDimensions = () => {
   };
 };
 
+let leftBlockDimentions = {};
+const lefBlockAllowed = () => {
+  const sideDimentions = (windowSize.width - noAnimationSpaceWidth) / 2;
+  leftBlockDimentions = {
+    width: {
+      min: 0,
+      max: sideDimentions,
+    },
+    height: {
+      min: 0,
+      max: windowSize.height - hexSize.h,
+    },
+  };
+};
+
+let rightBlockDimentions = {};
+const rightBlockAllowed = () => {
+  const sideDimentions = (windowSize.width - noAnimationSpaceWidth) / 2;
+  rightBlockDimentions = {
+    width: {
+      min: sideDimentions + noAnimationSpaceWidth,
+      max: windowSize.width - hexSize.w,
+    },
+    height: {
+      min: 0,
+      max: windowSize.height - hexSize.h,
+    },
+  };
+};
+
 genScalingTable(depthsLevels, hexSize);
 
 window.addEventListener("resize", getPageDimensions);
 
 const initElements = () => {
   let count = 0;
+  rightBlockAllowed();
+  lefBlockAllowed();
+  console.log(rightBlockDimentions);
+  console.log(leftBlockDimentions);
+  let allowedBlockDimentions;
   for (const key in hexagonsEl) {
     if (Object.hasOwnProperty.call(hexagonsEl, key)) {
       const element = hexagonsEl[key];
-      let allowedBlockDimentions = {};
-      const sideDimentions = (windowSize.width - noAnimationSpaceWidth) / 2;
       if (count <= countEl / 2) {
-        allowedBlockDimentions = {
-          width: {
-            min: hexSize.w,
-            max: sideDimentions,
-          },
-          height: {
-            min: 0,
-            max: windowSize.height - hexSize.h,
-          },
-        };
+        allowedBlockDimentions = rightBlockDimentions;
       } else {
-        allowedBlockDimentions = {
-          width: {
-            min: sideDimentions + noAnimationSpaceWidth,
-            max: windowSize.width - hexSize.w,
-          },
-          height: {
-            min: 0,
-            max: windowSize.height - hexSize.h,
-          },
-        };
+        allowedBlockDimentions = leftBlockDimentions;
       }
       let elPosistion = {
         x: getRandomMinMaxInt(
@@ -108,7 +123,7 @@ const initElements = () => {
       };
       element.style.transitionDuration = movementSpeed + "ms";
       genNewPosistion(element, elPosistion); //TODO: don't fetch from DOM keep track of elements in memory
-      setNewPosistion(element);
+      setNewPosistion(element, allowedBlockDimentions);
       setRotate(element);
       setDepth(element);
       count++;
@@ -121,37 +136,53 @@ const genNewPosistion = (element, elPosistion) => {
   element.style.top = elPosistion.y + "px";
 };
 
-const calcMove = (cord) => {
+const calcMove = (cord, allowedArea) => {
+  // console.log(allowedArea);
+  if (cord >= allowedArea.max - maxMoveDistance) {
+    return cord - maxMoveDistance;
+  }
+  if (cord <= allowedArea.min + maxMoveDistance) {
+    return cord + maxMoveDistance;
+  }
   if (getRandomInt(2) == 1) {
     return cord + getRandomInt(maxMoveDistance);
   }
   return cord - getRandomInt(maxMoveDistance);
 };
 
-const setNewPosistion = (element) => {
+const setNewPosistion = (element, allowedArea) => {
   let pos = getElPosition(element);
   pos = {
-    x: calcMove(pos.x),
-    y: calcMove(pos.y),
+    x: calcMove(pos.x, allowedArea.width),
+    y: calcMove(pos.y, allowedArea.height),
   };
   genNewPosistion(element, pos);
 };
 
 const moveAllEl = (elements) => {
+  let count = 0;
+  let allowedBlockDimentions;
   for (const key in elements) {
     if (Object.hasOwnProperty.call(elements, key)) {
       const element = elements[key];
-      setNewPosistion(element);
+      if (count <= countEl / 2) {
+        allowedBlockDimentions = rightBlockDimentions;
+      } else {
+        allowedBlockDimentions = leftBlockDimentions;
+      }
+      setNewPosistion(element, allowedBlockDimentions);
       setRotate(element);
       const depth = genDepth();
       setDepth(element, depth);
       scaleElement(element, depth);
       setBrightness(element, depth);
     }
+    count++;
   }
 };
 
 const getElPosition = (element) => {
+  //TODO: dont fetch from DOM
   return {
     x: parseInt(element.style.left),
     y: parseInt(element.style.top),
