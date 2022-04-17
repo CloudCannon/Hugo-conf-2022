@@ -15,7 +15,7 @@ const movementSpeed = 1500;
 const maxRotation = 180;
 const depthsLevels = 3;
 const depthTable = [];
-const noAnimationSpaceWidth = 1050;
+const noAnimationSpaceWidth = 1100;
 const hexSize = {
   w: 48,
   h: 54,
