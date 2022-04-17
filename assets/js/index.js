@@ -9,18 +9,25 @@ Alpine.start();
 // Animate hexagons
 let hexagonsEl = document.getElementsByClassName("js-hex");
 let windowSize;
-const maxMoveDistance = 40;
-const movementSpeed = 1000;
-const maxRotation = 100;
-const depthsLevels = 4;
+const maxMoveDistance = 30;
+const movementSpeed = 1500;
+const maxRotation = 180;
+const depthsLevels = 3;
+const depthTable = [];
 const hexSize = {
   w: 48,
   h: 54,
 };
 
-const genDepthTable = (depthsLevels, elSize ) => {
-}
-
+const genDepthTable = (depthsLevels, elSize) => {
+  for (let i = 0; i < depthsLevels; i++) {
+    const level = {
+      w: elSize.w / (i + 1),
+      h: elSize.h / (i + 1),
+    };
+    depthTable.push(level);
+  }
+};
 
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * max);
@@ -50,6 +57,8 @@ const getPageDimensions = () => {
   };
 };
 
+genDepthTable(depthsLevels, hexSize);
+
 window.addEventListener("resize", getPageDimensions);
 
 const initElements = () => {
@@ -60,12 +69,16 @@ const initElements = () => {
         y: getRandomInt(windowSize.width - hexSize.h),
         x: getRandomInt(windowSize.height - hexSize.w),
       };
-      placeEl(element, elPosistion);
+      element.style.transitionDuration = movementSpeed + "ms";
+      genNewPosistion(element, elPosistion); //TODO: don't fetch from DOM
+      setNewPosistion(element);
+      setRotate(element);
+      setDepth(element);
     }
   }
 };
 
-const placeEl = (element, elPosistion) => {
+const genNewPosistion = (element, elPosistion) => {
   element.style.left = elPosistion.y + "px";
   element.style.top = elPosistion.x + "px";
 };
@@ -77,22 +90,25 @@ const calcMove = (cord) => {
   return cord - getRandomInt(maxMoveDistance);
 };
 
-const moveEl = (element) => {
+const setNewPosistion = (element) => {
   let pos = getElPosition(element);
   pos = {
     x: calcMove(pos.x),
     y: calcMove(pos.y),
   };
-  placeEl(element, pos);
+  genNewPosistion(element, pos);
 };
 
 const moveAllEl = (elements) => {
   for (const key in elements) {
     if (Object.hasOwnProperty.call(elements, key)) {
       const element = elements[key];
-      moveEl(element);
-      rotateRandom(element);
-      setDepth(element);
+      setNewPosistion(element);
+      setRotate(element);
+      const depth = genDepth();
+      setDepth(element, depth);
+      scaleElement(element, depth);
+      setBrightness(element, depth);
     }
   }
 };
@@ -104,24 +120,35 @@ const getElPosition = (element) => {
   };
 };
 
-const rotateRandom = (element) => {
+const setRotate = (element) => {
   element.style.rotate = getRandomInt(maxRotation) + "deg";
 };
 
-const setDepth = (element) => {
-  const depth = -1 * getRandomInt(depthsLevels)
-  element.style.zIndex = depth;
-  
+const genDepth = () => {
+  return -1 * getRandomInt(depthsLevels);
 };
 
-// const scaleElement = (element, scaling)
+const setDepth = (element, depth) => {
+  element.style.zIndex = depth;
+};
 
+const setBrightness = (element, depth) => {
+  element.style.filter = "brightness(" + 100 / (depth * -1 + 1) + "%)";
+};
+
+const scaleElement = (element, depth) => {
+  depth = depth * -1; //correct negative value
+  element.style.width = depthTable[depth].w + "px";
+  element.style.height = depthTable[depth].h + "px";
+};
 
 window.addEventListener("resize", initElements);
 
 getPageDimensions();
 initElements();
 
-setInterval(() => {
-  moveAllEl(hexagonsEl);
+setInterval(async () => {
+  await moveAllEl(hexagonsEl);
 }, movementSpeed);
+
+console.log(depthTable);
