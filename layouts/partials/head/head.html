@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{ $js := resources.Get "js/build.js" }}
-  <script src="{{ $js.RelPermalink }}" defer></script>
+  <script src="{{ $js.RelPermalink }}" async></script>
 
   <!-- The bookshop_scss partial returns a slice of all SCSS resources from your Bookshop -->
   {{ $bookshop_scss_files := partial "bookshop_scss" . }}
