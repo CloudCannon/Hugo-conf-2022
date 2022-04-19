@@ -32,7 +32,7 @@ content_blocks:
                 label: Full name
                 required: true
               - _bookshop_name: generic/form/checkbox-group
-                title: "Are you interested in:"
+                title: 'Are you interested in:'
                 checkboxes:
                   - _bookshop_name: generic/form/checkbox-input
                     _name: f15aec5c-1949-4c61-81f0-3a1fa9997446
@@ -96,16 +96,16 @@ content_blocks:
                 label: Company
                 required: false
               - _bookshop_name: generic/form/radiobutton-group
-                title: "Type of proposal:"
+                title: 'Type of proposal:'
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
                     label: Lightning talk (5 minutes)
                   - _bookshop_name: generic/form/radio-input
-                    label: "Tech talk (25 minutes) "
+                    label: 'Tech talk (25 minutes) '
                   - _bookshop_name: generic/form/radio-input
                     label: Workshop (45 minutes)
               - _bookshop_name: generic/form/checkbox-group
-                title: "Who's your target audience:"
+                title: 'Who''s your target audience:'
                 checkboxes:
                   - _bookshop_name: generic/form/checkbox-input
                     _name: 3285f726-46b1-4f94-b4fd-6520bc8f5c55
@@ -126,9 +126,9 @@ content_blocks:
                 title: Is this your first time speaking?
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
-                    label: "Yes"
+                    label: 'Yes'
                   - _bookshop_name: generic/form/radio-input
-                    label: "No"
+                    label: 'No'
             tandc_checkbox:
             submit_button:
               _bookshop_name: generic/button
@@ -151,7 +151,7 @@ content_blocks:
           <a href="#">code of conduct</a> help build the community by being
           supportive and constructive.</p><p>&nbsp;</p><p>If you have any
           questions or suggestions, reach out to <a
-          href="mailto:team@hugoconf.com">team@hugoconf.com</a>.</p>
+          href="mailto:team@hugoconf.io">team@hugoconf.io</a>.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: Help us organize
@@ -176,3 +176,4 @@ content_blocks:
       - blue
       - yellow
 ---
+
