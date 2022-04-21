@@ -31,24 +31,6 @@ content_blocks:
                 _name: UUID
                 label: Full name
                 required: true
-              - _bookshop_name: generic/form/checkbox-group
-                title: 'Are you interested in:'
-                checkboxes:
-                  - _bookshop_name: generic/form/checkbox-input
-                    _name: f15aec5c-1949-4c61-81f0-3a1fa9997446
-                    label: Speaking
-                    checked: false
-                    required: false
-                  - _bookshop_name: generic/form/checkbox-input
-                    _name: 0c1a04bd-7ad0-48dc-a624-8e7cf5ff39c3
-                    label: Teaching a workshop
-                    checked: false
-                    required: false
-                  - _bookshop_name: generic/form/checkbox-input
-                    _name: 26d647f3-dae1-4e8f-8dc6-92ad3fc332d5
-                    label: Helping organize the conference
-                    checked: false
-                    required: false
             tandc_checkbox:
               _bookshop_name: generic/form/checkbox-input
               _name: 0745bad3-7c43-4d5c-9b6c-21c78d7b6634
