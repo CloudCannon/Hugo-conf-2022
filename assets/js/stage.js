@@ -20,11 +20,21 @@ const getPageDimensions = () => {
 	};
   };
 
+function hexToRgb(hex) {
+	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+	return result ? {
+	  r: parseInt(result[1], 16),
+	  g: parseInt(result[2], 16),
+	  b: parseInt(result[3], 16)
+	} : null;
+}
+
 export default class Stage {
 	constructor(element) {
 		this.element = element;
-		this.colours = JSON.parse(element.getAttribute('data-colours'));
-		this.actorCount = parseInt(element.getAttribute('data-numbers'), 10);
+		this.colours = JSON.parse(element.getAttribute('data-colours')).map((hexColor) => {
+			return hexToRgb(hexColor);
+		});
 
 		window.addEventListener("resize", this.updatePageDimensions.bind(this));
 		this.updatePageDimensions();
@@ -45,7 +55,7 @@ export default class Stage {
 
 	draw() {
 		this.context.clearRect(0, 0, this.pageDimensions.width, this.pageDimensions.height)
-		this.actors.forEach((actor) => {
+		this.actors.sort((a, b) => a.depth() - b.depth()).forEach((actor) => {
 		  actor.draw(this.context);
 		});
 	}
@@ -61,34 +71,41 @@ export default class Stage {
 	}
 
 	resetActors() {
-		// TODO use this.pageDimensions
 		this.actors = [];
 
+		const remainingSpace = this.pageDimensions.width - 1024;
+		if (remainingSpace < 0) {
+			return;
+		}
+
+		const totalSpace = remainingSpace + this.pageDimensions.height;
+		const minSize = 10;
+		const maxSize = 30;
+		const actorPadding = 15;
+		const actorsPerSpace = Math.min(totalSpace / (maxSize + actorPadding), 100) / 2;
 		let minX = 0
-		let maxX = this.pageDimensions.width / 2;
+		let maxX = remainingSpace / 2;
 		const minY = 0
 		const maxY = this.pageDimensions.height;
-		for (let j = 0; j < this.actorCount / 2; j++) {
-
+		for (let j = 0; j < actorsPerSpace; j++) {
 			this.actors.push(new Hexagon({
+				y: maxY / actorsPerSpace * j,
 				colour: this.colours[j % this.colours.length],
-				x: 0,
-				y: j * 30,
 				minX, maxX,
-				minY, maxY
+				minY, maxY,
+				minSize, maxSize
 			}));
 		}
 
-		minX = maxX
 		maxX = this.pageDimensions.width;
-		for (let j = 0; j < this.actorCount / 2; j++) {
-
+		minX = maxX - remainingSpace / 2;
+		for (let j = 0; j < actorsPerSpace; j++) {
 			this.actors.push(new Hexagon({
+				y: maxY / actorsPerSpace * j,
 				colour: this.colours[j % this.colours.length],
-				x: 0,
-				y: j * 30,
 				minX, maxX,
-				minY, maxY
+				minY, maxY,
+				minSize, maxSize
 			}));
 		}
 	}
