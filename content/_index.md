@@ -6,7 +6,7 @@ content_blocks:
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: June 24th + 25th 2022 PST
+      date: July 8th + 9th 2022 PST
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
@@ -49,7 +49,7 @@ content_blocks:
   - _bookshop_name: sections/video-section
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/YE7VzlLtp-4
+      url: https://www.youtube.com/embed/BN1BcoY8mD4
     button:
       _bookshop_name: generic/button
       label: Submit your talk
@@ -152,9 +152,9 @@ content_blocks:
           publicly available on YouTube.</p>
   - _bookshop_name: sections/side_animation
     colours:
-      - "#C9177E"
-      - "#00A88A"
-      - "#034AD8"
-      - "#FCD804"
+      - '#C9177E'
+      - '#00A88A'
+      - '#034AD8'
+      - '#FCD804'
 ---
 
