@@ -5,7 +5,7 @@
     {{ end }}
     <div class=" w-full h-[2px] bg-pink"></div>
     <input type="text" name="_gotcha" style="display: none;">
-    <div class="grid grid-cols-[1fr_auto] items-center">
+    <div class="grid grid-cols-[1fr_auto] items-center gap-6">
         <div>
             {{ if .tandc_checkbox }}
                 {{ partial "bookshop" (slice "generic/form/checkbox-input" .tandc_checkbox) }}
