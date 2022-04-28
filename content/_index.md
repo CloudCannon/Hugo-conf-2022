@@ -126,7 +126,7 @@ content_blocks:
     hexagons:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: pink
-        title: A conference for all Hugoers
+        title: A Conference for all Hugoers
         content: >-
           <p>HugoConf organizers are dedicated to providing a safe, inclusive
           and harassment free environment for all attendees. Please review our
@@ -136,20 +136,21 @@ content_blocks:
           href="mailto:team@hugoconf.io">team@hugoconf.io</a>.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
-        title: Help us organize
+        title: Help us Organize
         content: >-
           <p>We're looking for members of the community to help plan and run the
           conference on the day. If you're interested in participating in any
-          capacity, get in touch! We'd love your help.</p>
+          capacity, <a href="mailto:team@hugoconf.io">get in touch</a>! We'd
+          love your help.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
         content: >-
-          <p><strong>Where is HugoConf held?</strong><br />Right here on this
-          website! On the day, we'll stream the sessions directly on this
-          page.</p><p>&nbsp;</p><p><strong>I can't attend, will the videos be
-          available later?</strong><br />Yes, all sessions will be recorded and
-          publicly available on YouTube.</p>
+          <p><strong>Where is HugoConf held?</strong></p><p>Right here on this
+          website! Starting July 8th, we'll stream the sessions directly on this
+          page.</p><p>&nbsp;</p><p><strong>I can't attend &mdash; will the
+          videos be available later?</strong></p><p>Yes, all sessions will be
+          recorded and publicly available on YouTube.</p>
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'
