@@ -1,16 +1,16 @@
-preText: "Hosted by "
-logo_image: "/uploads/coudcannon-logo.svg"
-logo_alt: "Dogos"
-links: 
+preText: 'Hosted by '
+logo_image: /uploads/coudcannon-logo.svg
+logo_alt: Dogos
+links:
   - url: /
     label: Code of conduct
     icon:
     icon_alt:
   - url: /
     label: Register
-    icon: 
+    icon:
     icon_alt:
-  - url: https://mobile.twitter.com/cloudcannon
+  - url: https://twitter.com/hugoconf
     label: Twitter
-    icon: "/uploads/twitter-logo.svg"
+    icon: /uploads/twitter-logo.svg
     icon_alt: Twitter
