@@ -12,6 +12,7 @@
     "javascript-dev": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js --watch",
     "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js",
     "bookshop": "npx @bookshop/browser@latest",
+    "fix-hugo": "hugo mod clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -19,3 +19,7 @@ Starter template for hugo, alpine, bookshop
 # Create New component
 
 `npm run init` and follow prompts 
+
+
+# Bug fix:
+- Error calling partial intermittently occurs and can be fixed my clearing the hugo cache by running: `hugo mod clean`
