@@ -46,4 +46,87 @@ content_blocks:
               add_modal: false
               open_modal: false
               modal:
+  - _bookshop_name: generic/markdown-content
+    content_html: >-
+      <h3>Shorter version</h3><p>JekyllConf is dedicated to providing a
+      harassment-free experience for everyone, regardless of gender, gender
+      identity and expression, sexual orientation, disability, physical
+      appearance, body size, race, or religion. We do not tolerate harassment of
+      participants in any form.</p><p>This code of conduct applies to all
+      JekyllConf spaces, including the online conference itself, our mailing
+      list and our social media properties both online and off. Anyone who
+      violates this code of conduct may be sanctioned or expelled from these
+      spaces at the discretion of the Organisers.</p><p>Some JekyllConf spaces
+      may have additional rules in place, which will be made clearly available
+      to participants. Participants are responsible for knowing and abiding by
+      these rules.</p><h3>Longer version</h3><p>JekyllConf is dedicated to
+      providing a harassment-free experience for everyone. We do not tolerate
+      harassment of participants in any form.</p><p>This code of conduct applies
+      to all JekyllConf spaces, including the online conference itself, our
+      mailing list and our social media properties both online and off. Anyone
+      who violates this code of conduct may be sanctioned or expelled from these
+      spaces at the discretion of the Organisers.</p><p>Some JekyllConf spaces
+      may have additional rules in place, which will be made clearly available
+      to participants. Participants are responsible for knowing and abiding by
+      these rules.</p><p>Harassment includes:</p><ul><li>Offensive comments
+      related to gender, gender identity and expression, sexual orientation,
+      disability, mental illness, neuro(a)typicality, physical appearance, body
+      size, race, or religion</li><li>Unwelcome comments regarding a
+      person&rsquo;s lifestyle choices and practices, including those related to
+      food, health, parenting, drugs, and employment.</li><li>Deliberate
+      misgendering or use of &lsquo;dead&rsquo; or rejected
+      names</li><li>Gratuitous or off-topic sexual images or behaviour in spaces
+      where they&rsquo;re not appropriate</li><li>Physical contact and simulated
+      physical contact (eg, textual descriptions like &ldquo;*hug*&rdquo; or
+      &ldquo;*backrub*&rdquo;) without consent or after a request to
+      stop.</li><li>Threats of violence</li><li>Incitement of violence towards
+      any individual, including encouraging a person to commit suicide or to
+      engage in self-harm</li><li>Deliberate intimidation</li><li>Stalking or
+      following</li><li>Harassing photography or recording, including logging
+      online activity for harassment purposes</li><li>Sustained disruption of
+      discussion</li><li>Unwelcome sexual attention</li><li>Pattern of
+      inappropriate social contact, such as requesting/assuming inappropriate
+      levels of intimacy with others</li><li>Continued one-on-one communication
+      after requests to cease</li><li>Deliberate &ldquo;outing&rdquo; of any
+      aspect of a person&rsquo;s identity without their consent except as
+      necessary to protect vulnerable people from intentional
+      abuse</li><li>Publication of non-harassing private
+      communication</li></ul><p>JekyllConf prioritizes marginalized
+      people&rsquo;s safety over privileged people&rsquo;s comfort. Organisers
+      will not act on complaints regarding:</p><ul><li>&lsquo;Reverse&rsquo;
+      -isms, including &lsquo;reverse racism,&rsquo; &lsquo;reverse
+      sexism,&rsquo; and &lsquo;cisphobia&rsquo;</li><li>Reasonable
+      communication of boundaries, such as &ldquo;leave me alone,&rdquo;
+      &ldquo;go away,&rdquo; or &ldquo;I&rsquo;m not discussing this with
+      you.&rdquo;</li><li>Communicating in a &lsquo;tone&rsquo; you don&rsquo;t
+      find congenial</li><li>Criticizing racist, sexist, cissexist, or otherwise
+      oppressive behavior or assumptions</li></ul><h3>Reporting</h3><p>If you
+      are being harassed by a member of JekyllConf, notice that someone else is
+      being harassed, or have any other concerns, please contact the Organisers
+      at support@cloudcannon.com. If the person who is harassing you is on the
+      team, they will recuse themselves from handling your incident. We will
+      respond as promptly as we can.</p><p>This code of conduct applies to
+      JekyllConf spaces, but if you are being harassed by a member of JekyllConf
+      outside our spaces, we still want to know about it. We will take all
+      good-faith reports of harassment by JekyllConf members seriously. This
+      includes harassment outside our spaces and harassment that took place at
+      any point in time. The Organisers reserve the right to exclude people from
+      JekyllConf based on their past behavior, including behavior outside
+      JekyllConf spaces and behavior towards people who are not in
+      JekyllConf.</p><p>In order to protect volunteers from abuse and burnout,
+      we reserve the right to reject any report we believe to have been made in
+      bad faith. Reports intended to silence legitimate criticism may be deleted
+      without response.</p><p>We will respect confidentiality requests for the
+      purpose of protecting victims of abuse. At our discretion, we may publicly
+      name a person about whom we&rsquo;ve received harassment complaints, or
+      privately warn third parties about them, if we believe that doing so will
+      increase the safety of JekyllConf members or the general public. We will
+      not name harassment victims without their affirmative
+      consent.</p><h3>Consequences</h3><p>Participants asked to stop any
+      harassing behavior are expected to comply immediately.</p><p>If a
+      participant engages in harassing behavior, Organisers may take any action
+      they deem appropriate, up to and including expulsion from all JekyllConf
+      spaces and identification of the participant as a harasser to other
+      JekyllConf members or the general public.</p>
 ---
+
