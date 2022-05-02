@@ -16,11 +16,12 @@ module.exports = {
         pink: "#C9177E",
         green: "#00A88A",
         blue: "#034AD8",
+        lightblue: "#0594CB",
         yellow: "#FCD804",
         black: "#1C1C1C",
       },
       boxShadow: {
-        'solid': '0 0 0 2px',
+        solid: "0 0 0 2px",
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
@@ -49,7 +50,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };

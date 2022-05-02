@@ -1,3 +1,14 @@
-<div class="c-markdown-content">
-    <p>{{ .text }}</p>
+{{/*
+<div class="c-markdown-content prose lg:prose-xl bg-white">
+  <p>{{ .content_html | safeHTML }}</p>
 </div>
+*/}}
+
+<section class="c-markdown-content pt-56">
+  <div
+    class="relative w-full px-6 py-12 bg-white shadow-xl shadow-lightblue ring-1 ring-gray-900/5 md:max-w-3xl md:mx-auto lg:max-w-4xl lg:pt-16 lg:pb-28">
+    <div class="max-w-prose mx-auto lg:text-lg">
+        <p>{{ .content_html | safeHTML }}</p>
+      
+  </div>
+</section>
