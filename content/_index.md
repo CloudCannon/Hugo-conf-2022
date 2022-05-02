@@ -15,7 +15,7 @@ content_blocks:
       view_label_icon: true
       border_color: border-blue
       add_modal: true
-      open_modal: false
+      open_modal: true
       modal:
         _bookshop_name: simple/modal
         heading: Register today!
@@ -31,6 +31,35 @@ content_blocks:
                 _name: UUID
                 label: Full name
                 required: true
+              - _bookshop_name: generic/form/conditional-input
+                _name: 9d7eb1e3-ae53-4635-b176-3520eddf0c86
+                label: I would like to go into the draw to get free HugoConf swag
+                checked: false
+                inputs:
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: Address
+                    required: false
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: Apartment, suite, etc
+                    required: false
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: City
+                    required: false
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: Province
+                    required: false
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: Country
+                    required: false
+                  - _bookshop_name: generic/form/text-input
+                    _name: UUID
+                    label: Postal code
+                    required: false
             tandc_checkbox:
               _bookshop_name: generic/form/checkbox-input
               _name: 0745bad3-7c43-4d5c-9b6c-21c78d7b6634
