@@ -2,12 +2,8 @@ preText: 'Hosted by '
 logo_image: /uploads/coudcannon-logo.svg
 logo_alt: Dogos
 links:
-  - url: /
+  - url: /code-of-conduct
     label: Code of conduct
-    icon:
-    icon_alt:
-  - url: /
-    label: Register
     icon:
     icon_alt:
   - url: https://twitter.com/hugoconf
