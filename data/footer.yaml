@@ -1,7 +1,11 @@
-preText: 'Hosted by '
+preText: "Hosted by "
 logo_image: /uploads/coudcannon-logo.svg
-logo_alt: Dogos
+logo_alt: CloudCannon logo
 links:
+  - url: /
+    label: Home
+    icon:
+    icon_alt:
   - url: /code-of-conduct
     label: Code of conduct
     icon:

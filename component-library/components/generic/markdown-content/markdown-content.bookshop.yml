@@ -2,6 +2,7 @@
 spec:
   structures:
     - content_blocks
+    - modal_blocks
   label: "Markdown-content"
   description:
   icon:
@@ -14,6 +15,10 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   content_html: >-
+    <h2>What if we stack headings?</h2>
+      <h3>We should make sure that looks good, too.</h3>
+      <p>Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.</p>
+      <h3>When a heading comes after a paragraph …</h3>
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
