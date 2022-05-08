@@ -10,6 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   _instancevalue: UUID
+  form_submission_type: email/cloudcannon
+  mailchimp_submission_action: ""
   inputs: [bookshop:structure:form_blocks]
   tandc_checkbox: bookshop:generic/form/checkbox-input
   submit_button: bookshop:generic/button
@@ -19,3 +21,12 @@ preview:
     - bookshop:structure:form_blocks
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  form_submission_type:
+    comment: This option will provide the type of submission that will be targeted. 
+    type: select
+    options:
+      values:
+      - email/cloudcannon
+      - mailchimp
+  mailchimp_submission_action: 
+    comment: Is only required if mailchimp has been selected as your submission_type example - https://componay.us12.list-manage.com/subscribe?u=c2asfj8ec0sdfjsadlfe3f&id=88786d434e

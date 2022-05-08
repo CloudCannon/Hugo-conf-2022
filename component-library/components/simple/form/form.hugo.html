@@ -1,5 +1,12 @@
 
-<form id="{{ .instancevalue }}" action="" class="grid gap-y-8 w-full">
+<form 
+    id="{{ .instancevalue }}"
+    {{ if eq .form_submission_type "email/cloudcannon"  }}
+        action="/submitted/" method="post" 
+    {{ else if eq .form_submission_type "mailchimp" }}
+        action="{{ .mailchimp_submission_action }}" method="post" 
+    {{ end }}
+    class="grid gap-y-8 w-full">
     {{ range .inputs }}
         {{ partial "bookshop" . }}
     {{ end }}
