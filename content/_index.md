@@ -22,50 +22,52 @@ content_blocks:
         modal_content:
           - _bookshop_name: simple/form
             _instancevalue: UUID
+            form_submission_type: email/cloudcannon
+            mailchimp_submission_action:
             inputs:
               - _bookshop_name: generic/form/email-input
-                _name: a1bb2a0c-6368-469e-91c8-391ae5a6958f
+                name_and_id: email
                 label: Email address
                 required: true
               - _bookshop_name: generic/form/text-input
-                _name: UUID
+                name_and_id: full_name
                 label: Full name
                 required: true
               - _bookshop_name: generic/form/conditional-input
-                _name: 9d7eb1e3-ae53-4635-b176-3520eddf0c86
+                _name: 6394c11b-67fb-406d-a400-b746e91b05be
                 label: I would like to go into the draw to get free HugoConf swag
                 checked: false
                 inputs:
                   - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Address
+                    name_and_id: MERGE3[addr1]
+                    label: Street
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Apartment, suite, etc
+                    name_and_id: MERGE3[addr2]
+                    label: PO Box
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    _name: UUID
+                    name_and_id: MERGE3[city]
                     label: City
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Province
+                    name_and_id: MERGE3[state]
+                    label: State
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    _name: UUID
+                    name_and_id: MERGE3[zip]
+                    label: Postcode
+                    required: false
+                  - _bookshop_name: generic/form/country-select-input
+                    name_and_id: MERGE3[country]
                     label: Country
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Postal code
                     required: false
             tandc_checkbox:
               _bookshop_name: generic/form/checkbox-input
-              _name: 0745bad3-7c43-4d5c-9b6c-21c78d7b6634
+              _name: b4345bea-87d4-4249-8429-788a875350bf
               label: I agree to the code of conduct
               checked: false
-              required: false
+              required: true
             submit_button:
               _bookshop_name: generic/button
               label: Register
