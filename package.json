@@ -4,10 +4,11 @@
   "description": "Starter template for hugo, alpine, bookshop",
   "main": "index.js",
   "scripts": {
-    "start": "run-p javascript hugo-server javascript",
+    "start": "run-p javascript hugo-server-watch javascript",
     "dev": "run-p javascript-dev hugo-server bookshop",
     "init": "npx @bookshop/init@latest",
-    "hugo-server": "hugo server -D --watch",
+    "hugo-server-watch": "hugo server -D --watch",
+    "hugo-server": "hugo server -D",
     "build": "hugo --source ./ --destination public --baseURL /",
     "javascript-dev": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js --watch",
     "javascript": "esbuild assets/js/index.js --bundle --outfile=assets/js/build.js",
