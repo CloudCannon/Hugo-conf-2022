@@ -20,3 +20,5 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  name_and_id:
+    comments: Provides a unique identifier for the input
