@@ -1,4 +1,11 @@
 <div class="c-email-input grid max-w-sm">
-    <label class=" mb-1 text-sm text-white opacity-60" for="{{ .name }}">{{ .label }}</label>
-    <input class="text-white p-2 h-11 bg-neutral-700 border-2 border-solid border-pink rounded" type="email" id="{{ .name }}" name="{{ .name }}" required {{ if .required }}required{{ end }}>
+    <label 
+        class=" mb-1 text-sm text-white opacity-60" 
+        for="{{ .name }}">{{ .label }}</label>
+    <input 
+        class="text-white p-2 h-11 bg-neutral-700 border-2 border-solid border-pink rounded" 
+        type="email" 
+        id="{{ .name_and_id }}" 
+        name="{{ .name_and_id }}" 
+        {{ if .required }}required{{ end }}>
 </div>

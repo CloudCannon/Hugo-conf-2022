@@ -9,15 +9,14 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  _name: UUID
+  name_and_id: ""
   label: ""
   required: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   label: Email
+  name_and_id: name_and_ID
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  _name:
-    instance_value: UUID
