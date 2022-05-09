@@ -2,13 +2,15 @@
   class="w-[90vw] lg:w-[60vw] text-white grid justify-items-center mt-24 mb-10 mx-auto">
   {{ with .Site.Data.footer }}
   <div class="h-[1px] w-full bg-blue"></div>
-  <div class="flex gap-2 my-6">
+  <div class="flex gap-2 my-6 items-center justify-center">
     <p>{{ .preText }}</p>
     {{ if .logo_image }}
-    <img
-      class="brightness-0 invert hover:brightness-100 hover:invert-0"
-      src="{{ .logo_image }}"
-      alt="{{ .logo_alt }}" />
+      <a href="https://cloudcannon.com/">
+        <img
+          class="brightness-0 invert hover:brightness-100 hover:invert-0 w-44"
+          src="{{ .logo_image }}"
+          alt="{{ .logo_alt }}" />
+      </a>
     {{ end }}
   </div>
   <div class="flex flex-wrap items-center gap-1">
