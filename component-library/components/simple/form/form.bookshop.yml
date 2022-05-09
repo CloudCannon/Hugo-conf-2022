@@ -30,7 +30,7 @@ _inputs:
       - email/cloudcannon
       - mailchimp
   mailchimp_submission_action: 
-    comment: Is only required if mailchimp has been selected as your submission_type example - https://componay.us12.list-manage.com/subscribe?u=c2asfj8ec0sdfjsadlfe3f&id=88786d434e
+    comment: Is only required if mailchimp has been selected as your submission_type example - https://company.us12.list-manage.com/subscribe?u=c2asfj8ec0sdfjsadlfe3f&id=88786d434e
   _instancevalue:
     instance_value: UUID
   success_page:
