@@ -34,5 +34,5 @@ _inputs:
   _instancevalue:
     instance_value: UUID
   success_page:
-    type: path
+    type: url
     comment: Is only required if email/cloudcannon has been selected as your submission_type. This will be the page the user will be taken on successful submission.
