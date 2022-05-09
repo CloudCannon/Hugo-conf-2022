@@ -25,7 +25,7 @@ content_blocks:
             form_submission_type: mailchimp
             success_page:
             mailchimp_submission_action: >-
-              https://cloudcannon.us12.list-manage.com/subscribe?u=c2598ec08fca5843b980a7d3f&id=88786d434e
+              https://cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&id=88786d434e
             inputs:
               - _bookshop_name: generic/form/email-input
                 name_and_id: email
