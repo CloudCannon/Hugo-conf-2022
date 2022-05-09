@@ -21,8 +21,9 @@ content_blocks:
         heading: Register today!
         modal_content:
           - _bookshop_name: simple/form
-            _instancevalue: UUID
+            _instancevalue: 7a325f25-e386-49da-aff0-ecf6f3ac2e51
             form_submission_type: email/cloudcannon
+            success_page: /submitted/
             mailchimp_submission_action:
             inputs:
               - _bookshop_name: generic/form/email-input
@@ -94,7 +95,7 @@ content_blocks:
         heading: Submit your talk
         modal_content:
           - _bookshop_name: simple/form
-            _instancevalue: UUID
+            _instancevalue: 13a07aae-c5e3-4c62-b759-f3c43b76669e
             inputs:
               - _bookshop_name: generic/form/email-input
                 _name: 20faea14-8ca6-4447-b5f7-bf77c77e5836

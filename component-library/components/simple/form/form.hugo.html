@@ -1,8 +1,8 @@
 
 <form 
-    id="{{ .instancevalue }}"
+    id="{{ ._instancevalue }}"
     {{ if eq .form_submission_type "email/cloudcannon"  }}
-        action="/submitted/" method="post" 
+        action="{{ .success_page }}" method="post" 
     {{ else if eq .form_submission_type "mailchimp" }}
         action="{{ .mailchimp_submission_action }}" method="post" 
     {{ end }}
@@ -12,7 +12,7 @@
     {{ end }}
     <div class=" w-full h-[2px] bg-pink"></div>
     <input type="text" name="_gotcha" style="display: none;">
-    <div class="grid sm:grid-cols-2 gap-6">
+    <div class="grid sm:grid-cols-2 gap-6" >
         <div>
             {{ if .tandc_checkbox }}
                 {{ partial "bookshop" (slice "generic/form/checkbox-input" .tandc_checkbox) }}
@@ -25,3 +25,6 @@
         </div>
     </div>
 </form>
+{{/*  
+    withCheck  
+    */}}

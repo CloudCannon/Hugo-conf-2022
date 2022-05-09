@@ -11,6 +11,7 @@ spec:
 blueprint:
   _instancevalue: UUID
   form_submission_type: email/cloudcannon
+  success_page: ""
   mailchimp_submission_action: ""
   inputs: [bookshop:structure:form_blocks]
   tandc_checkbox: bookshop:generic/form/checkbox-input
@@ -30,3 +31,8 @@ _inputs:
       - mailchimp
   mailchimp_submission_action: 
     comment: Is only required if mailchimp has been selected as your submission_type example - https://componay.us12.list-manage.com/subscribe?u=c2asfj8ec0sdfjsadlfe3f&id=88786d434e
+  _instancevalue:
+    instance_value: UUID
+  success_page:
+    type: path
+    comment: Is only required if email/cloudcannon has been selected as your submission_type. This will be the page the user will be taken on successful submission.
