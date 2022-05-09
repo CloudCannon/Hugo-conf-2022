@@ -15,7 +15,7 @@ content_blocks:
       view_label_icon: true
       border_color: border-blue
       add_modal: true
-      open_modal: false
+      open_modal: true
       modal:
         _bookshop_name: simple/modal
         heading: Register today!
@@ -25,15 +25,19 @@ content_blocks:
             form_submission_type: mailchimp
             success_page:
             mailchimp_submission_action: >-
-              https://cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&id=88786d434e
+              https://cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&amp;id=88786d434e
             inputs:
               - _bookshop_name: generic/form/email-input
-                name_and_id: email
+                name_and_id: mce-EMAIL
                 label: Email address
                 required: true
               - _bookshop_name: generic/form/text-input
-                name_and_id: full_name
-                label: Full name
+                name_and_id: mce-FNAME
+                label: First Name
+                required: true
+              - _bookshop_name: generic/form/text-input
+                name_and_id: mce-LNAME
+                label: Last Name
                 required: true
               - _bookshop_name: generic/form/conditional-input
                 _name: 6394c11b-67fb-406d-a400-b746e91b05be
@@ -41,24 +45,24 @@ content_blocks:
                 checked: false
                 inputs:
                   - _bookshop_name: generic/form/text-input
-                    name_and_id: MERGE3[addr1]
-                    label: Street
+                    name_and_id: mce-ADDRESS-addr1
+                    label: Address Line 1
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    name_and_id: MERGE3[addr2]
-                    label: PO Box
+                    name_and_id: mce-ADDRESS-addr2
+                    label: Address Line 2
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    name_and_id: MERGE3[city]
+                    name_and_id: mce-ADDRESS-city
                     label: City
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    name_and_id: MERGE3[state]
-                    label: State
+                    name_and_id: mce-ADDRESS-state
+                    label: State/Province/Region
                     required: false
                   - _bookshop_name: generic/form/text-input
-                    name_and_id: MERGE3[zip]
-                    label: Postcode
+                    name_and_id: mce-ADDRESS-zip
+                    label: Postal / Zip Code
                     required: false
                   - _bookshop_name: generic/form/country-select-input
                     name_and_id: MERGE3[country]
