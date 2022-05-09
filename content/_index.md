@@ -90,7 +90,7 @@ content_blocks:
       view_label_icon: false
       border_color: border-white
       add_modal: true
-      open_modal: true
+      open_modal: false
       modal:
         _bookshop_name: simple/modal
         heading: Submit your talk
