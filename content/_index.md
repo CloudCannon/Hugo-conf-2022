@@ -22,9 +22,10 @@ content_blocks:
         modal_content:
           - _bookshop_name: simple/form
             _instancevalue: 7a325f25-e386-49da-aff0-ecf6f3ac2e51
-            form_submission_type: email/cloudcannon
-            success_page: /submitted/
-            mailchimp_submission_action:
+            form_submission_type: mailchimp
+            success_page:
+            mailchimp_submission_action: >-
+              https://cloudcannon.us12.list-manage.com/subscribe?u=c2598ec08fca5843b980a7d3f&id=88786d434e
             inputs:
               - _bookshop_name: generic/form/email-input
                 name_and_id: email
@@ -89,55 +90,58 @@ content_blocks:
       view_label_icon: false
       border_color: border-white
       add_modal: true
-      open_modal: false
+      open_modal: true
       modal:
         _bookshop_name: simple/modal
         heading: Submit your talk
         modal_content:
           - _bookshop_name: simple/form
-            _instancevalue: 13a07aae-c5e3-4c62-b759-f3c43b76669e
+            _instancevalue: 7462c9d1-0e1c-43af-807b-e5981b481d04
+            form_submission_type: email/cloudcannon
+            success_page: /submitted/
+            mailchimp_submission_action:
             inputs:
               - _bookshop_name: generic/form/email-input
-                _name: 20faea14-8ca6-4447-b5f7-bf77c77e5836
+                name_and_id: email
                 label: Email address
                 required: true
               - _bookshop_name: generic/form/text-input
-                _name: UUID
+                name_and_id: full_name
                 label: Full name
                 required: true
               - _bookshop_name: generic/form/text-input
-                _name: UUID
+                name_and_id: company
                 label: Company
                 required: false
               - _bookshop_name: generic/form/radiobutton-group
-                title: 'Type of proposal:'
+                title: Type of proposal
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
-                    label: Lightning talk (5 minutes)
+                    label: Lighting talk (5 minutes)
                   - _bookshop_name: generic/form/radio-input
-                    label: 'Tech talk (25 minutes) '
+                    label: Tech talk (25 minutes)
                   - _bookshop_name: generic/form/radio-input
                     label: Workshop (45 minutes)
               - _bookshop_name: generic/form/checkbox-group
                 title: 'Who''s your target audience:'
                 checkboxes:
                   - _bookshop_name: generic/form/checkbox-input
-                    _name: 3285f726-46b1-4f94-b4fd-6520bc8f5c55
+                    _name: ac1d6ff9-c7af-43ae-969c-94087dc88d42
                     label: Beginner
                     checked: false
                     required: false
                   - _bookshop_name: generic/form/checkbox-input
-                    _name: 17d37e79-235f-4c65-b235-10b488e08c56
+                    _name: 44c7ba60-9dd8-478f-ac10-27df1c4115c4
                     label: Intermediate
                     checked: false
                     required: false
                   - _bookshop_name: generic/form/checkbox-input
-                    _name: bc74a09e-d76a-4a59-a01c-0663acb9c479
+                    _name: 103fbe71-aaab-4a37-b813-35a6a26b467e
                     label: Advanced
                     checked: false
                     required: false
               - _bookshop_name: generic/form/radiobutton-group
-                title: Is this your first time speaking?
+                title: 'Is this your first time speaking? '
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
                     label: 'Yes'
