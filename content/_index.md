@@ -107,7 +107,7 @@ content_blocks:
                     checked: false
                     required: false
               - _bookshop_name: generic/form/radiobutton-group
-                title: 'Is this your first time speaking? '
+                title: 'Is this your first time speaking at a tech conference? '
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
                     label: 'Yes'
