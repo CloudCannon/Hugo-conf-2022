@@ -20,57 +20,15 @@ content_blocks:
         _bookshop_name: simple/modal
         heading: Register today!
         modal_content:
-          - _bookshop_name: simple/form
-            _instancevalue: 7a325f25-e386-49da-aff0-ecf6f3ac2e51
-            form_submission_type: mailchimp
+          - _bookshop_name: simple/mailchimp-form
+            _instancevalue: 900c740d-ec7d-4892-bfe2-f0962f3addf5
+            form_submission_type: email/cloudcannon
             success_page:
-            mailchimp_submission_action: >-
-              https://cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&amp;id=88786d434e
+            mailchimp_submission_action:
             inputs:
-              - _bookshop_name: generic/form/email-input
-                name_and_id: mce-EMAIL
-                label: Email address
-                required: true
-              - _bookshop_name: generic/form/text-input
-                name_and_id: mce-FNAME
-                label: First Name
-                required: true
-              - _bookshop_name: generic/form/text-input
-                name_and_id: mce-LNAME
-                label: Last Name
-                required: true
-              - _bookshop_name: generic/form/conditional-input
-                _name: 6394c11b-67fb-406d-a400-b746e91b05be
-                label: I would like to go into the draw to get free HugoConf swag
-                checked: false
-                inputs:
-                  - _bookshop_name: generic/form/text-input
-                    name_and_id: mce-ADDRESS-addr1
-                    label: Address Line 1
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    name_and_id: mce-ADDRESS-addr2
-                    label: Address Line 2
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    name_and_id: mce-ADDRESS-city
-                    label: City
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    name_and_id: mce-ADDRESS-state
-                    label: State/Province/Region
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    name_and_id: mce-ADDRESS-zip
-                    label: Postal / Zip Code
-                    required: false
-                  - _bookshop_name: generic/form/country-select-input
-                    name_and_id: MERGE3[country]
-                    label: Country
-                    required: false
             tandc_checkbox:
               _bookshop_name: generic/form/checkbox-input
-              _name: b4345bea-87d4-4249-8429-788a875350bf
+              _name: ee54a2a2-214f-48ce-97c6-12015f67bc15
               label: I agree to the code of conduct
               checked: false
               required: true
