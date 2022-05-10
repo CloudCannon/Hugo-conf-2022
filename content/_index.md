@@ -126,6 +126,10 @@ content_blocks:
                     label: Tech talk (25 minutes)
                   - _bookshop_name: generic/form/radio-input
                     label: Workshop (45 minutes)
+              - _bookshop_name: generic/form/text-input
+                name_and_id: talk-title
+                label: Title for Talk
+                required: true
               - _bookshop_name: generic/form/checkbox-group
                 title: 'Who''s your target audience:'
                 checkboxes:
