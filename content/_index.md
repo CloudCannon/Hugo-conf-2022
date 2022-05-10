@@ -190,12 +190,11 @@ content_blocks:
         hexagon_color: yellow
         title: FAQs
         content: >-
-          <p><strong>Where is HugoConf held?</strong></p><p>&mdash; &nbsp;Right
-          here, on this website! On July 8th, we'll stream the sessions directly
-          on this page.</p><p>&nbsp;</p><p><strong>I can't attend! 😭 Will the
-          talks and workshop videos be available to watch
-          later?</strong></p><p>&mdash; Yes, all sessions will be recorded and
-          publicly available on YouTube.</p>
+          <p><strong>Where is HugoConf held?</strong></p><p>Right here, on this
+          website! On July 8th, we'll stream the sessions directly on this
+          page.</p><p>&nbsp;</p><p><strong>I can't attend! 😭 Will the talks and
+          workshop videos be available to watch later?</strong></p><p>Yes, all
+          sessions will be recorded and publicly available on YouTube.</p>
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'
