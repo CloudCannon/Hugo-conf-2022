@@ -2,7 +2,7 @@
 <div>
         <div id="mc_embed_signup">
         <form action="https://cloudcannon.us12.list-manage.com/subscribe/post?u=c2598ec08fca5843b980a7d3f&amp;id=88786d434e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
-            class="validate grid gap-y-8 w-full text-sm text-white" target="_blank" validate >
+            class="validate grid gap-y-8 w-full text-sm text-white" target="_blank" validate x-data="{needSwag:false}">
         <div class="mc-field-group grid max-w-sm">
             <label class="opacity-60 mb-1" for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
         </label>
@@ -16,7 +16,24 @@
             <label for="mce-LNAME" class="opacity-60 mb-1">Last Name</label>
             <input type="text" value="" name="LNAME" class="p-2 h-11 bg-neutral-700 border-2 border-solid border-pink rounded" id="mce-LNAME">
         </div>
-        <div class="grid gap-y-8">
+        <div>
+            <label class="gg-c-checkbox">
+                <input class="gg-c-checkbox__checkbox" name="" type="checkbox"  x-model="needSwag">
+                <span class="gg-c-checkbox__pseudo-checkbox"></span>
+                <span class="gg-c-checkbox__text text-white opacity-90"> I agree to the code of conduct </span>
+                <svg class="gg-c-checkbox__shine fill-white z-40" height="51" width="56" xmlns="http://www.w3.org/2000/svg">
+                  <g fill-rule="evenodd">
+                    <rect height="2" rx="2" width="8" x="48" y="24"></rect>
+                    <rect height="2" rx="2" transform="rotate(60 15.73 4.46)" width="8" x="11.73" y="2.46"></rect>
+                    <rect height="2" rx="2" transform="rotate(120 39.73 4.46)" width="8" x="35.73" y="2.46"></rect>
+                    <rect height="2" rx="2" transform="scale(1 -1) rotate(60 97.4 0)" width="8" x="12" y="45"></rect>
+                    <rect height="2" rx="2" transform="scale(-1 1) rotate(-60 0 116.28)" width="8" x="36" y="45"></rect>
+                    <rect height="2" rx="2" width="8" y="24"></rect>
+                  </g>
+                </svg>
+              </label>
+        </div>
+        <div class="grid gap-y-8" x-show="needSwag">
             <div class="mc-field-group grid max-w-sm">
                 <label class="opacity-60 mb-1" for="mce-ADDRESS-addr1">Address </label>
                 <input type="text" value="" maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1" class="p-2 h-11 bg-neutral-700 border-2 border-solid border-pink rounded">
@@ -79,7 +96,6 @@
 
             </div>
         </div>
-        <button class = "btnPost btnBlue">Post</button>
     </form>
         
 </div>
