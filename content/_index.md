@@ -132,7 +132,7 @@ content_blocks:
         content: >-
           <p>HugoConf organizers are dedicated to providing a safe, inclusive
           and harassment free environment for all attendees. Please review our
-          <a href="/code-of-conduct">code of conduct</a> help build the
+          <a href="/code-of-conduct">code of conduct</a>, and help build the
           community by being supportive and constructive.</p><p>&nbsp;</p><p>If
           you have any questions or suggestions, reach out to <a
           href="mailto:team@hugoconf.io">team@hugoconf.io</a>.</p>
