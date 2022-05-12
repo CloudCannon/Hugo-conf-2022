@@ -1,10 +1,10 @@
 <div class="c-video-section max-w-5xl grid justify-items-center mx-auto">
   <div
-    class="bg-pink text-white md:w-8/12 w-4/5 py-4 px-8 grid justify-center text-lg items-center rounded-t-lg">
-    <div class="flex gap-3 text-center items-center justify-center flex-wrap">
+    class="c-video-section__notice bg-pink text-white md:w-8/12 w-4/5 py-4 px-8 grid justify-center text-lg items-center rounded-t-lg">
+    <div class=" flex gap-3 text-center items-center justify-center flex-wrap" x-transition>
       {{ .notice_message | safeHTML }} 
       {{ partial "bookshop" (slice "generic/button" .button) }}
     </div>
   </div>
-  {{ partial "bookshop" (slice "simple/video" .video ) }}
+    {{ partial "bookshop" (slice "simple/video" .video ) }}
 </div>
