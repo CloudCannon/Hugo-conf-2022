@@ -20,52 +20,18 @@ content_blocks:
         _bookshop_name: simple/modal
         heading: Register today!
         modal_content:
-          - _bookshop_name: simple/form
-            _instancevalue: UUID
+          - _bookshop_name: simple/mailchimp-form
+            _instancevalue: 900c740d-ec7d-4892-bfe2-f0962f3addf5
+            form_submission_type: email/cloudcannon
+            success_page:
+            mailchimp_submission_action:
             inputs:
-              - _bookshop_name: generic/form/email-input
-                _name: a1bb2a0c-6368-469e-91c8-391ae5a6958f
-                label: Email address
-                required: true
-              - _bookshop_name: generic/form/text-input
-                _name: UUID
-                label: Full name
-                required: true
-              - _bookshop_name: generic/form/conditional-input
-                _name: 9d7eb1e3-ae53-4635-b176-3520eddf0c86
-                label: I would like to go into the draw to get free HugoConf swag
-                checked: false
-                inputs:
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Address
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Apartment, suite, etc
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: City
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Province
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Country
-                    required: false
-                  - _bookshop_name: generic/form/text-input
-                    _name: UUID
-                    label: Postal code
-                    required: false
             tandc_checkbox:
               _bookshop_name: generic/form/checkbox-input
-              _name: 0745bad3-7c43-4d5c-9b6c-21c78d7b6634
+              _name: ee54a2a2-214f-48ce-97c6-12015f67bc15
               label: I agree to the code of conduct
               checked: false
-              required: false
+              required: true
             submit_button:
               _bookshop_name: generic/button
               label: Register
