@@ -79,7 +79,7 @@ content_blocks:
                 title: Type of proposal
                 radiobuttons:
                   - _bookshop_name: generic/form/radio-input
-                    label: Lighting talk (5 minutes)
+                    label: Lightning talk (5 minutes)
                   - _bookshop_name: generic/form/radio-input
                     label: Tech talk (25 minutes)
                   - _bookshop_name: generic/form/radio-input
