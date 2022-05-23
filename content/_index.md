@@ -57,6 +57,14 @@ content_blocks:
         _bookshop_name: simple/modal
         heading: Submit your talk
         modal_content:
+          - _bookshop_name: generic/markdown-content
+            content_html: >-
+              <p>All talks will be pre-recorded &mdash; we know fixed conference
+              dates aren't for everyone.</p><p>We're particularly interested in
+              hearing from under-represented and beginner Hugo users, so don't
+              worry if you're not an expert. If you've used Hugo to make
+              something that you find interesting, others will
+              too!</p><p>&nbsp;</p>
           - _bookshop_name: simple/form
             _instancevalue: 7462c9d1-0e1c-43af-807b-e5981b481d04
             form_submission_type: email/cloudcannon
