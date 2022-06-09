@@ -131,7 +131,7 @@ content_blocks:
               add_modal: false
               open_modal: false
               modal:
-    notice_message: <p>Want to speak? Submit your proposal by <strong>June 15th. </strong></p>
+    notice_message: <p>Want to speak at HugoConf?</p><p>&nbsp;</p>
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
