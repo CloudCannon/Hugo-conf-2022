@@ -2,6 +2,7 @@
 <html lang="en">
   {{- partial "head/head.html" . -}}
   <body class="grid w-screen overflow-x-hidden dark bg-black">
+    {{- partial "nav/nav.html" . -}}
     <main>
       <!-- Render any additional page content below the page's content blocks -->
       {{ block "main" . }}{{ end }}

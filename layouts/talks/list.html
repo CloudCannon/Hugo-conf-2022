@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="relative container max-w-7xl mx-auto px-8  py-10 sm:py-20">
+  <div class="grid gap-32">
+    {{ range .Pages }}
+      {{ partial "talk.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

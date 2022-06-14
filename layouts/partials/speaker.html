@@ -1,0 +1,15 @@
+<div class="text-center justify-items-center grid gap-4">
+	<a class="mx-auto overflow-hidden hover:scale-105 transition-all duration-500" href="{{ .RelPermalink }}">
+		<div
+		class="relative flex items-center justify-center overflow-hidden max-w-[250px] max-h-[250px] z-10 rounded-full">
+		<img src="{{ .Params.image }}">
+		</div>
+	</a>
+	<div class="grid gap-1">
+		<h4 class="text-xl font-bold">{{ .Params.name }}</h4>
+		<p>{{ .Params.role }}, {{ .Params.company }}</p>
+		<a
+		class="text-brand-blue-pink font-bold transition-colors duration-300 hover:text-brand-tertiary"
+		href="https://twitter.com/{{ .Params.twitter }}" target="_blank" rel="noreferrer">@{{ .Params.twitter }}</a>
+	</div>
+</div>

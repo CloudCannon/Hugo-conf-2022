@@ -1,0 +1,20 @@
+<article class="grid gap-8 lg:gap-32 lg:grid-cols-auto-1fr py-14 border-b">
+<small class="text-xs opacity-0 lg:opacity-100">{{ .Params.start_datetime }} - {{ .Params.end_datetime }}</small>
+<div class="grid gap-16 lg:gap-8 lg:grid-cols-1">
+	
+	<small class="text-sm">{{ .Params.type }}</small>
+	<h4 class="font-bold text-xl">
+		<a class="cursor-pointer transition-all duration-300 hover:brightness-150" href="{{ .RelPermalink }}">
+		{{ .Params.title }}
+		</a>
+	</h4>
+
+	<p>Speakers</p>
+	{{ range where (where .Site.Pages "Section" "speakers") "Params._uuid" "in" .Params.speakers }}
+		{{ partial "speaker.html" . }}
+	{{ end }}
+
+	<p>Description</p>
+	{{ .Content }}
+</div>
+</article>

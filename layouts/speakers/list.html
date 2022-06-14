@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="text-white c-hexagon-group flex flex-wrap gap-x-20 gap-y-16 pb-4 max-w-5xl mx-auto overflow-hidden justify-center lg:mb-18 mt-16">
+  <div class="grid gap-20 sm:grid-cols-2 md:grid-cols-3 max-w-section mx-auto">
+    {{ range .Pages }}
+      {{ partial "speaker.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
