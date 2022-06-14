@@ -1,6 +1,6 @@
 ---
 _uuid: other-david
-name: David Large
+name: David not as Large
 image: 'https://placekitten.com/200/200'
 role: Digital Content Specialist
 company: CloudCannon

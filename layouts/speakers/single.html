@@ -1,3 +1,12 @@
 {{ define "main" }}
     {{ partial "speaker.html" . }}
+
+    <h3>Speakers Talks</h3>
+
+    {{ $page_uuid := .Params._uuid }}
+	{{ range where .Site.Pages "Section" "talks" }}
+        {{ if in .Params.speakers $page_uuid }}
+            {{ partial "talk.html" . }}
+        {{ end }}
+    {{ end }}
 {{ end }}

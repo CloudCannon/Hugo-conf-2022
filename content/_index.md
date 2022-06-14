@@ -161,10 +161,4 @@ content_blocks:
           page.</p><p>&nbsp;</p><p><strong>I can't attend! 😭 Will the talks and
           workshop videos be available to watch later?</strong></p><p>Yes, all
           sessions will be recorded and publicly available on YouTube.</p>
-  - _bookshop_name: sections/side_animation
-    colours:
-      - '#C9177E'
-      - '#00A88A'
-      - '#034AD8'
-      - '#FCD804'
 ---

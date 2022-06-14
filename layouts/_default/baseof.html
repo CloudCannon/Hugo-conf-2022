@@ -6,6 +6,10 @@
     <main>
       <!-- Render any additional page content below the page's content blocks -->
       {{ block "main" . }}{{ end }}
+
+      <div class="js-hex-animation-container"
+        data-colours="{{ .Site.Data.animation.colours | jsonify }}">
+      </div>
     </main>
     {{- partial "footer/footer.html" . -}}
   </body>
