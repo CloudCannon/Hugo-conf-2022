@@ -2,6 +2,7 @@
 _uuid: 
 name: 
 role: 
+image:
 company:
 twitter:
 external_url:

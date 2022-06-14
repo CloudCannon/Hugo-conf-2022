@@ -1,8 +1,8 @@
 ---
 _uuid: david
 name: David Large
-role: Digital Content Specialist
 image: 'https://placekitten.com/200/200'
+role: Digital Content Specialist
 company: CloudCannon
 twitter: 'avidlarge'
 external_url: 'https://cloudcannon.com'

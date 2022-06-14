@@ -2,7 +2,7 @@
 _schema: default
 _uuid:
 title: How I Learned to Stop Worrying and Love Hugo
-type: Lightning Talk
+talk_type: Lightning Talk
 speakers:
   - david
   - 1e7e0b5d-1af7-496e-908d-15e6ac9f6662

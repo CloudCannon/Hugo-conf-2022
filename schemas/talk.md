@@ -1,7 +1,7 @@
 ---
 _uuid: 
 title:
-type:
+talk_type:
 speakers:
 start_datetime:
 end_datetime:

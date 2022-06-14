@@ -6,12 +6,14 @@ collections_config:
     _enabled_editors:
       - visual
   speakers:
+    icon: person
     schemas:
       default:
         path: schemas/speaker.md
     _enabled_editors:
       - content
   talks:
+    icon: campaign
     schemas:
       default:
         path: schemas/talk.md
@@ -28,3 +30,10 @@ _inputs:
       values: collections.speakers
       value_key: _uuid
       text_key: name
+  talk_type:
+    type: select
+    options:
+      values:
+        - Tech talk
+        - Lightning talk
+        - Workshop
