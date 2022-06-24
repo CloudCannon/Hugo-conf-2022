@@ -1,0 +1,33 @@
+<div class="text-white max-w-4xl justify-items-center mx-auto my-32 px-10">
+	<h2 class="text-white text-4xl text-center">Speakers</h2>
+	<div class="grid gap-10 md:gap-20 sm:grid-cols-2 md:grid-cols-3 max-w-section mx-auto mt-12">
+
+    {{- range $index, $speaker := site.Data.speakers -}}
+    	<div class="">
+    		<div>
+				<div
+					class="overflow-hidden max-w-[200px] z-10 rounded-full flex-initial mt-1 aspect-square mx-auto">
+					<img src="{{- $speaker.image -}}" alt="{{- $speaker.name -}}">
+				</div>
+			</div>
+			<div class="flex-1 pl-4 min-w-max text-center mt-5">
+    			<p class="font-bold text-xl"><a href="#">{{- $speaker.name -}}</a></p>
+    			<p class="text-sm">{{- $speaker.title -}}</p>
+    			<p class="text-sm">{{- $speaker.company -}}</p>
+    			{{ $r := mod $index 4 }}
+    			<p class="
+    			{{ if eq $r 3 }}
+    				text-green
+    			{{ else if eq $r 2 }}
+    				text-yellow
+    			{{ else if eq $r 1 }}
+    				text-pink
+    			{{ else }}
+    				text-lightblue
+    			{{ end }}
+    			mt-5 hover:text-white transition-all"><a href="https://twitter.com/{{ $speaker.twitter_handle }}" target="_blank">@{{ $speaker.twitter_handle }}</a></p>
+    		</div>
+		</div>
+    {{- end -}}
+	</div>
+</div>

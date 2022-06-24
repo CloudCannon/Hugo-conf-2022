@@ -1,0 +1,40 @@
+<div class="c-sections-schedule grid max-w-4xl justify-items-center mx-auto my-32 px-10">
+	<h2 class="text-white text-4xl">{{- .title -}}</h2>
+
+	{{- range .talks -}}
+        <div class="c-sections-schedule-talk text-white border-b border-pink flex flex-wrap mt-12 pb-12">
+        	<p class="font-bold flex-initial md:w-60">{{ .time }}</p>
+        	<div class="c-sections-schedule-talk-details md:flex-1">
+        		<p class=" uppercase font-bold mb-8 
+        		{{ if eq .type "Lightning Talk" }}
+        			text-pink
+        		{{ else if eq .type "Tech Talk" }}
+        			text-green
+        		{{ else if eq .type "Workshop" }}
+        			text-yellow
+        		{{ end }}
+	        	">{{- .type -}}</p>
+	        	<h3 class="text-xl mb-2">{{- .title -}}</h3>
+	        	<p>{{- .description -}}</p>
+	        	<div class="flex flex-wrap">
+		        	{{- range .speakers -}}
+		        		{{- range where site.Data.speakers "uuid" .speaker -}}
+			        		<div class="mt-10 flex flex-wrap flex-auto w-1/2 min-w-max box-border pr-5">
+			        			<div
+									class="relative flex items-center justify-center overflow-hidden max-w-[60px] z-10 rounded-full flex-initial mt-1 aspect-square">
+									<img src="{{ .image }}" alt="{{ .name }}">
+								</div>
+								<div class="flex-1 pl-4 min-w-max">
+				        			<p class="font-bold"><a href="#">{{- .name -}}</a></p>
+				        			<p class="text-sm">{{- .title -}}</p>
+				        			<p class="text-sm">{{- .company -}}</p>
+				        		</div>
+			        		</div>
+		        		{{- end -}}
+		        	{{- end -}}
+		        </div>
+	        </div>
+        </div>
+    {{- end -}}
+
+</div>
