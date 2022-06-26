@@ -150,7 +150,7 @@ content_blocks:
         content: >-
           <p>We're looking for members of the community to help plan and run the
           conference on the day.</p><p>&nbsp;</p><p>If you're interested in
-          participating in any capacity, <a href="mailto:team@hugoconf.io">get
+          participating in any capacity, <a href="mailto:hello@hugoconf.io">get
           in touch</a>!</p><p>&nbsp;</p><p>We'd love your help.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
