@@ -13,4 +13,10 @@ _inputs:
     type: string
     hidden: true
     instance_value: UUID
+  speaker:
+      type: select
+      options:
+        values: "speakers"
+        value_key: "uuid"
+        text_key: "name"
 
