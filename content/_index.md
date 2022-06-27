@@ -135,13 +135,13 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
-      - time: "7:00 am - 7:05 am PST"
+      - time_string: "7:00 am - 7:05 am PST"
         type: "Tech Talk"
         title: "How I Learned to Stop Worrying and Love Hugo"
         description: "David will discuss man braid kale chips listicle meggings kogi four loko street art readymade kinfolk synth master cleanse mumblecore bushwick. Air plant jean shorts irony wayfarers cardigan post-ironic tilde prism."
         speakers:
           - speaker: "miss.large"
-      - time: "7:00 am - 7:05 am PST"
+      - time_string: "7:00 am - 7:05 am PST"
         type: "Tech Talk"
         title: "How I Learned to Stop Worrying and Love Hugo"
         description: "David will discuss man braid kale chips listicle meggings kogi four loko street art readymade kinfolk synth master cleanse mumblecore bushwick. Air plant jean shorts irony wayfarers cardigan post-ironic tilde prism."

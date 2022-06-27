@@ -14,7 +14,4 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "9 June 2022"
-  talks:
-    - time: "7:00 am - 7:05 am PST"
 

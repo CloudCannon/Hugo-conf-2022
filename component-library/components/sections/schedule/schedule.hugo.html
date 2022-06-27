@@ -3,7 +3,7 @@
 
 	{{- range .talks -}}
         <div class="c-sections-schedule-talk text-white border-b border-pink flex flex-wrap mt-12 pb-12">
-        	<p class="font-bold flex-initial md:w-60">{{ .time }}</p>
+        	<p class="font-bold flex-initial md:w-60">{{ .time_string }}</p>
         	<div class="c-sections-schedule-talk-details md:flex-1">
         		<p class=" uppercase font-bold mb-8 
         		{{ if eq .type "Lightning Talk" }}
