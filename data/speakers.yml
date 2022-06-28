@@ -124,3 +124,9 @@
   title:
   company: Trimblr
   twitter_handle: christianoliff
+- uuid: 560175c7-7640-4ca0-8315-782aa58caa97
+  name: Jan Classen
+  image: /uploads/jan.jpg
+  title: Web Developer
+  company: CloudCannon
+  twitter_handle: janclaasen
