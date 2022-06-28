@@ -10,22 +10,24 @@
 					<img src="{{- $speaker.image -}}" alt="{{- $speaker.name -}}">
 				</div>
 			</div>
-			<div class="flex-1 pl-4 min-w-max text-center mt-5">
+			<div class="flex-1 pl-4 text-center mt-5">
     			<p class="font-bold text-xl"><a href="#">{{- $speaker.name -}}</a></p>
-    			<p class="text-sm">{{- $speaker.title -}}</p>
+    			<p class="text-sm max-w-full">{{- $speaker.title -}}</p>
     			<p class="text-sm">{{- $speaker.company -}}</p>
     			{{ $r := mod $index 4 }}
-    			<p class="
-    			{{ if eq $r 3 }}
-    				text-green
-    			{{ else if eq $r 2 }}
-    				text-yellow
-    			{{ else if eq $r 1 }}
-    				text-pink
-    			{{ else }}
-    				text-lightblue
-    			{{ end }}
-    			mt-5 hover:text-white transition-all"><a href="https://twitter.com/{{ $speaker.twitter_handle }}" target="_blank">@{{ $speaker.twitter_handle }}</a></p>
+    			{{- if $speaker.twitter_handle -}}
+	    			<p class="
+	    			{{ if eq $r 3 }}
+	    				text-green
+	    			{{ else if eq $r 2 }}
+	    				text-yellow
+	    			{{ else if eq $r 1 }}
+	    				text-pink
+	    			{{ else }}
+	    				text-lightblue
+	    			{{ end }}
+	    			mt-5 hover:text-white transition-all"><a href="https://twitter.com/{{ $speaker.twitter_handle }}" target="_blank">@{{ $speaker.twitter_handle }}</a></p>
+	    		{{- end -}}
     		</div>
 		</div>
     {{- end -}}
