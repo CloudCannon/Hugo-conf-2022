@@ -1,12 +1,6 @@
-- uuid: miss.large
-  name: Millie Large
-  image: https://place-puppy.com/200x200
-  title: Booping Specialist
-  company: CloudCannon
-  twitter_handle: illielarge
 - uuid: mr.large
   name: David Large
-  image: https://place-puppy.com/200x200
+  image: /uploads/david-large-cloudcannon.jpg
   title: Digital Content Specialist
   company: CloudCannon
   twitter_handle: avidlarge
