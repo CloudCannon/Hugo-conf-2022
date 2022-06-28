@@ -94,3 +94,39 @@
   title: Developer Advocate
   company: Elastic
   twitter_handle: _ashish_tiwari
+- uuid: 0f5d9642-5901-4193-8a51-0ee3b25859d7
+  name: Scott Reilly
+  image: /uploads/scott-reilly-jpg.jpg
+  title: CEO
+  company: Reilly Media
+  twitter_handle: reillymedia
+- uuid: 61890716-983e-46c8-bbb8-39e0111827c4
+  name: Ado Kukic
+  image: /uploads/ado-kukic.png
+  title: Director, Developer Advocacy
+  company: DigitalOcean LLC
+  twitter_handle: kukicado
+- uuid: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
+  name: Tommy Byrd
+  image: /uploads/tommy-byrd.png
+  title: Senior Software Engineer
+  company: Github
+  twitter_handle: tcbyrd_dev
+- uuid: c8135d38-a962-4b26-9425-8a457a267893
+  name: Aaron Collier
+  image: /uploads/aaron-collier.png
+  title: Technical Education Manager
+  company: Platform.sh
+  twitter_handle:
+- uuid: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
+  name: Chris Griffing
+  image: /uploads/chris-griffing.jpg
+  title: Senior Software Developer
+  company:
+  twitter_handle: cmgriffing
+- uuid: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
+  name: Christian Oliff
+  image: /uploads/christian-oliff.jpg
+  title:
+  company: Trimblr
+  twitter_handle: christianoliff
