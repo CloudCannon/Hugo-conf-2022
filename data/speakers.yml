@@ -53,8 +53,44 @@
   company: RapidAPI
   twitter_handle: eliostruyf
 - uuid: d2c18ec3-dde6-4ad3-a473-7211a35d0757
-  name:
-  image:
-  title:
+  name: Mark McFadden
+  image: /uploads/markmcfadden.jpeg
+  title: Software Developer
   company:
-  twitter_handle:
+  twitter_handle: m2web
+- uuid: dcd40ef1-331c-4c07-b031-bc506d57669c
+  name: Ravi Lingineni
+  image: /uploads/ravi.png
+  title: Creator
+  company: Figmage
+  twitter_handle: heyraviteja
+- uuid: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
+  name: Haimantika Mitra
+  image: /uploads/haimantika-mitra.jpg
+  title: Developer Advocate
+  company: Appwrite
+  twitter_handle: HaimantikaM
+- uuid: a4084077-a718-46ef-ad23-9509b8698475
+  name: Jon Yablonski
+  image: /uploads/jonyablonski-p1660449.jpg
+  title: Senior Product Designer
+  company: Mixpanel
+  twitter_handle: JonYablonski
+- uuid: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
+  name: Emruz Hossain
+  image: /uploads/emruz.jpg
+  title: Software Engineer
+  company: AppsCode Inc.
+  twitter_handle: Emruz_Hossain
+- uuid: 2930d573-f186-4091-816d-afec11601a2c
+  name: Pim Snel
+  image: /uploads/pim-snel.jpeg
+  title: Founder
+  company: Quiqr
+  twitter_handle: mipselaer
+- uuid: e8804521-2be8-4d8b-b544-45d4ac695a0b
+  name: Ashish Tiwari
+  image: /uploads/ashish-tiwari.jpg
+  title: Developer Advocate
+  company: Elastic
+  twitter_handle: _ashish_tiwari
