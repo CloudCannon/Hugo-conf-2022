@@ -135,19 +135,51 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
-      - time_string: "7:00 am - 7:05 am PST"
-        type: "Tech Talk"
-        title: "How I Learned to Stop Worrying and Love Hugo"
-        description: "David will discuss man braid kale chips listicle meggings kogi four loko street art readymade kinfolk synth master cleanse mumblecore bushwick. Air plant jean shorts irony wayfarers cardigan post-ironic tilde prism."
+      - time_string: 10:00 am – 10:25 am PST
+        type: Tech Talk
+        title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
+        description: >-
+          Learn to create Hugo websites that continuously deploy to AWS S3
+          Static Hosting and Amazon CloudFront CDN. One of the advantages of
+          building on top of the AWS cloud is that it is a globally distributed
+          highly available system. In this talk, I walk through how to create
+          and then continuously deploy training content-based websites through
+          AWS technologies and Github.
         speakers:
-          - speaker: "miss.large"
-      - time_string: "7:00 am - 7:05 am PST"
-        type: "Tech Talk"
-        title: "How I Learned to Stop Worrying and Love Hugo"
-        description: "David will discuss man braid kale chips listicle meggings kogi four loko street art readymade kinfolk synth master cleanse mumblecore bushwick. Air plant jean shorts irony wayfarers cardigan post-ironic tilde prism."
+          - speaker: 9d765e80-5026-4d4f-af30-3b0327ac1509
+      - time_string: 10:30 am – 10:55 am PST
+        type: Tech Talk
+        title: My journey from LAMP stack to Jamstack with Hugo!
+        description: >-
+          After doing websites with LAMP stack for 2 decades I decided to give a
+          try to JAMStack with Hugo, and I fell in love with Hugo at first
+          sight. This talk will show the first steps and results of working with
+          Hugo from the perspective of a LAMP stack developer. People will know
+          the difference between the platforms, why I chose Hugo, how Hugo
+          improved the development process, the quality of the website and how
+          it reduced my deployment time without investing too much time on
+          learning it.
         speakers:
-          - speaker: "mr.large"
-          - speaker: "miss.large"
+          - speaker: 5a52d703-e8fc-46ea-951e-f67716716524
+      - time_string: 11:00am – 11.25am PST
+        type: Tech Talk
+        title: 'Limitless HTTP requests with Hugo: from basic GET to GraphQL'
+        description: >-
+          In this talk, we’ll explore resources.GetRemote, the new HTTP request
+          solution for Hugo! We’ll cover basic GET requests and see how to
+          process their response data or handle their errors. Then we’ll
+          experiment with more complex POST and UPDATE requests in the context
+          of managing a search index with MeiliSearch REST API. Finally, we’ll
+          use the Shopify Storefront API as a case study for performing GraphQL
+          requests with Hugo!
+        speakers:
+          - speaker: 5983ed48-6f93-4d27-ae52-dd866af6b9b4
+      - time_string:
+        type: Tech Talk
+        title: Going wild with Hugo modules
+        description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! \n\nThis presentation will show how we:\n\n• Created a module that contains the building blocks that apply to all projects;\n•\_Stored project-specific assets, layouts, and content in this module;\n•\_Created modules for components that are shared between products;\n•\_Used the Hugo configuration files to pull in the correct content."
+        speakers:
+          - speaker:
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
