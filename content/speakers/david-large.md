@@ -1,7 +1,8 @@
 ---
-uuid: "mr.large"
-name: "David Large"
-image: "https://place-puppy.com/200x200"
-title: "Digital Content Specialist"
-company: "CloudCannon"
+uuid: mr.large
+name: David Large
+image: /uploads/david-large-cloudcannon.jpg
+title: Digital Content Specialist
+company: CloudCannon
 ---
+
