@@ -1,9 +1,9 @@
-- uuid: mr.large
-  name: David Large
-  image: /uploads/david-large-cloudcannon.jpg
-  title: Digital Content Specialist
-  company: CloudCannon
-  twitter_handle: avidlarge
+- uuid: 3e17b350-fcab-4207-bf98-117b4013a298
+  name: Kimberley Brown
+  image: /uploads/kimberley-brown.jpg
+  title: Frontend Developer
+  company: Nuance
+  twitter_handle:
 - uuid: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
   name: Noah Gift
   image: /uploads/noah-gift-400x400.jpeg
@@ -34,12 +34,12 @@
   title: Content Architect and Senior Principal Technical Writer
   company: Nuance
   twitter_handle:
-- uuid: 3e17b350-fcab-4207-bf98-117b4013a298
-  name: Kimberley Brown
-  image: /uploads/kimberley-brown.jpg
-  title: Frontend Developer
-  company: Nuance
-  twitter_handle:
+- uuid: mr.large
+  name: David Large
+  image: /uploads/david-large-cloudcannon.jpg
+  title: Digital Content Specialist
+  company: CloudCannon
+  twitter_handle: avidlarge
 - uuid: c8db3822-2372-43d6-8381-93dbc98b5861
   name: Elio Struyf
   image: /uploads/eliostruyf-bg-1200x1200.png
