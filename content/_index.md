@@ -171,8 +171,6 @@ content_blocks:
           between both environments, some content is environment-specific, and
           we needed to find a way to tag that content and include or exclude it
           as needed.
-
-
           To solve this issue, we created our own shortcodes and updated the
           theme to be able to show and hide content as needed. This presentation
           will give a quick demo of how we implemented this approach.
@@ -283,13 +281,13 @@ content_blocks:
           cycle.
         speakers:
           - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
-      - time_string:
+      - time_string: "2:10pm —\_2:15pm PST"
         type: Lightning talk
         title: Using PurgeCSS with Hugo
         description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-      - time_string:
+      - time_string: "2:20pm —\_2:25pm PST"
         type: Lightning talk
         title: Meet Quiqr
         description: >-
@@ -298,7 +296,7 @@ content_blocks:
           minutes to have your own Quiqr maintained Hugo website live.
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
-      - time_string:
+      - time_string: "2:30pm —\_2:55pm PST"
         type: Tech talk
         title: Demystifying Internationalization with Hugo
         description: >-
@@ -313,7 +311,7 @@ content_blocks:
           logical properties.
         speakers:
           - speaker: a4084077-a718-46ef-ad23-9509b8698475
-      - time_string:
+      - time_string: "3:00pm —\_3:25pm PST"
         type: Tech talk
         title: Mistakes I want to avoid for my next Hugo theme
         description: >-
@@ -324,14 +322,12 @@ content_blocks:
           initially. As a result, I had to keep changing the theme to
           accommodate their needs. However, it is hard to change something that
           is being used by hundreds of people. 
-
-
           In this talk, I will share the experience I have gained as I maintain
           the theme. I will share the mistakes I have made, and how can we avoid
           them.
         speakers:
           - speaker: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
-      - time_string:
+      - time_string: "3:30pm —\_3:55pm PST"
         type: Tech talk
         title: 'Beyond the Static: Adding Interactivity to Your Hugo Sites'
         description: >-
@@ -345,7 +341,7 @@ content_blocks:
           productivity.
         speakers:
           - speaker: 61890716-983e-46c8-bbb8-39e0111827c4
-      - time_string:
+      - time_string: "4:00pm —\_4:25pm PST"
         type: Tech talk
         title: 'Reduce, reuse, reward: How to not repeat yourself in your docs'
         description: >-
@@ -357,7 +353,7 @@ content_blocks:
           potential pitfalls to look out for and how to organize for success.
         speakers:
           - speaker: c8135d38-a962-4b26-9425-8a457a267893
-      - time_string:
+      - time_string: "4:30pm —\_4:55pm PST"
         type: Tech talk
         title: Custom Shortcodes for the Win
         description: >-
@@ -370,12 +366,15 @@ content_blocks:
           about.
         speakers:
           - speaker: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
-      - time_string:
+      - time_string: "5:00pm —\_5:05pm PST"
         type: Lightning Talk
         title: How to build a Developer profile
         description: "As a Developer, there are the things that we want to share with others. It might be a code snippet, tech concept, use cases, solutions, or to showcase your projects and experiences. As a terminal lover I was always concerned whether I can write my blog in Vim, or whether I could release my blog in the same way I release my features. In this talk, I am going to share some tips on how to set up the platform in a developer environment only. Also, I will discuss some tools which helped me to build my profile\_https://ashish.one."
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
+  - _bookshop_name: sections/schedule
+    title: Saturday, July 9th
+    talks:
       - time_string:
         type: Workshop
         title: >-
