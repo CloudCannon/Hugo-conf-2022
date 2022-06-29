@@ -263,7 +263,12 @@ content_blocks:
       - time_string: "1:30pm —\_1:55pm PST"
         type: Tech Talk
         title: Going wild with Hugo modules
-        description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! \n\nThis presentation will show how we:\n\n• Created a module that contains the building blocks that apply to all projects;\n•\_Stored project-specific assets, layouts, and content in this module;\n•\_Created modules for components that are shared between products;\n•\_Used the Hugo configuration files to pull in the correct content."
+        description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules!   
+        This presentation will show how we:  
+        • Created a module that contains the building blocks that apply to all projects;  
+        •Stored project-specific assets, layouts, and content in this module;  
+        •Created modules for components that are shared between products;  
+        •Used the Hugo configuration files to pull in the correct content."
         speakers:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
