@@ -1,14 +1,20 @@
-- uuid: 3e17b350-fcab-4207-bf98-117b4013a298
-  name: Kimberley Brown
-  image: /uploads/kimberley-brown.jpg
-  title: Frontend Developer
-  company: Nuance
-  twitter_handle:
+- uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
+  name: Gift Egwuenu
+  image: /uploads/gift.jpeg
+  title: Developer Advocate
+  company: Cloudflare
+  twitter_handle: lauragift_
 - uuid: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
   name: Noah Gift
   image: /uploads/noah-gift-400x400.jpeg
   title: Executive in Residence, Master in Interdisciplinary Data Science
   company: Duke University
+  twitter_handle:
+- uuid: 3e17b350-fcab-4207-bf98-117b4013a298
+  name: Kimberley Brown
+  image: /uploads/kimberley-brown.jpg
+  title: Frontend Developer
+  company: Nuance
   twitter_handle:
 - uuid: f596b9bd-767c-4206-91d4-f06e10d1ab52
   name: Miguel Useche
@@ -34,6 +40,12 @@
   title: Lead Developer
   company: The New Dynamic
   twitter_handle: regisphilibert
+- uuid: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+  name: Liam Bigelow
+  image: /uploads/p8260736.jpg
+  title: Senior Software Engineer
+  company: CloudCannon
+  twitter_handle: LiamBigelow
 - uuid: 41f68e43-63ca-45df-af44-343b6b1133ea
   name: Nathalie Laroche
   image: /uploads/nathalie-laroche.jpg
@@ -88,6 +100,12 @@
   title: Developer Advocate
   company: Elastic
   twitter_handle: _ashish_tiwari
+- uuid: 560175c7-7640-4ca0-8315-782aa58caa97
+  name: Jan Classen
+  image: /uploads/jan.jpg
+  title: Web Developer
+  company: CloudCannon
+  twitter_handle: janclaasen
 - uuid: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   name: Scott Reilly
   image: /uploads/scott-reilly-jpg.jpg
@@ -112,30 +130,6 @@
   title: Technical Education Manager
   company: Platform.sh
   twitter_handle:
-- uuid: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
-  name: Chris Griffing
-  image: /uploads/chris-griffing.jpg
-  title: Senior Software Developer
-  company:
-  twitter_handle: cmgriffing
-- uuid: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-  name: Christian Oliff
-  image: /uploads/christian-oliff.jpg
-  title: Front-end Web Developer
-  company: Trimble
-  twitter_handle: christianoliff
-- uuid: 560175c7-7640-4ca0-8315-782aa58caa97
-  name: Jan Classen
-  image: /uploads/jan.jpg
-  title: Web Developer
-  company: CloudCannon
-  twitter_handle: janclaasen
-- uuid: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
-  name: Liam Bigelow
-  image: /uploads/p8260736.jpg
-  title: Senior Software Engineer
-  company: CloudCannon
-  twitter_handle: LiamBigelow
 - uuid: 6eb91622-186a-4d36-b300-f0fd92679c8a
   name: Chris Dance
   image: /uploads/chris-dance.jpg
@@ -148,9 +142,15 @@
   title: Digital Media Lead
   company: PaperCut
   twitter_handle: PaperCutDev
-- uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
-  name: Gift Egwuenu
-  image: /uploads/gift.jpeg
-  title: Developer Advocate
-  company: Cloudflare
-  twitter_handle: lauragift_
+- uuid: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
+  name: Chris Griffing
+  image: /uploads/chris-griffing.jpg
+  title: Senior Software Developer
+  company:
+  twitter_handle: cmgriffing
+- uuid: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
+  name: Christian Oliff
+  image: /uploads/christian-oliff.jpg
+  title: Front-end Web Developer
+  company: Trimble
+  twitter_handle: christianoliff
