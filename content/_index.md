@@ -146,7 +146,7 @@ content_blocks:
         title: Giving your Content Team Full Autonomy with a Hugo CMS
         description: >-
           Hand over the reins of your Hugo site to your content team with
-          CloudCannon. In this talk we will learn how to build pages visually,
+          <a href="https://cloudcannon.com">CloudCannon</a>. In this talk we will learn how to build pages visually,
           use a custom component library, and simplify collaboration on your
           Hugo projects. 
         speakers:
