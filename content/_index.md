@@ -294,6 +294,26 @@ content_blocks:
           the end user.
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
+      - time_string:
+        type: Lightning Talk
+        title: How to build a Developer profile
+        description: "As a Developer, there are the things that we want to share with others. It might be a code snippet, tech concept, use cases, solutions, or to showcase your projects and experiences. As a terminal lover I was always concerned whether I can write my blog in Vim, or whether I could release my blog in the same way I release my features. In this talk, I am going to share some tips on how to set up the platform in a developer environment only. Also, I will discuss some tools which helped me to build my profile\_https://ashish.one."
+        speakers:
+          - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
+      - time_string:
+        type: Workshop
+        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
+        description: >-
+          I will provide a step by step breakdown on how to find the easter egg
+          in Google Lighthouse when you achieve perfect scores by using Hugo.
+        speakers:
+          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
+      - time_string:
+        type:
+        title:
+        description:
+        speakers:
+          - speaker:
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
