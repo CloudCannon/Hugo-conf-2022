@@ -146,7 +146,7 @@ content_blocks:
           and then continuously deploy training content-based websites through
           AWS technologies and Github.
         speakers:
-          - speaker: 9d765e80-5026-4d4f-af30-3b0327ac1509
+          - speaker: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
       - time_string: 10:30 am – 10:55 am PST
         type: Tech Talk
         title: My journey from LAMP stack to Jamstack with Hugo!
