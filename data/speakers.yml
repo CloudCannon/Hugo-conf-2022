@@ -136,3 +136,21 @@
   title: Senior Software Engineer
   company: CloudCannon
   twitter_handle: LiamBigelow
+- uuid: 6eb91622-186a-4d36-b300-f0fd92679c8a
+  name: Chris Dance
+  image: /uploads/chris-dance.jpg
+  title: CEO and Co-Founder
+  company: PaperCut
+  twitter_handle: PaperCutDev
+- uuid: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
+  name: Grayson Campbell
+  image: /uploads/grayson-campbell.jpg
+  title: Digital Media Lead
+  company: PaperCut
+  twitter_handle: PaperCutDev
+- uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
+  name: Gift Egwuenu
+  image: /uploads/gift.jpeg
+  title: Developer Advocate
+  company: Cloudflare
+  twitter_handle: lauragift_
