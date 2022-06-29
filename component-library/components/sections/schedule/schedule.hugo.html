@@ -19,12 +19,12 @@
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
 		        		{{- range where site.Data.speakers "uuid" .speaker -}}
-			        		<div class="mt-10 flex flex-wrap flex-auto w-1/2 min-w-max box-border pr-5">
+			        		<div class="mt-10 flex flex-wrap flex-auto w-full box-border pr-5">
 			        			<div
 									class="relative flex items-center justify-center overflow-hidden max-w-[60px] z-10 rounded-full flex-initial mt-1 aspect-square">
 									<img src="{{ .image }}" alt="{{ .name }}">
 								</div>
-								<div class="flex-1 pl-4 min-w-max">
+								<div class="flex-1 pl-4">
 				        			<p class="font-bold"><a href="#">{{- .name -}}</a></p>
 				        			<p class="text-sm">{{- .title -}}</p>
 				        			<p class="text-sm">{{- .company -}}</p>
