@@ -349,6 +349,31 @@ content_blocks:
         speakers:
           - speaker: c8135d38-a962-4b26-9425-8a457a267893
       - time_string:
+        type: Tech talk
+        title: Custom Shortcodes for the Win
+        description: >-
+          Shortcodes provide a nice clean way of making reusable functionality
+          within your content pages. We will focus on explaining their syntax
+          and some of their constraints while demonstrating how to create
+          dynamic image placeholders using some of Hugo's existing image
+          manipulation tools. These placeholders improve the User Experience of
+          a site in several important ways that we will go into more depth
+          about.
+        speakers:
+          - speaker: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
+      - time_string:
+        type: Lightning talk
+        title: Using PurgeCSS with Hugo
+        description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
+        speakers:
+          - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
+      - time_string:
+        type:
+        title:
+        description:
+        speakers:
+          - speaker:
+      - time_string:
         type:
         title:
         description:
