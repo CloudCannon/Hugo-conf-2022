@@ -90,9 +90,7 @@ content_blocks:
           presentation will give a quick demo of how we implemented this
           approach.
         speakers:
-          - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
-          - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
       - time_string: "11:00am —\_11:25am PST"
         type: Tech Talk
         title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
