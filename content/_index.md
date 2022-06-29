@@ -162,6 +162,18 @@ content_blocks:
         speakers:
           - speaker: f596b9bd-767c-4206-91d4-f06e10d1ab52
       - time_string:
+        type: Lightning talk
+        title: HABIT Stack — an elegant solution for component-driven development
+        description: >-
+          In this talk I’ll discuss the stack I use to create websites for
+          Twitch (and also the HugoConf website) — comprised of Hugo, Alpinejs,
+          Bookshop, and Tailwindcss. With this stack I’m able to create sites
+          that show the best of component-driven workflows, ideal for both
+          efficient development and for non-technical content editors to add
+          content, build pages, and keep the sites up to date over time.
+        speakers:
+          - speaker: 560175c7-7640-4ca0-8315-782aa58caa97
+      - time_string:
         type: Tech Talk
         title: 'Limitless HTTP requests with Hugo: from basic GET to GraphQL'
         description: >-
@@ -301,6 +313,16 @@ content_blocks:
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
       - time_string:
+        type: Tech talk
+        title: Giving your content team full autonomy with a Hugo CMS
+        description: >-
+          Hand over the reins of your Hugo site to your content team with
+          CloudCannon. In this talk we will learn how to build pages visually,
+          use a custom component library, and simplify collaboration on your
+          Hugo projects. 
+        speakers:
+          - speaker: mr.large
+      - time_string:
         type: Workshop
         title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
         description: >-
@@ -369,26 +391,14 @@ content_blocks:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
       - time_string:
         type: Lightning talk
-        title: HABIT Stack — an elegant solution for component-driven development
+        title: Supercharge your Deployment with Cloudflare Pages
         description: >-
-          In this talk I’ll discuss the stack I use to create websites for
-          Twitch (and also the HugoConf website) — comprised of Hugo, Alpinejs,
-          Bookshop, and Tailwindcss. With this stack I’m able to create sites
-          that show the best of component-driven workflows, ideal for both
-          efficient development and for non-technical content editors to add
-          content, build pages, and keep the sites up to date over time.
+          Cloudflare Pages is a super-fast way to deploy your sites directly
+          from your Git provider. This talk will cover how to set up your Hugo
+          websites with Cloudflare Pages, and we’ll explore all the features you
+          get out of the box using Pages for deployment.
         speakers:
-          - speaker: 560175c7-7640-4ca0-8315-782aa58caa97
-      - time_string:
-        type: Tech talk
-        title: Giving your content team full autonomy with a Hugo CMS
-        description: >-
-          Hand over the reins of your Hugo site to your content team with
-          CloudCannon. In this talk we will learn how to build pages visually,
-          use a custom component library, and simplify collaboration on your
-          Hugo projects. 
-        speakers:
-          - speaker: mr.large
+          - speaker: 885c6952-2e32-4a7d-96b1-f85db602d38f
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
