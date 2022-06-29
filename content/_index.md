@@ -267,9 +267,7 @@ content_blocks:
         description: >-
         The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! 
         
-        
         This presentation will show how we:  
-        
         
         • Created a module that contains the building blocks that apply to all projects;  
         
