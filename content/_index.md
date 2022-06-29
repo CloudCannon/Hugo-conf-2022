@@ -375,7 +375,7 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Saturday, July 9th
     talks:
-      - time_string:
+      - time_string: "11:00am —\_11:45am PST"
         type: Workshop
         title: >-
           Editing Hugo live in the browser: how to bring page-building workflows
@@ -390,7 +390,7 @@ content_blocks:
           templates, improving your DX while shipping a #leanweb to your users.
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
-      - time_string:
+      - time_string: "12:00pm —\_12:45pm PST"
         type: Workshop
         title: Using GitHub Pages with Actions to deploy Hugo sites in seconds
         description: >-
@@ -404,7 +404,7 @@ content_blocks:
           without ever leaving your browser.
         speakers:
           - speaker: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
-      - time_string:
+      - time_string: "1:00pm —\_1:45pm PST"
         type: Workshop
         title: Quiqr workshop for Hugo site developers
         description: >-
@@ -416,7 +416,7 @@ content_blocks:
           the end user.
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
-      - time_string:
+      - time_string: "2:00pm —\_2:45pm PST"
         type: Workshop
         title: Build an Open Source Blogging Platform With Appwrite and Hugo
         description: >-
@@ -425,7 +425,7 @@ content_blocks:
           Hugo to build with the content that is stored in Appwrite.
         speakers:
           - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
-      - time_string:
+      - time_string: "10:00am —\_10:45am PST"
         type: Workshop
         title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
         description: >-
