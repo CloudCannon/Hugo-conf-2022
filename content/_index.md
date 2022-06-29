@@ -52,17 +52,18 @@ content_blocks:
         type: Opening
         title: Welcome to HugoConf!
         description: >-
-          Let's take a few minutes to celebrate the successes of Hugo and what it means to thousands of developers and web users around the world. 
+          Let's take a few minutes to celebrate the successes of Hugo and what
+          it means to thousands of developers and web users around the world. 
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: 10:15am — 10:40am PST
         type: Tech Talk
         title: Giving your Content Team Full Autonomy with a Hugo CMS
         description: >-
-          Hand over the reins of your Hugo site to your content team with
-          <a href="https://cloudcannon.com">CloudCannon</a>. In this talk we will learn how to build pages visually,
-          use a custom component library, and simplify collaboration on your
-          Hugo projects. 
+          Hand over the reins of your Hugo site to your content team with <a
+          href="https://cloudcannon.com">CloudCannon</a>. In this talk we will
+          learn how to build pages visually, use a custom component library, and
+          simplify collaboration on your Hugo projects. 
         speakers:
           - speaker: mr.large
       - time_string: "10:45am —\_10:50am PST"
@@ -145,7 +146,13 @@ content_blocks:
         type: Lightning Talk
         title: Word to Web with Hugo in 5 Minutes
         description: >-
-          For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo: <a href="https://github.com/m2web/word-to-web">https://github.com/m2web/word-to-web</a>
+          For good or bad, the work world's predominant application for word
+          processing is Microsoft Word. Given that a great deal of enterprise
+          knowledge is stored in Word, and that same information is useful for
+          many other purposes, it is beneficial to understand how to use Word to
+          quickly create web pages that can be shared across the organization.
+          This talk will show you how, using Hugo. The talk’s public repo: <a
+          href="https://github.com/m2web/word-to-web">https://github.com/m2web/word-to-web</a>
         speakers:
           - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string: "12:30pm —\_12:55pm PST"
@@ -179,7 +186,16 @@ content_blocks:
         type: Tech Talk
         title: Going wild with Hugo modules
         description: >-
-          The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! This presentation will show how we: created a module that contains the building blocks that apply to all projects; stored project-specific assets, layouts, and content in this module; created modules for components that are shared between products; and used the Hugo configuration files to pull in the correct content.
+          The Nuance TechPubs team produces documentation for multiple products.
+          Because these products are stand-alone, they require their own Hugo
+          projects. But we needed to reuse content between projects and ensure
+          that products in the same line share the same look and feel. To
+          implement this, we went wild with Hugo modules! This presentation will
+          show how we: created a module that contains the building blocks that
+          apply to all projects; stored project-specific assets, layouts, and
+          content in this module; created modules for components that are shared
+          between products; and used the Hugo configuration files to pull in the
+          correct content.
         speakers:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
@@ -200,7 +216,10 @@ content_blocks:
       - time_string: "2:10pm —\_2:15pm PST"
         type: Lightning Talk
         title: Using PurgeCSS with Hugo
-        description: A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use.
+        description: >-
+          A quick guide to setting up PurgeCSS with\_PostCSS to automatically
+          optimize the CSS on your site by only including the classes that you
+          use.
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
       - time_string: "2:20pm —\_2:25pm PST"
@@ -222,9 +241,9 @@ content_blocks:
           adjustments for each language in a way that doesn’t result in
           duplicative CSS? In this talk, we’ll answer these questions while
           walking through the technical details behind the new Arabic edition of
-          Laws of UX (<a href="https://lawsofux.com/">lawsofux.com/</a>) and exploring Hugo’s Multilingual
-          Mode, how to translate content based on i18n configuration, and CSS
-          logical properties.
+          Laws of UX (<a href="https://lawsofux.com/">lawsofux.com/</a>) and
+          exploring Hugo’s Multilingual Mode, how to translate content based on
+          i18n configuration, and CSS logical properties.
         speakers:
           - speaker: a4084077-a718-46ef-ad23-9509b8698475
       - time_string: "3:00pm —\_3:25pm PST"
@@ -284,7 +303,16 @@ content_blocks:
       - time_string: "5:00pm —\_5:05pm PST"
         type: Lightning Talk
         title: How to build a Developer profile
-        description: As a Developer, there are the things that we want to share with others. It might be a code snippet, tech concept, use cases, solutions, or to showcase your projects and experiences. As a terminal lover I was always concerned whether I can write my blog in Vim, or whether I could release my blog in the same way I release my features. In this talk, I am going to share some tips on how to set up the platform in a developer environment only. Also, I will discuss some tools which helped me to build my profile at <a href="https://ashish.one">ashish.one</a>.
+        description: >-
+          As a Developer, there are the things that we want to share with
+          others. It might be a code snippet, tech concept, use cases,
+          solutions, or to showcase your projects and experiences. As a terminal
+          lover I was always concerned whether I can write my blog in Vim, or
+          whether I could release my blog in the same way I release my features.
+          In this talk, I am going to share some tips on how to set up the
+          platform in a developer environment only. Also, I will discuss some
+          tools which helped me to build my profile at <a
+          href="https://ashish.one">ashish.one</a>.
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
   - _bookshop_name: sections/schedule
