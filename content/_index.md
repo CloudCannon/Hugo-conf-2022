@@ -44,7 +44,7 @@ content_blocks:
   - _bookshop_name: sections/video-section
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/-AT_khy3McU
+      url: https://www.youtube.com/embed/QEw4lbH4fps
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
