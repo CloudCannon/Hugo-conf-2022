@@ -380,7 +380,7 @@ content_blocks:
       - time_string: "5:00pm —\_5:05pm PST"
         type: Lightning Talk
         title: How to build a Developer profile
-        description: "As a Developer, there are the things that we want to share with others. It might be a code snippet, tech concept, use cases, solutions, or to showcase your projects and experiences. As a terminal lover I was always concerned whether I can write my blog in Vim, or whether I could release my blog in the same way I release my features. In this talk, I am going to share some tips on how to set up the platform in a developer environment only. Also, I will discuss some tools which helped me to build my profile <a href="https://ashish.one">https://ashish.one</a>."
+        description: "As a Developer, there are the things that we want to share with others. It might be a code snippet, tech concept, use cases, solutions, or to showcase your projects and experiences. As a terminal lover I was always concerned whether I can write my blog in Vim, or whether I could release my blog in the same way I release my features. In this talk, I am going to share some tips on how to set up the platform in a developer environment only. Also, I will discuss some tools which helped me to build my profile https://ashish.one."
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
   - _bookshop_name: sections/schedule
