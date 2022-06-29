@@ -142,7 +142,7 @@ content_blocks:
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: 10:15am — 10:40am PST
-        type: Tech talk
+        type: Tech Talk
         title: Giving your Content Team Full Autonomy with a Hugo CMS
         description: >-
           Hand over the reins of your Hugo site to your content team with
@@ -152,7 +152,7 @@ content_blocks:
         speakers:
           - speaker: mr.large
       - time_string: "10:45am —\_10:50am PST"
-        type: Lightning talk
+        type: Lightning Talk
         title: Supercharge your Deployment with Cloudflare Pages
         description: >-
           Cloudflare Pages is a super-fast way to deploy your sites directly
@@ -205,7 +205,7 @@ content_blocks:
         speakers:
           - speaker: f596b9bd-767c-4206-91d4-f06e10d1ab52
       - time_string: "12:00pm —\_12:05pm PST"
-        type: Lightning talk
+        type: Lightning Talk
         title: HABIT Stack — an elegant solution for component-driven development
         description: >-
           In this talk I’ll discuss the stack I use to create websites for
@@ -234,7 +234,7 @@ content_blocks:
         speakers:
           - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string: "12:30pm —\_12:55pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: 'Introducing Pagefind: static low-bandwidth search at scale'
         description: >-
           In this talk I’ll introduce Pagefind, a new open-source library for
@@ -282,13 +282,13 @@ content_blocks:
         speakers:
           - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
       - time_string: "2:10pm —\_2:15pm PST"
-        type: Lightning talk
+        type: Lightning Talk
         title: Using PurgeCSS with Hugo
         description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
       - time_string: "2:20pm —\_2:25pm PST"
-        type: Lightning talk
+        type: Lightning Talk
         title: Meet Quiqr
         description: >-
           Quiqr in nutshell. A tour through all major CMS and publishing
@@ -297,7 +297,7 @@ content_blocks:
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
       - time_string: "2:30pm —\_2:55pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: Demystifying Internationalization with Hugo
         description: >-
           Preparing a website for an international audience comes with lots of
@@ -312,7 +312,7 @@ content_blocks:
         speakers:
           - speaker: a4084077-a718-46ef-ad23-9509b8698475
       - time_string: "3:00pm —\_3:25pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: Mistakes I want to avoid for my next Hugo theme
         description: >-
           Initially, I had built the Toha Hugo theme for my own portfolio. Then,
@@ -327,7 +327,7 @@ content_blocks:
         speakers:
           - speaker: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
       - time_string: "3:30pm —\_3:55pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: 'Beyond the Static: Adding Interactivity to Your Hugo Sites'
         description: >-
           We all know Hugo as one of the best static site generators available
@@ -341,7 +341,7 @@ content_blocks:
         speakers:
           - speaker: 61890716-983e-46c8-bbb8-39e0111827c4
       - time_string: "4:00pm —\_4:25pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: 'Reduce, reuse, reward: How to not repeat yourself in your docs'
         description: >-
           Keeping documentation up to date can be a big task. It's even harder
@@ -353,7 +353,7 @@ content_blocks:
         speakers:
           - speaker: c8135d38-a962-4b26-9425-8a457a267893
       - time_string: "4:30pm —\_4:55pm PST"
-        type: Tech talk
+        type: Tech Talk
         title: Custom Shortcodes for the Win
         description: >-
           Shortcodes provide a nice clean way of making reusable functionality
