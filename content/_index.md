@@ -139,7 +139,7 @@ content_blocks:
         type: Opening
         title: Welcome to HugoConf!
         description: >-
-          Let's take a few minutes to celebrate the successes of Hugo and what it means to thousands of developers, companies, and web users around the world. 
+          Let's take a few minutes to celebrate the successes of Hugo and what it means to thousands of developers and web users around the world. 
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: 10:15am — 10:40am PST
