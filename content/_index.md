@@ -133,23 +133,14 @@ content_blocks:
               modal:
     notice_message: <p>Want to speak at HugoConf?</p><p>&nbsp;</p>
   - _bookshop_name: sections/schedule
-    title: Talks and Workshops
+    title: Friday, July 8th
     talks:
-      - time_string:
-        type: Workshop
-        title: >-
-          Editing Hugo live in the browser: how to bring page-building workflows
-          to your Hugo sites with Bookshop
-        description: >-
-          This workshop will demonstrate how to add Bookshop, a component
-          development workflow for static websites, to a Hugo site.
-
-          Bookshop helps you develop and reuse components across your site,
-          browse a local component library, and create a rich live-editing
-          experience in the browser. Most importantly, Bookshop works with Hugo
-          templates, improving your DX while shipping a #leanweb to your users.
+      - time_string: 10:00am — 10:15am PST
+        type: Opening
+        title: Welcome to HugoConf!
+        description: asdasd
         speakers:
-          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string:
         type: Lightning talk
         title: Supercharge your Deployment with Cloudflare Pages
@@ -160,6 +151,16 @@ content_blocks:
           get out of the box using Pages for deployment.
         speakers:
           - speaker: 885c6952-2e32-4a7d-96b1-f85db602d38f
+      - time_string:
+        type: Tech talk
+        title: Giving your Content Team Full Autonomy with a Hugo CMS
+        description: >-
+          Hand over the reins of your Hugo site to your content team with
+          CloudCannon. In this talk we will learn how to build pages visually,
+          use a custom component library, and simplify collaboration on your
+          Hugo projects. 
+        speakers:
+          - speaker: mr.large
       - time_string:
         type: Tech Talk
         title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
@@ -353,24 +354,6 @@ content_blocks:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
       - time_string:
         type: Tech talk
-        title: Giving your content team full autonomy with a Hugo CMS
-        description: >-
-          Hand over the reins of your Hugo site to your content team with
-          CloudCannon. In this talk we will learn how to build pages visually,
-          use a custom component library, and simplify collaboration on your
-          Hugo projects. 
-        speakers:
-          - speaker: mr.large
-      - time_string:
-        type: Workshop
-        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
-        description: >-
-          I will provide a step by step breakdown on how to find the easter egg
-          in Google Lighthouse when you achieve perfect scores by using Hugo.
-        speakers:
-          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
-      - time_string:
-        type: Tech talk
         title: 'Beyond the Static: Adding Interactivity to Your Hugo Sites'
         description: >-
           We all know Hugo as one of the best static site generators available
@@ -428,6 +411,29 @@ content_blocks:
         description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
+      - time_string:
+        type: Workshop
+        title: >-
+          Editing Hugo live in the browser: how to bring page-building workflows
+          to your Hugo sites with Bookshop
+        description: >-
+          This workshop will demonstrate how to add Bookshop, a component
+          development workflow for static websites, to a Hugo site.
+
+          Bookshop helps you develop and reuse components across your site,
+          browse a local component library, and create a rich live-editing
+          experience in the browser. Most importantly, Bookshop works with Hugo
+          templates, improving your DX while shipping a #leanweb to your users.
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+      - time_string:
+        type: Workshop
+        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
+        description: >-
+          I will provide a step by step breakdown on how to find the easter egg
+          in Google Lighthouse when you achieve perfect scores by using Hugo.
+        speakers:
+          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
