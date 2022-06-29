@@ -78,7 +78,7 @@
   twitter_handle: m2web
 - uuid: dcd40ef1-331c-4c07-b031-bc506d57669c
   name: Ravi Lingineni
-  image: /uploads/ravi.png
+  image: /uploads/ravi.jpg
   title: Creator
   company: Figmage
   twitter_handle: heyraviteja
@@ -114,7 +114,7 @@
   twitter_handle: reillymedia
 - uuid: 61890716-983e-46c8-bbb8-39e0111827c4
   name: Ado Kukic
-  image: /uploads/ado-kukic.png
+  image: /uploads/ado-kukic.jpg
   title: Director, Developer Advocacy
   company: DigitalOcean LLC
   twitter_handle: kukicado
@@ -126,7 +126,7 @@
   twitter_handle: tcbyrd_dev
 - uuid: c8135d38-a962-4b26-9425-8a457a267893
   name: Aaron Collier
-  image: /uploads/aaron-collier.png
+  image: /uploads/aaron-collier.jpg
   title: Technical Education Manager
   company: Platform.sh
   twitter_handle:
