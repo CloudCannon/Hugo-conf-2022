@@ -309,6 +309,46 @@ content_blocks:
         speakers:
           - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
       - time_string:
+        type: Tech talk
+        title: 'Beyond the Static: Adding Interactivity to Your Hugo Sites'
+        description: >-
+          We all know Hugo as one of the best static site generators available
+          today, but whether you're using Hugo to host your personal blog,
+          marketing website, or other web application, sometimes you want to add
+          a little bit of interactivity. In this talk, we'll explore how you can
+          go beyond the static and add interactivity with built-in Hugo
+          capabilities as well as explore how you can augment your Hugo site
+          with serverless functions to get the best of: performance, speed, and
+          productivity.
+        speakers:
+          - speaker: 61890716-983e-46c8-bbb8-39e0111827c4
+      - time_string:
+        type: Workshop
+        title: Using GitHub Pages with Actions to deploy Hugo sites in seconds
+        description: >-
+          If you've used GitHub and Hugo, you've probably heard of or maybe even
+          use GitHub Pages. Until recently, the only way to deploy a site to
+          Pages using something other than Jekyll was to run the build
+          externally and commit the output back to a special branch of your
+          repository. In this workshop, I'll cover a new workflow that treats
+          all static site generators the same, and unlocks the potential of
+          using GitHub Actions to build and deploy a Hugo site in seconds,
+          without ever leaving your browser.
+        speakers:
+          - speaker: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
+      - time_string:
+        type: Tech talk
+        title: 'Reduce, reuse, reward: How to not repeat yourself in your docs'
+        description: >-
+          Keeping documentation up to date can be a big task. It's even harder
+          when you need to change one detail in many places. This talk will look
+          at how to take advantage of features in Hugo to effectively reuse
+          content in documentation. That way you can update once and have it
+          apply to multiple locations. The talk will also touch on some of the
+          potential pitfalls to look out for and how to organize for success.
+        speakers:
+          - speaker: c8135d38-a962-4b26-9425-8a457a267893
+      - time_string:
         type:
         title:
         description:
