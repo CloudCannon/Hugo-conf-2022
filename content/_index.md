@@ -144,14 +144,6 @@ content_blocks:
       - time_string: 10:15am — 10:40am PST
         type: Tech Talk
         title: Giving your Content Team Full Autonomy with a Hugo CMS
-        - _bookshop_name: generic/markdown-content
-            content_html: >-
-              <p>All <a href="https://cloudcannnon.com">talks</a> will be pre-recorded &mdash; we know fixed conference
-              dates aren't for everyone.</p><p>We're particularly interested in
-              hearing from under-represented and beginner Hugo users, so don't
-              worry if you're not an expert. If you've used Hugo to make
-              something that you find interesting, others will
-              too!</p><p>&nbsp;</p>
         description: >-
           Hand over the reins of your Hugo site to your content team with
           CloudCannon. In this talk we will learn how to build pages visually,
