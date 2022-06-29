@@ -231,7 +231,7 @@ content_blocks:
         type: Lightning Talk
         title: Word to Web with Hugo in 5 Minutes
         description: >-
-        For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo: <a href="https://github.com/m2web/word-to-web">https://github.com/m2web/word-to-web</a>
+          For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo: <a href="https://github.com/m2web/word-to-web">https://github.com/m2web/word-to-web</a>
         speakers:
           - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string: "12:30pm —\_12:55pm PST"
@@ -265,7 +265,7 @@ content_blocks:
         type: Tech Talk
         title: Going wild with Hugo modules
         description: >-
-        The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! This presentation will show how we: created a module that contains the building blocks that apply to all projects; stored project-specific assets, layouts, and content in this module; created modules for components that are shared between products; and used the Hugo configuration files to pull in the correct content.
+          The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! This presentation will show how we: created a module that contains the building blocks that apply to all projects; stored project-specific assets, layouts, and content in this module; created modules for components that are shared between products; and used the Hugo configuration files to pull in the correct content.
         speakers:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
