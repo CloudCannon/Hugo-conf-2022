@@ -138,7 +138,7 @@ content_blocks:
       - time_string: 10:00am — 10:15am PST
         type: Opening
         title: Welcome to HugoConf!
-        description: asdasd
+        description:
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: 10:15am — 10:40am PST
