@@ -170,10 +170,10 @@ content_blocks:
           on-premises environments. And while most of the content is similar
           between both environments, some content is environment-specific, and
           we needed to find a way to tag that content and include or exclude it
-          as needed.
-          To solve this issue, we created our own shortcodes and updated the
-          theme to be able to show and hide content as needed. This presentation
-          will give a quick demo of how we implemented this approach.
+          as needed. To solve this issue, we created our own shortcodes and
+          updated the theme to be able to show and hide content as needed. This
+          presentation will give a quick demo of how we implemented this
+          approach.
         speakers:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
@@ -321,10 +321,9 @@ content_blocks:
           started using the theme for different use-cases that weren't intended
           initially. As a result, I had to keep changing the theme to
           accommodate their needs. However, it is hard to change something that
-          is being used by hundreds of people. 
-          In this talk, I will share the experience I have gained as I maintain
-          the theme. I will share the mistakes I have made, and how can we avoid
-          them.
+          is being used by hundreds of people.  In this talk, I will share the
+          experience I have gained as I maintain the theme. I will share the
+          mistakes I have made, and how can we avoid them.
         speakers:
           - speaker: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
       - time_string: "3:30pm —\_3:55pm PST"
@@ -375,6 +374,14 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Saturday, July 9th
     talks:
+      - time_string: "10:00am —\_10:45am PST"
+        type: Workshop
+        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
+        description: >-
+          I will provide a step by step breakdown on how to find the easter egg
+          in Google Lighthouse when you achieve perfect scores by using Hugo.
+        speakers:
+          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
       - time_string: "11:00am —\_11:45am PST"
         type: Workshop
         title: >-
@@ -425,14 +432,6 @@ content_blocks:
           Hugo to build with the content that is stored in Appwrite.
         speakers:
           - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
-      - time_string: "10:00am —\_10:45am PST"
-        type: Workshop
-        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
-        description: >-
-          I will provide a step by step breakdown on how to find the easter egg
-          in Google Lighthouse when you achieve perfect scores by using Hugo.
-        speakers:
-          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
