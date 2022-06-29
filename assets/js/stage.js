@@ -1,23 +1,11 @@
 import Hexagon from './hexagon'
 const getPageDimensions = () => {
-	let bodyEl = document.body;
-	let htmlEl = document.documentElement;
-	return {
-	  width: Math.max(
-		bodyEl.scrollWidth,
-		bodyEl.offsetWidth,
-		htmlEl.clientWidth,
-		htmlEl.scrollWidth,
-		htmlEl.offsetWidth
-	  ),
-	  height: Math.max(
-		bodyEl.scrollHeight,
-		bodyEl.offsetHeight,
-		htmlEl.clientHeight,
-		htmlEl.scrollHeight,
-		htmlEl.offsetHeight
-	  ),
-	};
+	const width  = window.innerWidth || document.documentElement.clientWidth || 
+	document.body.clientWidth;
+	const height = window.innerHeight|| document.documentElement.clientHeight|| 
+	document.body.clientHeight;
+
+	return { width, height }
   };
 
 function hexToRgb(hex) {

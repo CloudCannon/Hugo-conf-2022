@@ -1,7 +1,7 @@
 {{ if .add_modal }}
   <div x-data="{ open: {{ .open_modal }} }">
 {{ end }}
-    <button {{ if .id }}id="{{- .id -}}"{{ end }} class="c-generic-button flex {{ with .view_label_icon }} py-4 {{ else }}  py-2 {{ end }} px-6 rounded-lg {{ .border_color }} 
+    <button {{ if .id }}id="{{- .id -}}"{{ end }} class="c-generic-button transition-all flex {{ with .view_label_icon }} py-4 {{ else }}  py-2 {{ end }} px-6 rounded-lg {{ .border_color }} 
           border-2 text-white font-bold gap-3 items-center group w-max hover:scale-105"
     x-on:click="open = true">
       {{ .label }}

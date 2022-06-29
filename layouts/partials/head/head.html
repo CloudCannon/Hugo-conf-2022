@@ -34,7 +34,7 @@
   {{ $styles := resources.Get "css/site.css" }} {{ $styles = $styles |
   resources.PostCSS (dict "inlineImports" true) }} {{ if hugo.IsProduction }} {{
   $styles = $styles | minify }} {{ else }} {{ $styles = $styles |
-  resources.ExecuteAsTemplate (printf "tailwind.dev.%v.css" now.UnixMilli) . }}
+  resources.ExecuteAsTemplate (printf "tailwind.dev.%v.css" now) . }}
   {{ end }}
   <link href="{{ $styles.Permalink }} " rel="stylesheet" />
 

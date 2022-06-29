@@ -2,3 +2,21 @@ collections_config:
   pages:
     _enabled_editors:
       - visual
+
+data_config: 
+  speakers: true
+
+
+
+_inputs:
+  uuid:
+    type: string
+    hidden: true
+    instance_value: UUID
+  speaker:
+      type: select
+      options:
+        values: "speakers"
+        value_key: "uuid"
+        text_key: "name"
+
