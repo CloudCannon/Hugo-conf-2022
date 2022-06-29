@@ -213,13 +213,14 @@ content_blocks:
           - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
       - time_string: "2:10pm —\_2:15pm PST"
         type: Lightning Talk
-        title: Using PurgeCSS with Hugo
+        title: Why PaperCut went static with Hugo and Cloudcannon
         description: >-
-          A quick guide to setting up PurgeCSS with\_PostCSS to automatically
-          optimize the CSS on your site by only including the classes that you
-          use.
+          We discuss minimizing waste with print management software, the value
+          of coffee, and our process of migrating and consolidating PaperCut’s
+          sites from legacy stacks to Hugo.
         speakers:
-          - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
+          - speaker: 6eb91622-186a-4d36-b300-f0fd92679c8a
+          - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
       - time_string: "2:20pm —\_2:25pm PST"
         type: Lightning Talk
         title: Meet Quiqr
@@ -313,6 +314,15 @@ content_blocks:
           href="https://ashish.one">ashish.one</a>.
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
+      - time_string: "5:10pm —\_5:15pm PST"
+        type: Lightning Talk
+        title: Using PurgeCSS with Hugo
+        description: >-
+          A quick guide to setting up PurgeCSS with PostCSS to automatically
+          optimize the CSS on your site by only including the classes that you
+          use.
+        speakers:
+          - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
   - _bookshop_name: sections/schedule
     title: Saturday, July 9th
     talks:
