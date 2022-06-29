@@ -368,11 +368,17 @@ content_blocks:
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
       - time_string:
-        type:
-        title:
-        description:
+        type: Lightning talk
+        title: HABIT Stack — an elegant solution for component-driven development
+        description: >-
+          In this talk I’ll discuss the stack I use to create websites for
+          Twitch (and also the HugoConf website) — comprised of Hugo, Alpinejs,
+          Bookshop, and Tailwindcss. With this stack I’m able to create sites
+          that show the best of component-driven workflows, ideal for both
+          efficient development and for non-technical content editors to add
+          content, build pages, and keep the sites up to date over time.
         speakers:
-          - speaker:
+          - speaker: 560175c7-7640-4ca0-8315-782aa58caa97
       - time_string:
         type:
         title:
