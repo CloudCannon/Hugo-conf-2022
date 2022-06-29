@@ -51,7 +51,7 @@ content_blocks:
       id:
       view_label_icon: false
       border_color: border-white
-      add_modal: false
+      add_modal: true
       open_modal: false
       modal:
         _bookshop_name: simple/modal
@@ -144,12 +144,10 @@ content_blocks:
           This workshop will demonstrate how to add Bookshop, a component
           development workflow for static websites, to a Hugo site.
 
-          Bookshop defines a convention for building self-contained components
-          in the templating languages supported by common static site
-          generators. Using these conventions, Bookshop provides developer
-          tooling that empowers you to integrate these components with your
-          stack, build and browse UI components locally, and provide rich live
-          editing experiences for your editors.
+          Bookshop helps you develop and reuse components across your site,
+          browse a local component library, and create a rich live-editing
+          experience in the browser. Most importantly, Bookshop works with Hugo
+          templates, improving your DX while shipping a #leanweb to your users.
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string:
