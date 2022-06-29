@@ -136,6 +136,23 @@ content_blocks:
     title: Talks and Workshops
     talks:
       - time_string:
+        type: Workshop
+        title: >-
+          Editing Hugo live in the browser: how to bring page-building workflows
+          to your Hugo sites with Bookshop
+        description: >-
+          This workshop will demonstrate how to add Bookshop, a component
+          development workflow for static websites, to a Hugo site.
+
+          Bookshop defines a convention for building self-contained components
+          in the templating languages supported by common static site
+          generators. Using these conventions, Bookshop provides developer
+          tooling that empowers you to integrate these components with your
+          stack, build and browse UI components locally, and provide rich live
+          editing experiences for your editors.
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+      - time_string:
         type: Lightning talk
         title: Supercharge your Deployment with Cloudflare Pages
         description: >-
@@ -145,20 +162,6 @@ content_blocks:
           get out of the box using Pages for deployment.
         speakers:
           - speaker: 885c6952-2e32-4a7d-96b1-f85db602d38f
-      - time_string:
-        type: Tech talk
-        title: 'Introducing Pagefind: static low-bandwidth search at scale'
-        description: >-
-          In this talk I’ll introduce Pagefind, a new open-source library for
-          static websites that provides efficient search at scale without any
-          extra infrastructure.
-
-          I’ll demonstrate the process of adding Pagefind to a new site, and
-          also show how well it works at scale — for example, Pagefind can
-          return a search query against the entirety of MDN with a network
-          payload as low as 300KB.
-        speakers:
-          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string:
         type: Tech Talk
         title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
@@ -218,6 +221,20 @@ content_blocks:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
           - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
+      - time_string:
+        type: Tech talk
+        title: 'Introducing Pagefind: static low-bandwidth search at scale'
+        description: >-
+          In this talk I’ll introduce Pagefind, a new open-source library for
+          static websites that provides efficient search at scale without any
+          extra infrastructure.
+
+          I’ll demonstrate the process of adding Pagefind to a new site, and
+          also show how well it works at scale — for example, Pagefind can
+          return a search query against the entirety of MDN with a network
+          payload as low as 300KB.
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string:
         type: Lightning Talk
         title: Implementing conditional processing in Hugo
@@ -413,23 +430,6 @@ content_blocks:
         description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-      - time_string:
-        type: Workshop
-        title: >-
-          Editing Hugo live in the browser: how to bring page-building workflows
-          to your Hugo sites with Bookshop
-        description: >-
-          This workshop will demonstrate how to add Bookshop, a component
-          development workflow for static websites, to a Hugo site.
-
-          Bookshop defines a convention for building self-contained components
-          in the templating languages supported by common static site
-          generators. Using these conventions, Bookshop provides developer
-          tooling that empowers you to integrate these components with your
-          stack, build and browse UI components locally, and provide rich live
-          editing experiences for your editors.
-        speakers:
-          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
