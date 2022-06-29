@@ -51,7 +51,7 @@ content_blocks:
       id:
       view_label_icon: false
       border_color: border-white
-      add_modal: true
+      add_modal: false
       open_modal: false
       modal:
         _bookshop_name: simple/modal
