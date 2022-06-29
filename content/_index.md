@@ -230,7 +230,7 @@ content_blocks:
       - time_string: "12:20pm —\_12:25pm PST"
         type: Lightning Talk
         title: Word to Web with Hugo in 5 Minutes
-        description: "For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo: https://github.com/m2web/word-to-web"
+        description: For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo: <a href="https://github.com/m2web/word-to-web">github.com/m2web/word-to-web</a>
         speakers:
           - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string: "12:30pm —\_12:55pm PST"
@@ -263,7 +263,7 @@ content_blocks:
       - time_string: "1:30pm —\_1:55pm PST"
         type: Tech Talk
         title: Going wild with Hugo modules
-        description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! 
+        description: The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! 
         
         
         This presentation will show how we:  
@@ -275,7 +275,7 @@ content_blocks:
         
         •Created modules for components that are shared between products;  
         
-        •Used the Hugo configuration files to pull in the correct content."
+        •Used the Hugo configuration files to pull in the correct content.
         speakers:
           - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
@@ -296,7 +296,7 @@ content_blocks:
       - time_string: "2:10pm —\_2:15pm PST"
         type: Lightning Talk
         title: Using PurgeCSS with Hugo
-        description: "A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use."
+        description: A quick guide to setting up PurgeCSS with\_PostCSS to automatically optimize the CSS on your site by only including the classes that you use.
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
       - time_string: "2:20pm —\_2:25pm PST"
