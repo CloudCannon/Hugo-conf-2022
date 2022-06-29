@@ -380,11 +380,15 @@ content_blocks:
         speakers:
           - speaker: 560175c7-7640-4ca0-8315-782aa58caa97
       - time_string:
-        type:
-        title:
-        description:
+        type: Tech talk
+        title: Giving your content team full autonomy with a Hugo CMS
+        description: >-
+          Hand over the reins of your Hugo site to your content team with
+          CloudCannon. In this talk we will learn how to build pages visually,
+          use a custom component library, and simplify collaboration on your
+          Hugo projects. 
         speakers:
-          - speaker:
+          - speaker: mr.large
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
