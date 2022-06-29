@@ -135,7 +135,7 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Talks and Workshops
     talks:
-      - time_string: 10:00 am – 10:25 am PST
+      - time_string:
         type: Tech Talk
         title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
         description: >-
@@ -147,7 +147,7 @@ content_blocks:
           AWS technologies and Github.
         speakers:
           - speaker: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
-      - time_string: 10:30 am – 10:55 am PST
+      - time_string:
         type: Tech Talk
         title: My journey from LAMP stack to Jamstack with Hugo!
         description: >-
@@ -160,8 +160,8 @@ content_blocks:
           it reduced my deployment time without investing too much time on
           learning it.
         speakers:
-          - speaker: 5a52d703-e8fc-46ea-951e-f67716716524
-      - time_string: 11:00am – 11.25am PST
+          - speaker: f596b9bd-767c-4206-91d4-f06e10d1ab52
+      - time_string:
         type: Tech Talk
         title: 'Limitless HTTP requests with Hugo: from basic GET to GraphQL'
         description: >-
@@ -173,15 +173,15 @@ content_blocks:
           use the Shopify Storefront API as a case study for performing GraphQL
           requests with Hugo!
         speakers:
-          - speaker: 5983ed48-6f93-4d27-ae52-dd866af6b9b4
+          - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
       - time_string:
         type: Tech Talk
         title: Going wild with Hugo modules
         description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! \n\nThis presentation will show how we:\n\n• Created a module that contains the building blocks that apply to all projects;\n•\_Stored project-specific assets, layouts, and content in this module;\n•\_Created modules for components that are shared between products;\n•\_Used the Hugo configuration files to pull in the correct content."
         speakers:
-          - speaker: de0ce6bf-3467-46cf-97a0-1a80ffeca22c
-          - speaker: 3b52d673-a86d-4a15-adcd-67c3b900d52f
-          - speaker: 84bc2904-d8eb-4759-a7b6-f64226ceddb8
+          - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
+          - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
+          - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
       - time_string:
         type: Lightning Talk
         title: Implementing conditional processing in Hugo
@@ -198,9 +198,9 @@ content_blocks:
           theme to be able to show and hide content as needed. This presentation
           will give a quick demo of how we implemented this approach.
         speakers:
-          - speaker: de0ce6bf-3467-46cf-97a0-1a80ffeca22c
-          - speaker: 3b52d673-a86d-4a15-adcd-67c3b900d52f
-          - speaker: 84bc2904-d8eb-4759-a7b6-f64226ceddb8
+          - speaker: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
+          - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
+          - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
       - time_string:
         type: Lightning Talk
         title: Get started with Front Matter CMS to manage your site
@@ -211,13 +211,13 @@ content_blocks:
           guide you through the installation and configuration process to know
           the proper steps when you start using it.
         speakers:
-          - speaker: b9480142-795d-4d19-b6a3-d8865dc0e0e2
+          - speaker: c8db3822-2372-43d6-8381-93dbc98b5861
       - time_string:
         type: Lightning Talk
         title: Word to Web with Hugo in 5 Minutes
         description: "For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo:\_https://github.com/m2web/word-to-web"
         speakers:
-          - speaker: 2a62588b-5328-4a94-8f8e-59e9c1c60483
+          - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string:
         type: Lightning Talk
         title: Simplifying Static Images with Figmage
@@ -230,7 +230,70 @@ content_blocks:
           talk, learn about Figmage, and how it saves you from the image upload
           cycle.
         speakers:
-          - speaker:
+          - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
+      - time_string:
+        type: Workshop
+        title: Build an Open Source Blogging Platform With Appwrite and Hugo
+        description: >-
+          We will see how we can build a blogging platform in a few minutes with
+          Hugo and Appwrite. We will use Appwrite to store the content and use
+          Hugo to build with the content that is stored in Appwrite.
+        speakers:
+          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
+      - time_string:
+        type: Tech talk
+        title: Demystifying Internationalization with Hugo
+        description: >-
+          Preparing a website for an international audience comes with lots of
+          technical complexities. How do you manage multiple languages flexibly
+          and efficiently using Hugo? How do you make the appropriate design
+          adjustments for each language in a way that doesn’t result in
+          duplicative CSS? In this talk, we’ll answer these questions while
+          walking through the technical details behind the new Arabic edition of
+          Laws of UX (https://lawsofux.com/) and exploring Hugo’s Multilingual
+          Mode, how to translate content based on i18n configuration, and CSS
+          logical properties.
+        speakers:
+          - speaker: a4084077-a718-46ef-ad23-9509b8698475
+      - time_string:
+        type: Tech talk
+        title: Mistakes I want to avoid for my next Hugo theme
+        description: >-
+          Initially, I had built the Toha Hugo theme for my own portfolio. Then,
+          I shared the theme with the community. When the theme got popular, I
+          started to get feature requests that I hadn't planned before. People
+          started using the theme for different use-cases that weren't intended
+          initially. As a result, I had to keep changing the theme to
+          accommodate their needs. However, it is hard to change something that
+          is being used by hundreds of people. 
+
+
+          In this talk, I will share the experience I have gained as I maintain
+          the theme. I will share the mistakes I have made, and how can we avoid
+          them.
+        speakers:
+          - speaker: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
+      - time_string:
+        type: Lightning talk
+        title: Meet Quiqr
+        description: >-
+          Quiqr in nutshell. A tour through all major CMS and publishing
+          features. After these five minutes, it will take you only another ten
+          minutes to have your own Quiqr maintained Hugo website live.
+        speakers:
+          - speaker: 2930d573-f186-4091-816d-afec11601a2c
+      - time_string:
+        type: Workshop
+        title: Quiqr workshop for Hugo site developers
+        description: >-
+          This workshop shows how to quickly develop websites for non-technical
+          customers. We're going to add a Quiqr CMS layer on top of an existing
+          Hugo Theme. I'll show some CMS developing patterns and best practices.
+          As a bonus we will move the theme styling from code to a non-technical
+          user interface. Finally I'll show how to share a Quiqr made website to
+          the end user.
+        speakers:
+          - speaker: 2930d573-f186-4091-816d-afec11601a2c
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
