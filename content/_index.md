@@ -138,7 +138,8 @@ content_blocks:
       - time_string: 10:00am — 10:15am PST
         type: Opening
         title: Welcome to HugoConf!
-        description: Hand over the reins of your Hugo site to your content team with CloudCannon. In this talk we will learn how to build pages visually, use a custom component library, and simplify collaboration on your Hugo projects.
+        description: >-
+          Hand over the reins of your Hugo site to your content team with CloudCannon. In this talk we will learn how to build pages visually, use a custom component library, and simplify collaboration on your Hugo projects.
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: 10:15am — 10:40am PST
