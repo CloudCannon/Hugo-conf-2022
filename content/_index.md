@@ -133,7 +133,7 @@ content_blocks:
               modal:
     notice_message: <p>Want to speak at HugoConf?</p><p>&nbsp;</p>
   - _bookshop_name: sections/schedule
-    title: Friday, July 8th
+    title: Talks and Workshops
     talks:
       - time_string: 10:00 am – 10:25 am PST
         type: Tech Talk
@@ -178,6 +178,57 @@ content_blocks:
         type: Tech Talk
         title: Going wild with Hugo modules
         description: "The Nuance TechPubs team produces documentation for multiple products. Because these products are stand-alone, they require their own Hugo projects. But we needed to reuse content between projects and ensure that products in the same line share the same look and feel.\n\nTo implement this, we went wild with Hugo modules! \n\nThis presentation will show how we:\n\n• Created a module that contains the building blocks that apply to all projects;\n•\_Stored project-specific assets, layouts, and content in this module;\n•\_Created modules for components that are shared between products;\n•\_Used the Hugo configuration files to pull in the correct content."
+        speakers:
+          - speaker: de0ce6bf-3467-46cf-97a0-1a80ffeca22c
+          - speaker: 3b52d673-a86d-4a15-adcd-67c3b900d52f
+          - speaker: 84bc2904-d8eb-4759-a7b6-f64226ceddb8
+      - time_string:
+        type: Lightning Talk
+        title: Implementing conditional processing in Hugo
+        description: >-
+          Some of the Nuance TechPubs content is shared between products. In
+          particular, many components are available both in hosted and
+          on-premises environments. And while most of the content is similar
+          between both environments, some content is environment-specific, and
+          we needed to find a way to tag that content and include or exclude it
+          as needed.
+
+
+          To solve this issue, we created our own shortcodes and updated the
+          theme to be able to show and hide content as needed. This presentation
+          will give a quick demo of how we implemented this approach.
+        speakers:
+          - speaker: de0ce6bf-3467-46cf-97a0-1a80ffeca22c
+          - speaker: 3b52d673-a86d-4a15-adcd-67c3b900d52f
+          - speaker: 84bc2904-d8eb-4759-a7b6-f64226ceddb8
+      - time_string:
+        type: Lightning Talk
+        title: Get started with Front Matter CMS to manage your site
+        description: >-
+          Are you looking for a CMS to manage your site? Front Matter is a
+          Visual Studio Code extension that provides CMS functionality, so you
+          never have to leave your editor. In this lightning talk, Elio will
+          guide you through the installation and configuration process to know
+          the proper steps when you start using it.
+        speakers:
+          - speaker: b9480142-795d-4d19-b6a3-d8865dc0e0e2
+      - time_string:
+        type: Lightning Talk
+        title: Word to Web with Hugo in 5 Minutes
+        description: "For good or bad, the work world's most predominant application for word processing is Microsoft Word. Given that a great deal of enterprise knowledge is stored in Word, and that same information is useful for many other purposes, it is beneficial to understand how to use Word to quickly create web pages that can be shared across the organization. This talk will show you how using Hugo. The talk’s public repo:\_https://github.com/m2web/word-to-web"
+        speakers:
+          - speaker: 2a62588b-5328-4a94-8f8e-59e9c1c60483
+      - time_string:
+        type: Lightning Talk
+        title: Simplifying Static Images with Figmage
+        description: >-
+          A picture speaks a thousand words. But it's also tough to write a
+          thousand words right on the first try. The colors are off, the sizing
+          can be wrong, or maybe the image just doesn't vibe with your content
+          as well. And of course, every time you tweak the design, you have to
+          export it, re-upload it, and re-deploy. Re-upload, re-deploy. In this
+          talk, learn about Figmage, and how it saves you from the image upload
+          cycle.
         speakers:
           - speaker:
   - _bookshop_name: sections/speakers
