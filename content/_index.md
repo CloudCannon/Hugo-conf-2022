@@ -48,7 +48,7 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
-      - time_string: 10:00am — 10:15am PST
+      - time_string: 9:30am — 9:45am PST
         type: Opening
         title: Welcome to HugoConf!
         description: >-
@@ -56,7 +56,7 @@ content_blocks:
           it means to thousands of developers and web users around the world. 
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
-      - time_string: 10:15am — 10:40am PST
+      - time_string: 9:45am — 10:10am PST
         type: Tech Talk
         title: Giving your Content Team Full Autonomy with a Hugo CMS
         description: >-
@@ -66,6 +66,22 @@ content_blocks:
           simplify collaboration on your Hugo projects. 
         speakers:
           - speaker: mr.large
+      - time_string: "10:15am —\_10:40am PST"
+        type: Tech Talk
+        title: >-
+          How Hugo handles your pages (technically speaking): Lexer, Parser and
+          Goldmark
+        description: >-
+          We will reverse engineer Hugo and study its internal structure. We
+          will focus on the three main components devoted to process Markdown
+          content:, the lexer, the parser and Goldmark. We will find out where
+          in the code each one of these components is located, what they take as
+          input and what they produce as output. We will discuss some of the
+          technical choices made by the developers and their pros and cons. This
+          is a great starting point for anybody who would like to help develop
+          Hugo or would like to know more about its inner structure.
+        speakers:
+          - speaker: e65c92be-dd89-45c2-95f2-6aec071b546c
       - time_string: "10:45am —\_10:50am PST"
         type: Lightning Talk
         title: Supercharge your Deployment with Cloudflare Pages
