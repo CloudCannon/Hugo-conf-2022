@@ -40,6 +40,12 @@
   title: CEO and Co-Founder
   company: PaperCut
   twitter_handle: PaperCutDev
+- uuid: e65c92be-dd89-45c2-95f2-6aec071b546c
+  name: Duccio Marco Gasparri
+  image: /uploads/duccio-marco-gasparri.jpg
+  title:
+  company:
+  twitter_handle: dgasparri
 - uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
   name: Gift Egwuenu
   image: /uploads/gift.jpeg
@@ -70,6 +76,12 @@
   title: Software Engineer
   company: AppsCode Inc.
   twitter_handle: Emruz_Hossain
+- uuid: 3866eff7-f376-468a-9a82-d77035e39604
+  name: Carl M. Johnson
+  image: /uploads/carl-johnson.jpg
+  title: Director of Technology
+  company: Spotlight PA
+  twitter_handle: carlmjohnson
 - uuid: 61890716-983e-46c8-bbb8-39e0111827c4
   name: Ado Kukic
   image: /uploads/ado-kukic.jpg
@@ -160,15 +172,3 @@
   title: Senior Product Designer
   company: Mixpanel
   twitter_handle: JonYablonski
-- uuid: 3866eff7-f376-468a-9a82-d77035e39604
-  name: Carl M. Johnson
-  image: /uploads/carl-johnson.jpg
-  title: Director of Technology
-  company: Spotlight PA
-  twitter_handle: carlmjohnson
-- uuid: e65c92be-dd89-45c2-95f2-6aec071b546c
-  name: Duccio Marco Gasparri
-  image: /uploads/duccio-marco-gasparri.jpg
-  title:
-  company:
-  twitter_handle: dgasparri
