@@ -40,18 +40,18 @@
   title: CEO and Co-Founder
   company: PaperCut
   twitter_handle: PaperCutDev
-- uuid: e65c92be-dd89-45c2-95f2-6aec071b546c
-  name: Duccio Marco Gasparri
-  image: /uploads/duccio-marco-gasparri.jpg
-  title:
-  company:
-  twitter_handle: dgasparri
 - uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
   name: Gift Egwuenu
   image: /uploads/gift.jpeg
   title: Developer Advocate
   company: Cloudflare
   twitter_handle: lauragift_
+- uuid: e65c92be-dd89-45c2-95f2-6aec071b546c
+  name: Duccio Marco Gasparri
+  image: /uploads/duccio-marco-gasparri.jpg
+  title:
+  company:
+  twitter_handle: dgasparri
 - uuid: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
   name: Noah Gift
   image: /uploads/noah-gift-400x400.jpeg
