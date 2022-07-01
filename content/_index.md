@@ -92,6 +92,15 @@ content_blocks:
           get out of the box using Pages for deployment.
         speakers:
           - speaker: 885c6952-2e32-4a7d-96b1-f85db602d38f
+      - time_string: "10:50am —\_10:55am PST"
+        type: Lightning Talk
+        title: Making News Apps with the THANG Stack
+        description: >-
+          News never stops, so it’s important to be able to make maintainable
+          sites quickly. The THANG Stack (Tailwind, Hugo, Alpine.js, Netlify,
+          and Go) helps me launch on deadline.
+        speakers:
+          - speaker: 3866eff7-f376-468a-9a82-d77035e39604
       - time_string: "10:55am —\_11:00am PST"
         type: Lightning Talk
         title: Implementing conditional processing in Hugo
@@ -138,8 +147,8 @@ content_blocks:
         title: HABIT Stack — an elegant solution for component-driven development
         description: >-
           In this talk I’ll discuss the stack I use to create websites for
-          Twitch (and also the HugoConf website) — comprised of Hugo, Alpinejs,
-          Bookshop, and Tailwindcss. With this stack I’m able to create sites
+          Twitch (and also the HugoConf website) — comprised of Hugo, Alpine.js,
+          Bookshop, and Tailwind CSS. With this stack I’m able to create sites
           that show the best of component-driven workflows, ideal for both
           efficient development and for non-technical content editors to add
           content, build pages, and keep the sites up to date over time.
