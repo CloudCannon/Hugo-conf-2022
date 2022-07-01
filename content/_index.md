@@ -344,12 +344,13 @@ content_blocks:
     talks:
       - time_string: "10:00am —\_10:45am PST"
         type: Workshop
-        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
+        title: Build an Open Source Blogging Platform With Appwrite and Hugo
         description: >-
-          I will provide a step by step breakdown on how to find the easter egg
-          in Google Lighthouse when you achieve perfect scores by using Hugo.
+          We will see how we can build a blogging platform in a few minutes with
+          Hugo and Appwrite. We will use Appwrite to store the content and use
+          Hugo to build with the content that is stored in Appwrite.
         speakers:
-          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
+          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
       - time_string: "11:00am —\_11:45am PST"
         type: Workshop
         title: >-
@@ -393,13 +394,12 @@ content_blocks:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
       - time_string: "2:00pm —\_2:45pm PST"
         type: Workshop
-        title: Build an Open Source Blogging Platform With Appwrite and Hugo
+        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
         description: >-
-          We will see how we can build a blogging platform in a few minutes with
-          Hugo and Appwrite. We will use Appwrite to store the content and use
-          Hugo to build with the content that is stored in Appwrite.
+          I will provide a step by step breakdown on how to find the easter egg
+          in Google Lighthouse when you achieve perfect scores by using Hugo.
         speakers:
-          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
+          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
