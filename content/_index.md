@@ -225,7 +225,7 @@ content_blocks:
           - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
       - time_string: "2:00pm —\_2:05pm PST"
         type: Lightning Talk
-        title: Simplifying Static Images with Figmage
+        title: Making Image Uploads Faster with Figmage
         description: >-
           A picture speaks a thousand words. But it's also tough to write a
           thousand words right on the first try. The colors are off, the sizing
@@ -446,4 +446,3 @@ content_blocks:
       - '#034AD8'
       - '#FCD804'
 ---
-
