@@ -139,7 +139,7 @@ content_blocks:
           the difference between the platforms, why I chose Hugo, how Hugo
           improved the development process, the quality of the website and how
           it reduced my deployment time without investing too much time on
-          learning it.
+          learning it. 
         speakers:
           - speaker: f596b9bd-767c-4206-91d4-f06e10d1ab52
       - time_string: "12:00pm —\_12:05pm PST"
