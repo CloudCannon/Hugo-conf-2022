@@ -236,6 +236,19 @@ content_blocks:
           cycle.
         speakers:
           - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
+      - time_string: "2:05pm —\_2:10pm PST"
+        type: Lightning Talk
+        title: Resize all images
+        description: >
+          Images are an important part of your page load (20% on average). I
+          will show you how you can resize all images in your Hugo project, even
+          when you are using an external CMS for content and when you have
+          clients uploading these images. Every byte counts when you want to get
+          a <a
+          href="https://www.usecue.com/blog/how-to-get-a-100-google-lighthouse-score/"
+          >100% Google Lighthouse Score</a>.
+        speakers:
+          - speaker: f4a853d2-3d02-4e57-a05c-dd154e67ee0e
       - time_string: "2:10pm —\_2:15pm PST"
         type: Lightning Talk
         title: Why PaperCut went static with Hugo and Cloudcannon
@@ -348,19 +361,6 @@ content_blocks:
           use.
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-      - time_string: "2:05pm —\_2:10pm PST"
-        type: Lightning Talk
-        title: Resize all images
-        description: >
-          Images are an important part of your page load (20% on average). I
-          will show you how you can resize all images in your Hugo project, even
-          when you are using an external CMS for content and when you have
-          clients uploading these images. Every byte counts when you want to get
-          a <a
-          href="https://www.usecue.com/blog/how-to-get-a-100-google-lighthouse-score/"
-          >100% Google Lighthouse Score</a>.
-        speakers:
-          - speaker: f4a853d2-3d02-4e57-a05c-dd154e67ee0e
   - _bookshop_name: sections/schedule
     title: Saturday, July 9th
     talks:
