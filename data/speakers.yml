@@ -172,3 +172,9 @@
   title: Senior Product Designer
   company: Mixpanel
   twitter_handle: JonYablonski
+- uuid: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
+  name: Steve Francia
+  image: /uploads/steve-francia.jpg
+  title: Creator of Hugo
+  company: Google
+  twitter_handle: spf13
