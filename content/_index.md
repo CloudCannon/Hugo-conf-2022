@@ -351,6 +351,14 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Saturday, July 9th
     talks:
+      - time_string: "9:00am —\_9:45am PST"
+        type: Live Q&A
+        title: Live Q&A with Hugo creator - Steve Francia
+        description: >-
+          Learn the origin story of Hugo and how it's progressed into the
+          flourishing open source project it is today.
+        speakers:
+          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
       - time_string: "10:00am —\_10:45am PST"
         type: Workshop
         title: Build an Open Source Blogging Platform With Appwrite and Hugo
@@ -446,3 +454,4 @@ content_blocks:
       - '#034AD8'
       - '#FCD804'
 ---
+
