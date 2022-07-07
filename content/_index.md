@@ -442,7 +442,7 @@ content_blocks:
           <a href="/code-of-conduct">code of conduct</a>, and help build the
           community by being supportive and constructive.</p><p>&nbsp;</p><p>If
           you have any questions or suggestions, reach out to <a
-          href="mailto:team@hugoconf.io">team@hugoconf.io</a>.</p>
+          href="mailto:hello@hugoconf.io">hello@hugoconf.io</a>.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: Help us Organize
