@@ -6,7 +6,7 @@ content_blocks:
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: July 8th + 9th 2022 PST
+      date: July 8th + 9th 2022 PDT
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
