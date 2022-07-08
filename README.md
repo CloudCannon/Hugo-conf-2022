@@ -1,6 +1,8 @@
-# hugo-alpine-bookshop-tailwind-template
+# Hugo Conf (habit stack)
 
-Starter template for hugo, alpine, bookshop
+Hugo Conf website created by CloudCannon using hugo, alpine and bookshop
+
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/Hugo-conf-2022)
 
 # Prerequisites
 
