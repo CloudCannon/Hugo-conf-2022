@@ -42,9 +42,10 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
+    notice_message: "Streaming live now! <a class='underline' href='https://youtu.be/JpxiKUHzoqM' target='_blank'>Join the conversation</a>"
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/QEw4lbH4fps
+      url: https://www.youtube.com/embed/JpxiKUHzoqM
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
