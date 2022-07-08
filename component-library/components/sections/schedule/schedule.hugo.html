@@ -25,7 +25,13 @@
 									<img src="{{ .image }}" alt="{{ .name }}">
 								</div>
 								<div class="flex-1 pl-4">
-				        			<p class="font-bold"><a href="#">{{- .name -}}</a></p>
+				        			<p class="font-bold">
+				        				{{- if .twitter_handle -}}
+				        					<a target="_blank" href="https://twitter.com/{{- .twitter_handle -}}">{{- .name -}}</a>
+				        				{{- else -}}
+				        					{{- .name -}}
+				        				{{- end -}}
+				        				</p>
 				        			<p class="text-sm">{{- .title -}}</p>
 				        			<p class="text-sm">{{- .company -}}</p>
 				        		</div>
