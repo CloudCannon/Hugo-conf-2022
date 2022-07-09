@@ -42,10 +42,84 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: <p>We're live for day two! <a class="underline" href="https://www.youtube.com/watch?v=ACRN43SbF2g" target="_blank">Join the conversation</a>. <a class="underline" href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s" target="_blank">Day one stream</a>.</p>
+    notice_message: >-
+      <p>We're live for day two! <a class="underline"
+      href="https://www.youtube.com/watch?v=ACRN43SbF2g" target="_blank">Join
+      the conversation</a>. <a class="underline"
+      href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s"
+      target="_blank">Day one stream</a>.</p>
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/ACRN43SbF2g
+  - _bookshop_name: sections/schedule
+    title: Saturday, July 9th
+    talks:
+      - time_string: "9:00am —\_9:45am PDT"
+        type: Live Q&A
+        title: Live Q&A with Hugo creator - Steve Francia
+        description: >-
+          Learn the origin story of Hugo and how it's progressed into the
+          flourishing open source project it is today.
+        speakers:
+          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
+      - time_string: "10:00am —\_10:45am PDT"
+        type: Workshop
+        title: Build an Open Source Blogging Platform With Appwrite and Hugo
+        description: >-
+          We will see how we can build a blogging platform in a few minutes with
+          Hugo and Appwrite. We will use Appwrite to store the content and use
+          Hugo to build with the content that is stored in Appwrite.
+        speakers:
+          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
+      - time_string: "11:00am —\_11:45am PDT"
+        type: Workshop
+        title: >-
+          Editing Hugo live in the browser: how to bring page-building workflows
+          to your Hugo sites with Bookshop
+        description: >-
+          This workshop will demonstrate how to add Bookshop, a component
+          development workflow for static websites, to a Hugo site.
+
+          Bookshop helps you develop and reuse components across your site,
+          browse a local component library, and create a rich live-editing
+          experience in the browser. Most importantly, Bookshop works with Hugo
+          templates, improving your DX while shipping a #leanweb to your users.
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+      - time_string: "12:00pm —\_12:45pm PDT"
+        type: Workshop
+        title: Using GitHub Pages with Actions to deploy Hugo sites in seconds
+        description: >-
+          If you've used GitHub and Hugo, you've probably heard of or maybe even
+          use GitHub Pages. Until recently, the only way to deploy a site to
+          Pages using something other than Jekyll was to run the build
+          externally and commit the output back to a special branch of your
+          repository. In this workshop, I'll cover a new workflow that treats
+          all static site generators the same, and unlocks the potential of
+          using GitHub Actions to build and deploy a Hugo site in seconds,
+          without ever leaving your browser.
+        speakers:
+          - speaker: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
+      - time_string: "1:00pm —\_1:45pm PDT"
+        type: Workshop
+        title: Quiqr workshop for Hugo site developers
+        description: >-
+          This workshop shows how to quickly develop websites for non-technical
+          customers. We're going to add a Quiqr CMS layer on top of an existing
+          Hugo Theme. I'll show some CMS developing patterns and best practices.
+          As a bonus we will move the theme styling from code to a non-technical
+          user interface. Finally I'll show how to share a Quiqr made website to
+          the end user.
+        speakers:
+          - speaker: 2930d573-f186-4091-816d-afec11601a2c
+      - time_string: "2:00pm —\_2:45pm PDT"
+        type: Workshop
+        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
+        description: >-
+          I will provide a step by step breakdown on how to find the easter egg
+          in Google Lighthouse when you achieve perfect scores by using Hugo.
+        speakers:
+          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
@@ -363,75 +437,6 @@ content_blocks:
           href="https://github.com/coliff/purgecss-test">https://github.com/coliff/purgecss-test</a>
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-  - _bookshop_name: sections/schedule
-    title: Saturday, July 9th
-    talks:
-      - time_string: "9:00am —\_9:45am PDT"
-        type: Live Q&A
-        title: Live Q&A with Hugo creator - Steve Francia
-        description: >-
-          Learn the origin story of Hugo and how it's progressed into the
-          flourishing open source project it is today.
-        speakers:
-          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
-      - time_string: "10:00am —\_10:45am PDT"
-        type: Workshop
-        title: Build an Open Source Blogging Platform With Appwrite and Hugo
-        description: >-
-          We will see how we can build a blogging platform in a few minutes with
-          Hugo and Appwrite. We will use Appwrite to store the content and use
-          Hugo to build with the content that is stored in Appwrite.
-        speakers:
-          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
-      - time_string: "11:00am —\_11:45am PDT"
-        type: Workshop
-        title: >-
-          Editing Hugo live in the browser: how to bring page-building workflows
-          to your Hugo sites with Bookshop
-        description: >-
-          This workshop will demonstrate how to add Bookshop, a component
-          development workflow for static websites, to a Hugo site.
-
-          Bookshop helps you develop and reuse components across your site,
-          browse a local component library, and create a rich live-editing
-          experience in the browser. Most importantly, Bookshop works with Hugo
-          templates, improving your DX while shipping a #leanweb to your users.
-        speakers:
-          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
-      - time_string: "12:00pm —\_12:45pm PDT"
-        type: Workshop
-        title: Using GitHub Pages with Actions to deploy Hugo sites in seconds
-        description: >-
-          If you've used GitHub and Hugo, you've probably heard of or maybe even
-          use GitHub Pages. Until recently, the only way to deploy a site to
-          Pages using something other than Jekyll was to run the build
-          externally and commit the output back to a special branch of your
-          repository. In this workshop, I'll cover a new workflow that treats
-          all static site generators the same, and unlocks the potential of
-          using GitHub Actions to build and deploy a Hugo site in seconds,
-          without ever leaving your browser.
-        speakers:
-          - speaker: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
-      - time_string: "1:00pm —\_1:45pm PDT"
-        type: Workshop
-        title: Quiqr workshop for Hugo site developers
-        description: >-
-          This workshop shows how to quickly develop websites for non-technical
-          customers. We're going to add a Quiqr CMS layer on top of an existing
-          Hugo Theme. I'll show some CMS developing patterns and best practices.
-          As a bonus we will move the theme styling from code to a non-technical
-          user interface. Finally I'll show how to share a Quiqr made website to
-          the end user.
-        speakers:
-          - speaker: 2930d573-f186-4091-816d-afec11601a2c
-      - time_string: "2:00pm —\_2:45pm PDT"
-        type: Workshop
-        title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
-        description: >-
-          I will provide a step by step breakdown on how to find the easter egg
-          in Google Lighthouse when you achieve perfect scores by using Hugo.
-        speakers:
-          - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   - _bookshop_name: sections/speakers
   - _bookshop_name: sections/hexagon-group
     hexagons:
