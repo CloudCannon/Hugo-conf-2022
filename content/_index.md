@@ -42,12 +42,7 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: >-
-      <p>We're live for day two! <a class="underline"
-      href="https://www.youtube.com/watch?v=ACRN43SbF2g" target="_blank">Join
-      the conversation</a>. <a class="underline"
-      href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s"
-      target="_blank">Day one stream</a>.</p>
+    notice_message: <p>HugoConf 2022 is all finished! Stay tuned for speaker videos. In the mean time you can rewatch the entire stream <a class="underline" href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s" target="_blank">Day one </a>, <a class="underline" href="https://youtu.be/ACRN43SbF2g?t=5512" target="_blank">Day two</a>.</p>
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/ACRN43SbF2g
