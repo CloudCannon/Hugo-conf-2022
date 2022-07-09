@@ -42,7 +42,10 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: "Streaming live now! <a class='underline' href='https://youtu.be/JpxiKUHzoqM' target='_blank'>Join the conversation</a>"
+    notice_message: >-
+      Streaming live now! <a class='underline'
+      href='https://youtu.be/JpxiKUHzoqM' target='_blank'>Join the
+      conversation</a>
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/JpxiKUHzoqM
@@ -359,7 +362,8 @@ content_blocks:
         description: >-
           A quick guide to setting up PurgeCSS with PostCSS to automatically
           optimize the CSS on your site by only including the classes that you
-          use.
+          use. The sample repo for this talk is available at <a
+          href="https://github.com/coliff/purgecss-test">https://github.com/coliff/purgecss-test</a>
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
   - _bookshop_name: sections/schedule
