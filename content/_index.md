@@ -42,10 +42,10 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: <p>Day one done! Stay tuned for day two workshops.</p>
+    notice_message: <p>We're live for day two! <a class="underline" href="https://www.youtube.com/watch?v=ACRN43SbF2g" target="_blank">Join the conversation</a>. <a class="underline" href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s" target="_blank">Day one stream</a>.</p>
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/JpxiKUHzoqM
+      url: https://www.youtube.com/embed/ACRN43SbF2g
   - _bookshop_name: sections/schedule
     title: Friday, July 8th
     talks:
