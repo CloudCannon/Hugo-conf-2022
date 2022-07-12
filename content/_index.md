@@ -10,7 +10,7 @@ content_blocks:
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
-      label: Register interest for HugConf 2023
+      label: Register interest for HugoConf 2023
       id:
       view_label_icon: true
       border_color: border-blue
@@ -42,7 +42,12 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: <p>HugoConf 2022 is all finished! Watch the speaker videos below, or rewatch the entire stream for <a class="underline" href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s" target="_blank">Day one</a> and <a class="underline" href="https://youtu.be/ACRN43SbF2g?t=5512" target="_blank">Day two</a>.</p>
+    notice_message: >-
+      <p>HugoConf 2022 is all finished! Watch the speaker videos below, or
+      rewatch the entire stream for <a class="underline" target="_blank"
+      href="https://www.youtube.com/watch?v=JpxiKUHzoqM&amp;t=5982s">Day One</a>
+      and <a class="underline" target="_blank"
+      href="https://youtu.be/ACRN43SbF2g?t=5512">Day Two</a>.</p>
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/ACRN43SbF2g
