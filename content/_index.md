@@ -50,7 +50,7 @@ content_blocks:
       href="https://youtu.be/ACRN43SbF2g?t=5512">Day Two</a>.</p>
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/ACRN43SbF2g
+      url: https://www.youtube.com/embed/0iwNjcFIHNM
   - _bookshop_name: sections/schedule
     title: HugoConf 2022
     talks:
