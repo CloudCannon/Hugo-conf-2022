@@ -11,7 +11,14 @@
 				</div>
 			</div>
 			<div class="flex-1 pl-4 text-center mt-5">
-    			<p class="font-bold text-xl"><a href="#">{{- $speaker.name -}}</a></p>
+    			<p class="font-bold text-xl">
+
+    				{{- if $speaker.twitter_handle -}}
+    					<a target="_blank" href="{{- $speaker.twitter_handle -}}">{{- $speaker.name -}}</a>
+    				{{- else -}}
+    					{{- $speaker.name -}}
+    				{{- end -}}
+    			</p>
     			<p class="text-sm max-w-full">{{- $speaker.title -}}</p>
     			<p class="text-sm">{{- $speaker.company -}}</p>
     			{{ $r := mod $index 4 }}

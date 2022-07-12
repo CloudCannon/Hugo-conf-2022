@@ -6,11 +6,11 @@ content_blocks:
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: July 8th + 9th 2022 PDT
+      date: Coming 2023
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
-      label: Register free today!
+      label: Register interest for HugConf 2023
       id:
       view_label_icon: true
       border_color: border-blue
@@ -42,28 +42,24 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: sections/video-section
-    notice_message: >-
-      <p>HugoConf 2022 is all finished! Stay tuned for speaker videos. In the
-      meantime, you can rewatch the entire streams for&nbsp;<a class="underline"
-      target="_blank"
-      href="https://www.youtube.com/watch?v=JpxiKUHzoqM&amp;t=5982s">Day
-      One</a>&nbsp;and&nbsp;<a class="underline" target="_blank"
-      href="https://youtu.be/ACRN43SbF2g?t=5512">Day Two</a>.</p>
+    notice_message: <p>HugoConf 2022 is all finished! Watch the speaker videos below, or rewatch the entire stream for <a class="underline" href="https://www.youtube.com/watch?v=JpxiKUHzoqM&t=5982s" target="_blank">Day one</a> and <a class="underline" href="https://youtu.be/ACRN43SbF2g?t=5512" target="_blank">Day two</a>.</p>
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/ACRN43SbF2g
   - _bookshop_name: sections/schedule
-    title: Friday, July 8th
+    title: HugoConf 2022
     talks:
-      - time_string: 9:30am — 9:45am PDT
-        type: Opening
-        title: Welcome to HugoConf!
+      - time_string: "9:00am —\_9:45am PDT"
+        video_link: https://youtu.be/lwHr8prIDaU
+        type: Live Q&A
+        title: Live Q&A with Hugo creator - Steve Francia
         description: >-
-          Let's take a few minutes to celebrate the successes of Hugo and what
-          it means to thousands of developers and web users around the world. 
+          Learn the origin story of Hugo and how it's progressed into the
+          flourishing open source project it is today.
         speakers:
-          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
+          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
       - time_string: 9:45am — 10:10am PDT
+        video_link: https://youtu.be/b33pk3GC26o
         type: Tech Talk
         title: Giving your Content Team Full Autonomy with a Hugo CMS
         description: >-
@@ -74,6 +70,7 @@ content_blocks:
         speakers:
           - speaker: mr.large
       - time_string: "10:15am —\_10:40am PDT"
+        video_link: https://youtu.be/QiBqjGjwm-o
         type: Tech Talk
         title: >-
           How Hugo handles your pages (technically speaking): Lexer, Parser and
@@ -90,6 +87,7 @@ content_blocks:
         speakers:
           - speaker: e65c92be-dd89-45c2-95f2-6aec071b546c
       - time_string: "10:45am —\_10:50am PDT"
+        video_link: https://youtu.be/ZZ1o-_fY07w
         type: Lightning Talk
         title: Supercharge your Deployment with Cloudflare Pages
         description: >-
@@ -100,6 +98,7 @@ content_blocks:
         speakers:
           - speaker: 885c6952-2e32-4a7d-96b1-f85db602d38f
       - time_string: "10:50am —\_10:55am PDT"
+        video_link: https://youtu.be/U7bbetXD3E8
         type: Lightning Talk
         title: Making News Apps with the THANG Stack
         description: >-
@@ -109,6 +108,7 @@ content_blocks:
         speakers:
           - speaker: 3866eff7-f376-468a-9a82-d77035e39604
       - time_string: "10:55am —\_11:00am PDT"
+        video_link: https://youtu.be/erwk24s4we4
         type: Lightning Talk
         title: Implementing conditional processing in Hugo
         description: >-
@@ -124,6 +124,7 @@ content_blocks:
         speakers:
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
       - time_string: "11:00am —\_11:25am PDT"
+        video_link: https://youtu.be/XFsqdZF2wA0
         type: Tech Talk
         title: Helping Humans at Scale with Continuous Delivery of Hugo on AWS
         description: >-
@@ -136,6 +137,7 @@ content_blocks:
         speakers:
           - speaker: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
       - time_string: "11:30am —\_11:55am PDT"
+        video_link: https://youtu.be/2SInlKirmfU
         type: Tech Talk
         title: My journey from LAMP stack to Jamstack with Hugo!
         description: >-
@@ -150,6 +152,7 @@ content_blocks:
         speakers:
           - speaker: f596b9bd-767c-4206-91d4-f06e10d1ab52
       - time_string: "12:00pm —\_12:05pm PDT"
+        video_link: https://youtu.be/YfSURGxM_2k
         type: Lightning Talk
         title: HABIT Stack — an elegant solution for component-driven development
         description: >-
@@ -162,6 +165,7 @@ content_blocks:
         speakers:
           - speaker: 560175c7-7640-4ca0-8315-782aa58caa97
       - time_string: "12:10pm —\_12:15pm PDT"
+        video_link: https://youtu.be/bByl24iaGCU
         type: Lightning Talk
         title: Get started with Front Matter CMS to manage your site
         description: >-
@@ -173,6 +177,7 @@ content_blocks:
         speakers:
           - speaker: c8db3822-2372-43d6-8381-93dbc98b5861
       - time_string: "12:20pm —\_12:25pm PDT"
+        video_link: https://youtu.be/PC9NZOcCdTI
         type: Lightning Talk
         title: Word to Web with Hugo in 5 Minutes
         description: >-
@@ -186,6 +191,7 @@ content_blocks:
         speakers:
           - speaker: d2c18ec3-dde6-4ad3-a473-7211a35d0757
       - time_string: "12:30pm —\_12:55pm PDT"
+        video_link: https://youtu.be/74lsEXqRQys
         type: Tech Talk
         title: 'Introducing Pagefind: static low-bandwidth search at scale'
         description: >-
@@ -200,6 +206,7 @@ content_blocks:
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string: "1:00pm —\_1:25pm PDT"
+        video_link: https://youtu.be/z3C7R_r75JI
         type: Tech Talk
         title: 'Limitless HTTP requests with Hugo: from basic GET to GraphQL'
         description: >-
@@ -213,6 +220,7 @@ content_blocks:
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
       - time_string: "1:30pm —\_1:55pm PDT"
+        video_link: https://youtu.be/K4lL3NMRmbY
         type: Tech Talk
         title: Going wild with Hugo modules
         description: >-
@@ -231,6 +239,7 @@ content_blocks:
           - speaker: 3e17b350-fcab-4207-bf98-117b4013a298
           - speaker: 41f68e43-63ca-45df-af44-343b6b1133ea
       - time_string: "2:00pm —\_2:05pm PDT"
+        video_link: https://youtu.be/qpyUL0xNR_U
         type: Lightning Talk
         title: Making Image Uploads Faster with Figmage
         description: >-
@@ -244,6 +253,7 @@ content_blocks:
         speakers:
           - speaker: dcd40ef1-331c-4c07-b031-bc506d57669c
       - time_string: "2:05pm —\_2:10pm PDT"
+        video_link: https://youtu.be/y6_v7Jc6R2I
         type: Lightning Talk
         title: Resize all images
         description: >
@@ -257,6 +267,7 @@ content_blocks:
         speakers:
           - speaker: f4a853d2-3d02-4e57-a05c-dd154e67ee0e
       - time_string: "2:10pm —\_2:15pm PDT"
+        video_link: https://youtu.be/ZsDmFFXodGE
         type: Lightning Talk
         title: Why PaperCut went static with Hugo and Cloudcannon
         description: >-
@@ -267,6 +278,7 @@ content_blocks:
           - speaker: 6eb91622-186a-4d36-b300-f0fd92679c8a
           - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
       - time_string: "2:20pm —\_2:25pm PDT"
+        video_link: https://youtu.be/6J8TNsFiIJQ
         type: Lightning Talk
         title: Meet Quiqr
         description: >-
@@ -276,6 +288,7 @@ content_blocks:
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
       - time_string: "2:30pm —\_2:55pm PDT"
+        video_link: https://youtu.be/Uk7XbbX-3I8
         type: Tech Talk
         title: Demystifying Internationalization with Hugo
         description: >-
@@ -291,6 +304,7 @@ content_blocks:
         speakers:
           - speaker: a4084077-a718-46ef-ad23-9509b8698475
       - time_string: "3:00pm —\_3:25pm PDT"
+        video_link: https://youtu.be/9OxWlmAj9VE
         type: Tech Talk
         title: Mistakes I want to avoid for my next Hugo theme
         description: >-
@@ -306,6 +320,7 @@ content_blocks:
         speakers:
           - speaker: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
       - time_string: "3:30pm —\_3:55pm PDT"
+        video_link: https://youtu.be/jvgtbgQBjlM
         type: Tech Talk
         title: 'Beyond the Static: Adding Interactivity to Your Hugo Sites'
         description: >-
@@ -320,6 +335,7 @@ content_blocks:
         speakers:
           - speaker: 61890716-983e-46c8-bbb8-39e0111827c4
       - time_string: "4:00pm —\_4:25pm PDT"
+        video_link: https://youtu.be/G40K3tPYQMQ
         type: Tech Talk
         title: 'Reduce, reuse, reward: How to not repeat yourself in your docs'
         description: >-
@@ -332,6 +348,7 @@ content_blocks:
         speakers:
           - speaker: c8135d38-a962-4b26-9425-8a457a267893
       - time_string: "4:30pm —\_4:55pm PDT"
+        video_link: https://youtu.be/z4n2qu7ZlSo
         type: Tech Talk
         title: Custom Shortcodes for the Win
         description: >-
@@ -345,6 +362,7 @@ content_blocks:
         speakers:
           - speaker: 125e09bb-cb53-4b3d-89f1-6c2e386fb386
       - time_string: "5:00pm —\_5:05pm PDT"
+        video_link: https://youtu.be/fS9tndOl_BY
         type: Lightning Talk
         title: How to build a Developer profile
         description: >-
@@ -360,6 +378,7 @@ content_blocks:
         speakers:
           - speaker: e8804521-2be8-4d8b-b544-45d4ac695a0b
       - time_string: "5:10pm —\_5:15pm PDT"
+        video_link: https://youtu.be/qg1MkT1o_PI
         type: Lightning Talk
         title: Using PurgeCSS with Hugo
         description: >-
@@ -369,18 +388,8 @@ content_blocks:
           href="https://github.com/coliff/purgecss-test">https://github.com/coliff/purgecss-test</a>
         speakers:
           - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-  - _bookshop_name: sections/schedule
-    title: Saturday, July 9th
-    talks:
-      - time_string: "9:00am —\_9:45am PDT"
-        type: Live Q&A
-        title: Live Q&A with Hugo creator - Steve Francia
-        description: >-
-          Learn the origin story of Hugo and how it's progressed into the
-          flourishing open source project it is today.
-        speakers:
-          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
       - time_string: "10:00am —\_10:45am PDT"
+        video_link: https://youtu.be/qUniGSAZ_8k
         type: Workshop
         title: Build an Open Source Blogging Platform With Appwrite and Hugo
         description: >-
@@ -390,6 +399,7 @@ content_blocks:
         speakers:
           - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
       - time_string: "11:00am —\_11:45am PDT"
+        video_link: https://youtu.be/BSFDSXU3E-w
         type: Workshop
         title: >-
           Editing Hugo live in the browser: how to bring page-building workflows
@@ -405,6 +415,7 @@ content_blocks:
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string: "12:00pm —\_12:45pm PDT"
+        video_link: https://youtu.be/Z_7RIuf_Z-Q
         type: Workshop
         title: Using GitHub Pages with Actions to deploy Hugo sites in seconds
         description: >-
@@ -419,6 +430,7 @@ content_blocks:
         speakers:
           - speaker: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
       - time_string: "1:00pm —\_1:45pm PDT"
+        video_link: https://youtu.be/bWbx9dsBWMc
         type: Workshop
         title: Quiqr workshop for Hugo site developers
         description: >-
@@ -431,6 +443,7 @@ content_blocks:
         speakers:
           - speaker: 2930d573-f186-4091-816d-afec11601a2c
       - time_string: "2:00pm —\_2:45pm PDT"
+        video_link: https://youtu.be/PNw-5EgE9Bg
         type: Workshop
         title: How to Achieve Perfect Google Lighthouse Scores Using Hugo
         description: >-

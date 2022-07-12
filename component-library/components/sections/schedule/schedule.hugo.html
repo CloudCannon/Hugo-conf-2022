@@ -1,10 +1,9 @@
-<div class="c-sections-schedule grid max-w-4xl justify-items-center mx-auto my-32 px-10">
+<div class="c-sections-schedule grid max-w-2xl justify-items-center mx-auto my-32 px-10">
 	<h2 class="text-white text-4xl">{{- .title -}}</h2>
 
 	{{- range .talks -}}
-        <div class="c-sections-schedule-talk text-white border-b border-pink flex flex-wrap mt-12 pb-12">
-        	<p class="font-bold flex-initial md:w-60">{{ .time_string }}</p>
-        	<div class="c-sections-schedule-talk-details md:flex-1">
+        <div class="c-sections-schedule-talk text-white border-b border-pink mt-12 pb-12">
+        	<div class="c-sections-schedule-talk-details">
         		<p class=" uppercase font-bold mb-8 
         		{{ if eq .type "Lightning Talk" }}
         			text-pink
@@ -14,7 +13,11 @@
         			text-yellow
         		{{ end }}
 	        	">{{- .type -}}</p>
-	        	<h3 class="text-xl mb-2">{{- .title -}}</h3>
+	        	<h3 class="text-2xl mb-4"><a class="underline
+	        	decoration-yellow
+		        hover:decoration-pink
+		        motion-safe:transition-all motion-safe:duration-200
+		        focus:decoration-pink" target="_blank" href="{{- .video_link -}}">{{- .title -}}</a></h3>
 	        	<p>{{- .description |  safeHTML -}}</p>
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
@@ -27,7 +30,11 @@
 								<div class="flex-1 pl-4">
 				        			<p class="font-bold">
 				        				{{- if .twitter_handle -}}
-				        					<a target="_blank" href="https://twitter.com/{{- .twitter_handle -}}">{{- .name -}}</a>
+				        					<a target="_blank" href="https://twitter.com/{{- .twitter_handle -}}" 
+				        					class="underline
+									        hover:decoration-pink
+									        motion-safe:transition-all motion-safe:duration-200
+									        focus:decoration-pink">{{- .name -}}</a>
 				        				{{- else -}}
 				        					{{- .name -}}
 				        				{{- end -}}
