@@ -10,7 +10,7 @@ content_blocks:
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
-      label: Register interest for HugoConf 2023
+      label: Register your interest for HugoConf 2023
       id:
       view_label_icon: true
       border_color: border-blue
@@ -18,7 +18,7 @@ content_blocks:
       open_modal: false
       modal:
         _bookshop_name: simple/modal
-        heading: Register today!
+        heading: Sign up for HugoConf updates
         modal_content:
           - _bookshop_name: simple/mailchimp-form
             _instancevalue: 900c740d-ec7d-4892-bfe2-f0962f3addf5
@@ -493,3 +493,4 @@ content_blocks:
       - '#034AD8'
       - '#FCD804'
 ---
+
