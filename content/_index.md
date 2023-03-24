@@ -20,27 +20,10 @@ content_blocks:
         _bookshop_name: simple/modal
         heading: Sign up for HugoConf updates
         modal_content:
-          - _bookshop_name: simple/mailchimp-form
-            _instancevalue: 900c740d-ec7d-4892-bfe2-f0962f3addf5
-            form_submission_type: email/cloudcannon
-            success_page:
-            mailchimp_submission_action:
-            inputs:
-            tandc_checkbox:
-              _bookshop_name: generic/form/checkbox-input
-              _name: ee54a2a2-214f-48ce-97c6-12015f67bc15
-              label: I agree to the code of conduct
-              checked: false
-              required: true
-            submit_button:
-              _bookshop_name: generic/button
-              label: Register
-              id:
-              view_label_icon: true
-              border_color: border-pink
-              add_modal: false
-              open_modal: false
-              modal:
+          - _bookshop_name: simple/hubspot-form
+            region: na1
+            portalId: 22461532
+            formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
   - _bookshop_name: sections/video-section
     notice_message: >-
       <p>HugoConf 2022 is all finished! Watch the speaker videos below, or
