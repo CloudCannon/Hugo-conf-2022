@@ -1,0 +1,26 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - modal_blocks
+  label: "Hubspot-form"
+  description:
+  icon: dynamic_form
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  region: na1
+  portalId: 22461532
+  formId:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  region: na1
+  portalId: 22461532
+  formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+  styles:
+    padding_bottom: 32
+    button_bottom: 64
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

@@ -1,0 +1,230 @@
+.c-hubspot-form {
+  padding-bottom: 4rem;
+
+  .hbspt-form > form,
+  .hs-dependent-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hbspt-form > form > .hs-form-field,
+  .hs-dependent-field > .hs-form-field {
+    margin-bottom: 2rem;
+  }
+
+  // Text inputs
+  .hs-form-field > .input > input {
+    width: 75%;
+    padding: .5rem 1rem;
+    background-color: #404040;
+    border: 2px solid #C9177E;
+    border-radius: 6px;
+  }
+
+  // Select input
+  .hs-form-field > .input > select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 75%;
+    padding: .5rem 1rem;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 2px solid #C9177E;
+    border-radius: 6px;
+  }
+
+  // Message input
+  .hs-form-field > .input > textarea {
+    width: 75%;
+    padding: .5rem 1rem;
+    background-color: #404040;
+    border: 2px solid #C9177E;
+    border-radius: 6px;
+  }
+
+  // Radio input
+  .hbspt-form > form > .hs-fieldtype-radio > .input {
+    width: 75%;
+    background-color: #404040;
+    border: 2px solid #C9177E;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+  .hs-form-field > .input > .inputs-list > li > label > input {
+    margin-right: 1rem;
+    accent-color: #C9177E;
+
+    &:focus {
+      outline: #c30c51;
+    }
+  }
+
+  
+  // Date input
+  .hs-form-field > .input > .hs-dateinput {
+    position: relative;
+  }
+
+  .hs-form-field > .input > .hs-dateinput > .hs-input {
+    width: 75%;
+    padding: .5rem 1rem;
+    background-color: #404040;
+    border: 2px solid #C9177E;
+    border-radius: 6px;
+  }
+
+  .hs-form-field > .input > .hs-dateinput > .hs-datepicker {
+    left: 0;
+    right: 25%;
+
+    & > .pika-single > .pika-lendar {
+    margin: 0;
+    width: 100%;
+  }
+  }
+
+  // Labels
+  .hs-form-field > label > span {
+    color: rgba($color: #FFFF, $alpha: .6);
+  }
+
+  // Checkbox
+  .hs-form-booleancheckbox {
+    display: block;
+    position: relative;
+
+    .hs-form-booleancheckbox-display {
+      display: inline-block;
+      max-width: calc(100% - 2rem);
+
+      @media (min-width: 550px) {
+        max-width: 100%;
+      }
+
+      & > span {
+        position: relative;
+        left: 2rem;
+        cursor: pointer;
+      }
+  
+      & > input {
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+        z-index: 2;
+      }
+  
+      & > span:after,
+      & > span:before {
+        content: " ";
+        cursor: pointer;
+        position: absolute;
+        left: -32px;
+        top: 0;
+        height: 20px;
+        width: 20px;
+      }
+  
+      // Checkbox
+      & > span:before {
+        display: block;
+        margin-right: 8px;
+        border: 2px solid #C9177E;
+      }
+  
+      // Tick
+      & > span:after {
+        background-image: url(/tick.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 13px;
+        opacity: 0;
+        transform: scale(0.5);
+        transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+      }
+  
+      input[type="checkbox"]:checked+span:after{ 
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      input[type="checkbox"]:focus+span:before{ 
+        outline: #c30c51;
+        outline-offset: -2px;
+        outline-style: solid;
+      }
+    }
+  }
+
+  // Bottom section
+  .hs_i_agree_to_the_code_of_conduct {
+    border-top: 2px solid #C9177E;
+    margin-block: 2rem;
+    padding-top: 2rem;
+  }
+
+  // Button
+  .actions {
+    display: flex;
+    justify-content: end;
+  }
+
+  .hs-button {
+    position: absolute;
+    left: 0;
+    bottom: -4rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgb(120, 120, 120);
+    padding-right: 4rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+    background-image: url(/button-icon-1.svg), url(/button-icon-2.svg);
+    background-position: 80% 48%, 78% 52%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+    &:hover {
+      transform: scale(1.05);
+      animation: animatedButtonBackground .4s cubic-bezier(.36,.07,.19,.97) alternate;
+    }
+  }
+
+  .hs_submit.hs-submit {
+    position: relative;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@keyframes animatedButtonBackground {
+  20% {
+    background-position: 76% 48%, 82% 52%;
+  }
+  40% {
+    background-position: 82% 48%, 78% 52%;
+  }
+  60% {
+    background-position: 78% 48%, 81% 52%;
+  }
+  80% {
+    background-position: 81% 48%, 76% 52%;
+  }
+  100% {
+    background-position: 80% 48%, 78% 52%;
+  }
+}
