@@ -1,5 +1,5 @@
 .c-hubspot-form {
-  padding-bottom: 4rem;
+  // padding-bottom: 4rem;
 
   .hbspt-form > form,
   .hs-dependent-field {
@@ -167,16 +167,7 @@
     padding-top: 2rem;
   }
 
-  // Button
-  .actions {
-    display: flex;
-    justify-content: end;
-  }
-
   .hs-button {
-    position: absolute;
-    left: 0;
-    bottom: -4rem;
     padding: 1rem 1.5rem;
     border: 2px solid rgb(120, 120, 120);
     padding-right: 4rem;
@@ -184,7 +175,7 @@
     cursor: pointer;
 
     background-image: url(/button-icon-1.svg), url(/button-icon-2.svg);
-    background-position: 80% 48%, 78% 52%;
+    background-position: 80% 50%, 80% 49%;
     background-repeat: no-repeat;
     background-size: 30px;
 
@@ -213,18 +204,18 @@ input[type=number] {
 
 @keyframes animatedButtonBackground {
   20% {
-    background-position: 76% 48%, 82% 52%;
+    background-position: 76% 50%, 84% 49%;
   }
   40% {
-    background-position: 82% 48%, 78% 52%;
+    background-position: 84% 50%, 76% 49%;
   }
   60% {
-    background-position: 78% 48%, 81% 52%;
+    background-position: 78% 50%, 82% 49%;
   }
   80% {
-    background-position: 81% 48%, 76% 52%;
+    background-position: 82% 50%, 78% 49%;
   }
   100% {
-    background-position: 80% 48%, 78% 52%;
+    background-position: 80% 50%, 80% 49%;
   }
 }
