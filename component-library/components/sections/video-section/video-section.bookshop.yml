@@ -24,4 +24,4 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   notice_message:
-    type: html
+    type: markdown
