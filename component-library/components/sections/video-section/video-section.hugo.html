@@ -3,9 +3,9 @@
     <div
       class="c-video-section__notice bg-pink text-white md:w-8/12 w-4/5 py-4 px-8 grid justify-center text-lg items-center rounded-t-lg">
       <div class=" flex gap-3 text-center items-center justify-center flex-wrap" x-transition>
-        {{ .notice_message | safeHTML }}
+        <p>{{ .notice_message | markdownify }}</p>
         {{ with .button }} 
-          {{ partial "bookshop" (slice "generic/button" .button) }}
+          {{ partial "bookshop" (slice "generic/button" . ) }}
         {{ end }}
       </div>
     </div>

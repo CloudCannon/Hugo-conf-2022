@@ -26,11 +26,23 @@ content_blocks:
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
   - _bookshop_name: sections/video-section
     notice_message: >-
-      <p>HugoConf 2022 is all finished! Watch the speaker videos below, or
-      rewatch the entire stream for <a class="underline" target="_blank"
-      href="https://www.youtube.com/watch?v=JpxiKUHzoqM&amp;t=5982s">Day One</a>
-      and <a class="underline" target="_blank"
-      href="https://youtu.be/ACRN43SbF2g?t=5512">Day Two</a>.</p>
+      Want to speak? Submit your proposal by **June 1st**.
+    button:
+      _bookshop_name: generic/button
+      label: Submit your talk
+      id:
+      view_label_icon: false
+      border_color: border-white
+      add_modal: true
+      open_modal: false
+      modal:
+        _bookshop_name: simple/modal
+        heading: Register to speak at HugoConf
+        modal_content:
+          - _bookshop_name: simple/hubspot-form
+            region: na1
+            portalId: 22461532
+            formId: c1a95734-9550-4306-9e12-892c5112b894
     video:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/0iwNjcFIHNM

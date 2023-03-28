@@ -8,6 +8,7 @@
   </a>
   {{ partial "bookshop" (slice "simple/event-date" .date ) }}
   <div class="text-center text-2xl font-bold max-w-3xl">{{ .content }}</div>
-  {{ with .button }} {{ partial "bookshop" (slice "generic/button" . ) }} {{ end
-  }}
+  {{ with .button }} 
+    {{ partial "bookshop" (slice "generic/button" . ) }} 
+  {{ end}}
 </section>
