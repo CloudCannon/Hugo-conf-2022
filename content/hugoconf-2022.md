@@ -5,8 +5,6 @@ content_blocks:
     logo_image: /uploads/hugo-logo.svg
     post_logo: conf
     date:
-      _bookshop_name: simple/event-date
-      date: Coming 2023
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
@@ -24,8 +22,10 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+  - _bookshop_name: generic/markdown-content
+    content_html: "<h2>HugoConf 2022<br />Catch up on the incredible talks and workshops from HugoConf 2022 below.</h2><p>\_</p>"
   - _bookshop_name: sections/video-section
-    notice_message: Want to speak? Submit your proposal by **June 1st**.
+    notice_message: ''
     button:
       _bookshop_name: generic/button
       label: Submit your talk
@@ -46,7 +46,7 @@ content_blocks:
       _bookshop_name: simple/video
       url: https://www.youtube.com/embed/0iwNjcFIHNM
   - _bookshop_name: sections/schedule
-    title: HugoConf 2022
+    title: Talks and workshops from 2022
     talks:
       - time_string: "9:00am —\_9:45am PDT"
         video_link: https://youtu.be/lwHr8prIDaU
