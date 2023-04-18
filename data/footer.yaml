@@ -1,4 +1,4 @@
-preText: "Hosted by "
+preText: 'Hosted by '
 logo_image: /uploads/coudcannon-logo.svg
 logo_alt: CloudCannon logo
 links:
@@ -6,6 +6,10 @@ links:
     label: Home
     icon:
     icon_alt:
+  - url: /hugoconf-2022/
+    label: 2022 Recap
+    icon: ''
+    icon_alt: ''
   - url: /code-of-conduct
     label: Code of conduct
     icon:
