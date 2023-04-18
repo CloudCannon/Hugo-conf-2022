@@ -5,7 +5,7 @@ content_blocks:
     logo_image: /uploads/hugo-logo.svg
     post_logo: conf
     date:
-    content: The free, online conference for everything Hugo
+    content:
     button:
       _bookshop_name: generic/button
       label: Register your interest for HugoConf 2023
@@ -22,29 +22,6 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
-  - _bookshop_name: generic/markdown-content
-    content_html: "<h2>HugoConf 2022<br />Catch up on the incredible talks and workshops from HugoConf 2022 below.</h2><p>\_</p>"
-  - _bookshop_name: sections/video-section
-    notice_message: ''
-    button:
-      _bookshop_name: generic/button
-      label: Submit your talk
-      id:
-      view_label_icon: false
-      border_color: border-white
-      add_modal: true
-      open_modal: false
-      modal:
-        _bookshop_name: simple/modal
-        heading: Register to speak at HugoConf
-        modal_content:
-          - _bookshop_name: simple/hubspot-form
-            region: na1
-            portalId: 22461532
-            formId: c1a95734-9550-4306-9e12-892c5112b894
-    video:
-      _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/0iwNjcFIHNM
   - _bookshop_name: sections/schedule
     title: Talks and workshops from 2022
     talks:
@@ -450,36 +427,29 @@ content_blocks:
           in Google Lighthouse when you achieve perfect scores by using Hugo.
         speakers:
           - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
-  - _bookshop_name: sections/speakers
-  - _bookshop_name: sections/hexagon-group
-    hexagons:
-      - _bookshop_name: simple/hexagon-block
-        hexagon_color: pink
-        title: A Conference for all Hugoers
-        content: >-
-          <p>HugoConf organizers are dedicated to providing a safe, inclusive
-          and harassment free environment for all attendees. Please review our
-          <a href="/code-of-conduct">code of conduct</a>, and help build the
-          community by being supportive and constructive.</p><p>&nbsp;</p><p>If
-          you have any questions or suggestions, reach out to <a
-          href="mailto:hello@hugoconf.io">hello@hugoconf.io</a>.</p>
-      - _bookshop_name: simple/hexagon-block
-        hexagon_color: green
-        title: Help us Organize
-        content: >-
-          <p>We're looking for members of the community to help plan and run the
-          conference on the day.</p><p>&nbsp;</p><p>If you're interested in
-          participating in any capacity, <a href="mailto:hello@hugoconf.io">get
-          in touch</a>!</p><p>&nbsp;</p><p>We'd love your help.</p>
-      - _bookshop_name: simple/hexagon-block
-        hexagon_color: yellow
-        title: FAQs
-        content: >-
-          <p><strong>Where is HugoConf held?</strong></p><p>Right here, on this
-          website! On July 8th, we'll stream the sessions directly on this
-          page.</p><p>&nbsp;</p><p><strong>I can't attend! 😭 Will the talks and
-          workshop videos be available to watch later?</strong></p><p>Yes, all
-          sessions will be recorded and publicly available on YouTube.</p>
+  - _bookshop_name: generic/markdown-content
+    content_html: "<h3>HugoConf 2022 Wrap up video</h3><p>\_</p>"
+  - _bookshop_name: sections/video-section
+    notice_message: ''
+    button:
+      _bookshop_name: generic/button
+      label: Submit your talk
+      id:
+      view_label_icon: false
+      border_color: border-white
+      add_modal: true
+      open_modal: false
+      modal:
+        _bookshop_name: simple/modal
+        heading: Register to speak at HugoConf
+        modal_content:
+          - _bookshop_name: simple/hubspot-form
+            region: na1
+            portalId: 22461532
+            formId: c1a95734-9550-4306-9e12-892c5112b894
+    video:
+      _bookshop_name: simple/video
+      url: https://www.youtube.com/embed/0iwNjcFIHNM
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'
