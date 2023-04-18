@@ -50,13 +50,7 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: pink
         title: A Conference for all Hugoers
-        content: >-
-          <p>HugoConf organizers are dedicated to providing a safe, inclusive
-          and harassment free environment for all attendees. Please review our
-          <a href="/code-of-conduct">code of conduct</a>, and help build the
-          community by being supportive and constructive.</p><p>&nbsp;</p><p>If
-          you have any questions or suggestions, reach out to <a
-          href="mailto:hello@hugoconf.io">hello@hugoconf.io</a>.</p>
+        content: "<p>HugoConf organizers are dedicated to providing a safe, inclusive and harassment free environment for all attendees. Please review our <a href=\"/code-of-conduct\">code of conduct</a>, and help build the community by being supportive and constructive.<br />\_</p><p>If you have any questions or suggestions, reach out to <a href=\"mailto:hello@hugoconf.io\">hello@hugoconf.io</a>.</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: Help us Organize
