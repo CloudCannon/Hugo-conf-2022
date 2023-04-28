@@ -25,7 +25,7 @@ content_blocks:
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
   - _bookshop_name: sections/video-section
-    notice_message: Want to speak? Submit your proposal by **June 1st**.
+    notice_message: Want to speak? Submit your proposal by **August 1st**.
     button:
       _bookshop_name: generic/button
       label: Submit your talk
