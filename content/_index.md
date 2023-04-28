@@ -6,7 +6,7 @@ content_blocks:
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: 20th - 21st July 2023
+      date: 21st September 2023
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
