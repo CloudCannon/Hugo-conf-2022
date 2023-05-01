@@ -6,7 +6,7 @@ content_blocks:
     post_logo: conf
     date:
       _bookshop_name: simple/event-date
-      date: July 8th + 9th 2022 PDT
+      date: 21st September 2023
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
@@ -128,4 +128,3 @@ content_blocks:
       spaces and identification of the participant as a harasser to other
       HugoConf members or the general public.</p>
 ---
-
