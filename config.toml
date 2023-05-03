@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Hugo Conf 2022'
+title = 'HugoConf 2023'
 
 [module]
 replacements = "local/component-library -> ../component-library"
