@@ -427,6 +427,13 @@ content_blocks:
           in Google Lighthouse when you achieve perfect scores by using Hugo.
         speakers:
           - speaker: 0f5d9642-5901-4193-8a51-0ee3b25859d7
+      - time_string: asd
+        video_link: ''
+        type: Workshop
+        title: Something
+        description: I will write something
+        speakers:
+          - speaker: mr.large
   - _bookshop_name: generic/markdown-content
     content_html: "<h3>HugoConf 2022 Wrap up video</h3><p>\_</p>"
   - _bookshop_name: sections/video-section
