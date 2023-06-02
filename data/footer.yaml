@@ -18,3 +18,7 @@ links:
     label: Twitter
     icon: /uploads/twitter-logo.svg
     icon_alt: Twitter
+  - url: https://fosstodon.org/@hugoconf
+    label: Mastodon
+    icon: 
+    icon_alt: 
