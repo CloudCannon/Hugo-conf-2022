@@ -58,7 +58,7 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
-        content: "<p><strong>Where is HugoConf held?</strong></p><p>Right here, on this website! On September 21st (PDT), we'll stream the sessions directly on this page.</p><p>\_</p><p><strong>I can't attend! 😭 Will the talks and workshop videos be available to watch later?</strong></p><p>Yes, all sessions will be recorded and publicly available on YouTube.</p>"
+        content: "<p><strong>Where is HugoConf held?</strong></p><p>Right here, on this website! On September 21st (PDT), we'll stream the sessions directly on this page.</p><p>\_</p><p><strong>I can't attend! 😭 Will the talks and workshop videos be available to watch later?</strong></p><p>Yes, all sessions will be recorded and publicly available on YouTube.</p><p>\_</p><p><strong>I'd love to be a sponsor, are you accepting new sponsors?</strong><br />Yes! 💙 You can find all the information about our sponsorship package here.</p>"
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'
