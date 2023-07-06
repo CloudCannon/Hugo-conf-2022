@@ -54,7 +54,7 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: Sponsorship
-        content: "<p>We're accepting sponsors for HugoConf 2023.<br /><br />If you're interested, <a href=\"mailto:hello@hugoconf.io\">get in touch</a>!</p><p>\_</p>"
+        content: "<p>We're currently accepting sponsors for HugoConf 2023.</p><p><br /><a href=\"/sponsorship/\">Find out more about our sponsorship package.</a></p><p>\_</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
