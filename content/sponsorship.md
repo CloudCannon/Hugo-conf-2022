@@ -42,5 +42,5 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: generic/markdown-content
-    content_html: "<h1>Want to Sponsor HugoConf?</h1><p>We're accepting sponsors for HugoConf 2023. If you're interested in sponsorship opportunities, <strong><a href=\"mailto:hello@hugoconf.io?subject=HugoConf%20Sponsorship\">get in touch!</a></strong><br />​​​​​</p><h3>Sponsorship Package:</h3><ul><li>Company logo placement on the hugoconf.io website</li><li>Acknowledgement from our host at the beginning of the conference</li><li>Company logo placement within HugoConf email newsletter</li><li>HugoConf social channel acknowledgments<br />​​</li></ul><p>\_</p><p>\_</p><p>\_</p><h3>\_</h3>"
+    content_html: "<h1>Want to Sponsor HugoConf?</h1><p>We're accepting sponsors for HugoConf 2023. If you're interested in sponsorship opportunities, <strong><a href=\"mailto:hello@hugoconf.io?subject=HugoConf%20Sponsorship\">get in touch!</a></strong><br />​​​​​</p><h3>Sponsorship Package:</h3><ul><li>Company logo placement on the hugoconf.io website</li><li>Acknowledgement from our host at the beginning of the conference</li><li>Company logo placement within HugoConf email newsletter</li><li>HugoConf social channel acknowledgments<br />​</li></ul><p>\_</p><p>\_</p><h3>\_</h3>"
 ---
