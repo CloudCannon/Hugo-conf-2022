@@ -43,11 +43,8 @@ content_blocks:
               modal:
   - _bookshop_name: generic/markdown-content
     content_html: >-
-      <h1>Code of Conduct</h1><p>All attendees, speakers, sponsors and
-      volunteers at our conference are required to agree with the following code
-      of conduct. Organisers will enforce this code throughout the event. We
-      expect cooperation from all participants to help ensure a safe environment
-      for everybody.</p><h3>Shorter version</h3><p>HugoConf is dedicated to
+      <h1>Want to Sponsor HugoConf?</h1><p>We're accepting sponsors for
+      2023!&nbsp;</p><h3>Shorter version</h3><p>HugoConf is dedicated to
       providing a harassment-free experience for everyone, regardless of gender,
       gender identity and expression, sexual orientation, disability, physical
       appearance, body size, race, or religion. We do not tolerate harassment of
@@ -70,14 +67,13 @@ content_blocks:
       these rules.</p><p>Harassment includes:</p><ul><li>Offensive comments
       related to gender, gender identity and expression, sexual orientation,
       disability, mental illness, neuro(a)typicality, physical appearance, body
-      size, race, or religion</li><li>Unwelcome comments regarding a
-      person&rsquo;s lifestyle choices and practices, including those related to
-      food, health, parenting, drugs, and employment.</li><li>Deliberate
-      misgendering or use of &lsquo;dead&rsquo; or rejected
-      names</li><li>Gratuitous or off-topic sexual images or behaviour in spaces
-      where they&rsquo;re not appropriate</li><li>Physical contact and simulated
-      physical contact (eg, textual descriptions like &ldquo;*hug*&rdquo; or
-      &ldquo;*backrub*&rdquo;) without consent or after a request to
+      size, race, or religion</li><li>Unwelcome comments regarding a person’s
+      lifestyle choices and practices, including those related to food, health,
+      parenting, drugs, and employment.</li><li>Deliberate misgendering or use
+      of ‘dead’ or rejected names</li><li>Gratuitous or off-topic sexual images
+      or behaviour in spaces where they’re not appropriate</li><li>Physical
+      contact and simulated physical contact (eg, textual descriptions like
+      “*hug*” or “*backrub*”) without consent or after a request to
       stop.</li><li>Threats of violence</li><li>Incitement of violence towards
       any individual, including encouraging a person to commit suicide or to
       engage in self-harm</li><li>Deliberate intimidation</li><li>Stalking or
@@ -86,19 +82,17 @@ content_blocks:
       discussion</li><li>Unwelcome sexual attention</li><li>Pattern of
       inappropriate social contact, such as requesting/assuming inappropriate
       levels of intimacy with others</li><li>Continued one-on-one communication
-      after requests to cease</li><li>Deliberate &ldquo;outing&rdquo; of any
-      aspect of a person&rsquo;s identity without their consent except as
-      necessary to protect vulnerable people from intentional
-      abuse</li><li>Publication of non-harassing private
-      communication</li></ul><p>HugoConf prioritizes marginalized people&rsquo;s
-      safety over privileged people&rsquo;s comfort. Organisers will not act on
-      complaints regarding:</p><ul><li>&lsquo;Reverse&rsquo; -isms, including
-      &lsquo;reverse racism,&rsquo; &lsquo;reverse sexism,&rsquo; and
-      &lsquo;cisphobia&rsquo;</li><li>Reasonable communication of boundaries,
-      such as &ldquo;leave me alone,&rdquo; &ldquo;go away,&rdquo; or
-      &ldquo;I&rsquo;m not discussing this with
-      you.&rdquo;</li><li>Communicating in a &lsquo;tone&rsquo; you don&rsquo;t
-      find congenial</li><li>Criticizing racist, sexist, cissexist, or otherwise
+      after requests to cease</li><li>Deliberate “outing” of any aspect of a
+      person’s identity without their consent except as necessary to protect
+      vulnerable people from intentional abuse</li><li>Publication of
+      non-harassing private communication</li></ul><p>HugoConf prioritizes
+      marginalized people’s safety over privileged people’s comfort. Organisers
+      will not act on complaints regarding:</p><ul><li>‘Reverse’ -isms,
+      including ‘reverse racism,’ ‘reverse sexism,’ and
+      ‘cisphobia’</li><li>Reasonable communication of boundaries, such as “leave
+      me alone,” “go away,” or “I’m not discussing this with
+      you.”</li><li>Communicating in a ‘tone’ you don’t find
+      congenial</li><li>Criticizing racist, sexist, cissexist, or otherwise
       oppressive behavior or assumptions</li></ul><h3>Reporting</h3><p>If you
       are being harassed by a member of HugoConf, notice that someone else is
       being harassed, or have any other concerns, please contact the Organisers
@@ -117,9 +111,9 @@ content_blocks:
       intended to silence legitimate criticism may be deleted without
       response.</p><p>We will respect confidentiality requests for the purpose
       of protecting victims of abuse. At our discretion, we may publicly name a
-      person about whom we&rsquo;ve received harassment complaints, or privately
-      warn third parties about them, if we believe that doing so will increase
-      the safety of HugoConf members or the general public. We will not name
+      person about whom we’ve received harassment complaints, or privately warn
+      third parties about them, if we believe that doing so will increase the
+      safety of HugoConf members or the general public. We will not name
       harassment victims without their affirmative
       consent.</p><h3>Consequences</h3><p>Participants asked to stop any
       harassing behavior are expected to comply immediately.</p><p>If a
