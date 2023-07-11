@@ -42,5 +42,23 @@ content_blocks:
               open_modal: false
               modal:
   - _bookshop_name: generic/markdown-content
-    content_html: "<h1>Want to sponsor HugoConf?</h1><p>We're accepting sponsors for HugoConf 2023. If you're interested in sponsorship opportunities, <strong><a href=\"mailto:hello@hugoconf.io?subject=HugoConf%20Sponsorship\">get in touch!</a></strong><br />​​​​​</p><h3>Sponsorship Package:</h3><ul><li>Company link &amp; logo placement on the hugoconf.io website;</li><li>Company link &amp; logo placement within the HugoConf email newsletter;</li><li>Acknowledgment and short promo from our host at the beginning and end of the conference;</li><li>HugoConf social channel acknowledgments.<br />\_</li></ul><h3>Where does sponsorship money go?</h3><p>In the spirit of open-source software — and in the interests of full disclosure — it's important to note that no one on the conference team is directly profiting from organizing or running HugoConf.&nbsp;</p><p>Money raised from sponsors will be used to:</p><ul><li>Advertise and promote the conference with targeted ads;</li><li>Buy and ship promotional items (swag) to speakers and a random number of attendees.</li></ul><p>Any sponsorship money remaining after these activities are complete will be donated to <a target=\"_blank\" rel=\"noopener\" href=\"https://girlswhocode.com/\">Girls Who Code</a>, a registered charity active in the U.S., Canada, U.K., and India.&nbsp;&nbsp;</p><p>After the conference is finished, a full financial report will be published on this page.</p>"
+    content_html: >-
+      <h1>Want to sponsor HugoConf?</h1><p>We're accepting sponsors for HugoConf
+      2023. If you're interested in sponsorship opportunities, <strong><a
+      href="mailto:hello@hugoconf.io?subject=HugoConf%20Sponsorship">get in
+      touch!</a></strong></p><h2>Sponsorship Package:</h2><ul><li>Company link
+      and logo placement on the hugoconf.io website;</li><li>Company link and
+      logo placement within the HugoConf email
+      newsletter;</li><li>Acknowledgment and short promo from our host at the
+      beginning and end of the conference;</li><li>HugoConf social channel
+      acknowledgments.</li></ul><h2>Where does sponsorship money go?</h2><p>In
+      the spirit of open-source software — and in the interests of full
+      disclosure — it's important to note that no one on the conference team is
+      directly profiting from organizing or running HugoConf.&nbsp;</p><p>Money
+      raised from sponsors will be used to:</p><ul><li>Advertise and promote the
+      conference;</li><li>Buy and ship promotional items (swag).</li></ul><p>Any
+      sponsorship money remaining after these activities are complete will be
+      donated to <a target="_blank" rel="noopener"
+      href="https://girlswhocode.com/">Girls Who Code</a>, a registered charity
+      active in the U.S., Canada, U.K., and India. &nbsp;</p>
 ---
