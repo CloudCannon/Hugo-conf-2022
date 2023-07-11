@@ -44,7 +44,7 @@ content_blocks:
             formId: c1a95734-9550-4306-9e12-892c5112b894
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/0iwNjcFIHNM
+      url: https://youtube.com/embed/auctAccLbns
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
