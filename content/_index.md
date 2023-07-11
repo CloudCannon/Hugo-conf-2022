@@ -53,8 +53,8 @@ content_blocks:
         content: "<p>HugoConf organizers are dedicated to providing a safe, inclusive and harassment free environment for all attendees. Please review our <a href=\"/code-of-conduct\">code of conduct</a>, and help build the community by being supportive and constructive.<br />\_</p><p>If you have any questions or suggestions, reach out to <a href=\"mailto:hello@hugoconf.io\">hello@hugoconf.io</a>.</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
-        title: Help us Organize
-        content: "<p>We're looking for members of the community to help plan and run the conference on the day.</p><p>\_</p><p>If you're interested in participating in any capacity, <a href=\"mailto:hello@hugoconf.io\">get in touch</a>!</p><p>\_</p><p>We'd love your help.</p>"
+        title: Sponsorship
+        content: "<p>We're currently accepting sponsors for HugoConf 2023.</p><p><br /><a href=\"/sponsorship/\">Find out more about our sponsorship package.</a></p><p>\_</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
