@@ -13,6 +13,7 @@ collections_config:
         horizontalrule: true
         image: true
         image_size_attributes: true
+        indent: true
         italic: true
         link: true
         numberedlist: true
@@ -40,6 +41,7 @@ collections_config:
         undo: true
     _enabled_editors:
       - visual
+      - content
     _inputs: {}
     _select_data: {}
     _structures: {}
