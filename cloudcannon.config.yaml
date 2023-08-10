@@ -1,22 +1,54 @@
 collections_config:
   pages:
+    output: true
+    icon: notes
+    _editables: {}
+      content:
+        blockquote: true
+        bold: true
+        bulletedlist: true
+        code: true
+        format: p h1 h2 h3 h4 h5 h6
+        horizontalrule: true
+        image: true
+        image_size_attributes: true
+        italic: true
+        link: true
+        numberedlist: true
+        redo: true
+        removeformat: true
+        snippet: true
+        strike: true
+        subscript: true
+        superscript: true
+        table: true
+        underline: true
+        undo: true
     _enabled_editors:
       - visual
-
-data_config: 
-  speakers: true
-
-
-
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas: {}
 _inputs:
   uuid:
     type: string
-    hidden: true
     instance_value: UUID
+    hidden: true
+    cascade: true
   speaker:
-      type: select
-      options:
-        values: "speakers"
-        value_key: "uuid"
-        text_key: "name"
-
+    type: select
+    options:
+      values: speakers
+      value_key: uuid
+      text_key: name
+    cascade: true
+_select_data: {}
+_structures: {}
+_editables: {}
+data_config:
+  speakers: true
+timezone: Etc/UTC
