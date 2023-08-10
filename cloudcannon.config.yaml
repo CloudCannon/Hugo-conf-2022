@@ -7,6 +7,7 @@ collections_config:
         blockquote: true
         bold: true
         bulletedlist: true
+        center: text-center
         code: true
         format: p h1 h2 h3 h4 h5 h6
         horizontalrule: true
