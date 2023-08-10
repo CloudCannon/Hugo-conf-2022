@@ -2,7 +2,7 @@ collections_config:
   pages:
     output: true
     icon: notes
-    _editables: {}
+    _editables:
       content:
         blockquote: true
         bold: true
