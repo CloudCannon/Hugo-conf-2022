@@ -45,24 +45,32 @@ content_blocks:
     video:
       _bookshop_name: simple/video
       url: https://youtube.com/embed/auctAccLbns
+  - _bookshop_name: generic/markdown-content
+    content_html: <h2>Huge thanks to our sponsors</h2>
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
-        title: Sponsorship
-        content: "<p>We're currently accepting sponsors for HugoConf 2023.</p><p><br /><a href=\"/sponsorship/\">Find out more about our sponsorship package.</a></p><p>\_</p>"
+        title: From your pals at PaperCut
+        content: >-
+          <p>FACT: Rainbows are better with unicorns. And Hugo conferences are
+          better with you! We can’t wait to see you at the event. In the
+          meantime,&nbsp;<a target="_blank" rel="noopener"
+          href="https://pcut.io/3s22NiJ">this fancy webpage</a>&nbsp;will give
+          you a little more idea of who we are, what we do, and why Printers are
+          better with PaperCut.</p>
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
-        title:
-        content:
-      - _bookshop_name: simple/hexagon-block
-        hexagon_color: pink
-        title: A Conference for all Hugoers
-        content: "<p>HugoConf organizers are dedicated to providing a safe, inclusive and harassment free environment for all attendees. Please review our <a href=\"/code-of-conduct\">code of conduct</a>, and help build the community by being supportive and constructive.<br />\_</p><p>If you have any questions or suggestions, reach out to <a href=\"mailto:hello@hugoconf.io\">hello@hugoconf.io</a>.</p>"
+        title: OpenGraph Images
+        content: "<p>With <a target=\"_blank\" rel=\"noopener\" href=\"https://opengraphimage.com/?ref=hugoconf\"><strong>OpenGraph Images</strong></a> you can build dynamic images from your existing web stack, whether it's React, Svelte, Vue, Angular, Ember, Tailwind or just vanilla HTML and CSS. OpenGraph images are generated on the fly using parameters from the url and your external data just like a web page.&nbsp;</p><p>\_</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
         content: "<p><strong>Where is HugoConf held?</strong></p><p>Right here, on this website! On September 21st (PDT), we'll stream the sessions directly on this page.</p><p>\_</p><p><strong>I can't attend! 😭 Will the talks and workshop videos be available to watch later?</strong></p><p>Yes, all sessions will be recorded and publicly available on YouTube.</p>"
+      - _bookshop_name: simple/hexagon-block
+        hexagon_color: pink
+        title: A Conference for all Hugoers
+        content: "<p>HugoConf organizers are dedicated to providing a safe, inclusive and harassment free environment for all attendees. Please review our <a href=\"/code-of-conduct\">code of conduct</a>, and help build the community by being supportive and constructive.<br />\_</p><p>If you have any questions or suggestions, reach out to <a href=\"mailto:hello@hugoconf.io\">hello@hugoconf.io</a>.</p>"
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'
