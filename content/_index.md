@@ -46,12 +46,12 @@ content_blocks:
       _bookshop_name: simple/video
       url: https://youtube.com/embed/auctAccLbns
   - _bookshop_name: generic/markdown-content
-    content_html: <h2>Huge thanks to our sponsors</h2>
+    content_html: <h2><br />Huge thanks to our sponsors!</h2>
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
-        title: From your pals at PaperCut
+        title: PaperCut
         content: >-
           <p>FACT: Rainbows are better with unicorns. And Hugo conferences are
           better with you! We can’t wait to see you at the event. In the
