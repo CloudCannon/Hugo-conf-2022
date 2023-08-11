@@ -37,6 +37,13 @@
   resources.ExecuteAsTemplate (printf "tailwind.dev.%v.css" now) . }}
   {{ end }}
   <link href="{{ $styles.Permalink }} " rel="stylesheet" />
+  
+    <!-- Add editor styles -->
+  {{ $estyles := resources.Get "css/editor.css" }} {{ $estyles = $estyles |
+  resources.PostCSS (dict "inlineImports" true) }} {{ if hugo.IsProduction }} {{
+  $estyles = $estyles | minify }} 
+  {{ end }}
+  <link href="{{ $estyles.Permalink }} " rel="stylesheet" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
