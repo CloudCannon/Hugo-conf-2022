@@ -54,7 +54,7 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: PaperCut
-        image:
+        image: /uploads/papercut-print-management-software-5-1.png
         image_alt:
         content: >-
           <p>FACT: Rainbows are better with unicorns. And Hugo conferences are
