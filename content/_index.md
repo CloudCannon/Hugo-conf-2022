@@ -68,7 +68,11 @@ content_blocks:
         title: OpenGraph Images
         image: /uploads/ogi.png
         image_alt:
-        content: "<p>With <a target=\"_blank\" rel=\"noopener\" href=\"https://opengraphimage.com/?ref=hugoconf\"><strong>OpenGraph Images</strong></a> you can build dynamic images from your existing web stack, whether it's React, Svelte, Vue, Angular, Ember, Tailwind or just vanilla HTML and CSS. OpenGraph images are generated on the fly using parameters from the url and your external data just like a web page.&nbsp;</p><p>\_</p>"
+        content: "<p>With <a target=\"_blank\" rel=\"noopener\" href=\"https://opengraphimage.com/?ref=hugoconf\"><strong>OpenGraph Images</strong></a> you can build dynamic images from your existing web stack. OpenGraph images are generated on the fly using parameters from the url and your external data just like a web page.&nbsp;</p><p>\_</p>"
+  - _bookshop_name: generic/markdown-content
+    content_html: <h2 class="center-align"><br />Any questions?</h2>
+  - _bookshop_name: sections/hexagon-group
+    hexagons:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
