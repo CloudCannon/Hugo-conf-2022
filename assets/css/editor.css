@@ -1,9 +1,9 @@
-p.left-align {
+.left-align {
   text-align: left;
   }
-p.center-align {
+.center-align {
   text-align: center;
   }
-p.right-align {
+.right-align {
   text-align: right;
   }
