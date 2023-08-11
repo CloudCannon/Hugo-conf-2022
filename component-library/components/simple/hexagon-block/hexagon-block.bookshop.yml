@@ -21,6 +21,20 @@ preview:
 _inputs:
   content:
     type: html
+    options: 
+      bold: true
+      format: h1 h2 h3 h4 p
+      italic: true
+      removeformatting: true
+      link: true
+      blockquote: true
+      numberedlist: true
+      bulletedlist: true
+      styles: /assets/css/editor.css
+      left: left-align
+      center: center-align
+      right: right-align
+      image: true
   hexagon_color:
     type: select
     options:
