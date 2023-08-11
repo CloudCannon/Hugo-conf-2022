@@ -9,11 +9,13 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   hexagon_color: pink
+  image: 
   title:
   content:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   hexagon_color: pink
+  image: 
   title: I am a title
   content: <p>Doggo ipsum such treat floofs doge. Maximum borkdrive borkf smol borking doggo with a long snoot for pats clouds waggy wags, what a nice floof snoot. Heckin adorable doggo pupper tungg, boof what a nice floof yapper wow very biscit, length boy bork. He made many woofs borkdrive snoot heckin, doing me a frighten. Fat boi very good spot maximum borkdrive wow such tempt aqua doggo, you are doin </p>
 
