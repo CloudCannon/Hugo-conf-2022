@@ -46,7 +46,9 @@ content_blocks:
       _bookshop_name: simple/video
       url: https://youtube.com/embed/auctAccLbns
   - _bookshop_name: generic/markdown-content
-    content_html: <h2><br />HugoConf is better thanks to our sponsors!</h2>
+    content_html: >-
+      <h2 class="center-align"><br />HugoConf is better thanks to our
+      sponsors!</h2>
   - _bookshop_name: sections/hexagon-group
     hexagons:
       - _bookshop_name: simple/hexagon-block
