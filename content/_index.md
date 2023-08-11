@@ -54,6 +54,8 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: PaperCut
+        image:
+        image_alt:
         content: >-
           <p>FACT: Rainbows are better with unicorns. And Hugo conferences are
           better with you! We can’t wait to see you at the event. In the
@@ -64,14 +66,20 @@ content_blocks:
       - _bookshop_name: simple/hexagon-block
         hexagon_color: green
         title: OpenGraph Images
+        image:
+        image_alt:
         content: "<p class=\"center-align\">\_</p><p>With <a target=\"_blank\" rel=\"noopener\" href=\"https://opengraphimage.com/?ref=hugoconf\"><strong>OpenGraph Images</strong></a> you can build dynamic images from your existing web stack, whether it's React, Svelte, Vue, Angular, Ember, Tailwind or just vanilla HTML and CSS. OpenGraph images are generated on the fly using parameters from the url and your external data just like a web page.&nbsp;</p><p>\_</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: yellow
         title: FAQs
+        image:
+        image_alt:
         content: "<p><strong>Where is HugoConf held?</strong></p><p>Right here, on this website! On September 21st (PDT), we'll stream the sessions directly on this page.</p><p>\_</p><p><strong>I can't attend! 😭 Will the talks and workshop videos be available to watch later?</strong></p><p>Yes, all sessions will be recorded and publicly available on YouTube.</p>"
       - _bookshop_name: simple/hexagon-block
         hexagon_color: pink
         title: A Conference for all Hugoers
+        image:
+        image_alt:
         content: "<p>HugoConf organizers are dedicated to providing a safe, inclusive and harassment free environment for all attendees. Please review our <a href=\"/code-of-conduct\">code of conduct</a>, and help build the community by being supportive and constructive.<br />\_</p><p>If you have any questions or suggestions, reach out to <a href=\"mailto:hello@hugoconf.io\">hello@hugoconf.io</a>.</p>"
   - _bookshop_name: sections/side_animation
     colours:
