@@ -91,4 +91,24 @@ content_blocks:
       - '#00A88A'
       - '#034AD8'
       - '#FCD804'
+  - _bookshop_name: sections/schedule
+  - _bookshop_name: sections/schedule
+    title: Talks and workshops
+    talks:
+      - time_string: "9:00am —\_9:45am PDT"
+        video_link:
+        type: Live Interview
+        title: Live Interview with Hugo contributor - Joe Mooring
+        description: >-
+          Learn how to contribute effectively (without code) to the Hugo
+          project.
+        speakers:
+          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
+      - time_string: ''
+        video_link: ''
+        type: ''
+        title: ''
+        description: ''
+        speakers:
+          - speaker: ''
 ---
