@@ -24,6 +24,25 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+  - _bookshop_name: sections/schedule
+    title: Talks and workshops
+    talks:
+      - time_string: "9:00am —\_9:45am PDT"
+        video_link:
+        type: Live Interview
+        title: Live Interview with Hugo contributor - Joe Mooring
+        description: >-
+          Learn how to contribute effectively (without code) to the Hugo
+          project.
+        speakers:
+          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
+      - time_string: ''
+        video_link: ''
+        type: ''
+        title: ''
+        description: ''
+        speakers:
+          - speaker: ''
   - _bookshop_name: sections/video-section
     notice_message: ''
     button:
@@ -91,24 +110,4 @@ content_blocks:
       - '#00A88A'
       - '#034AD8'
       - '#FCD804'
-  - _bookshop_name: sections/schedule
-  - _bookshop_name: sections/schedule
-    title: Talks and workshops
-    talks:
-      - time_string: "9:00am —\_9:45am PDT"
-        video_link:
-        type: Live Interview
-        title: Live Interview with Hugo contributor - Joe Mooring
-        description: >-
-          Learn how to contribute effectively (without code) to the Hugo
-          project.
-        speakers:
-          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
-      - time_string: ''
-        video_link: ''
-        type: ''
-        title: ''
-        description: ''
-        speakers:
-          - speaker: ''
 ---
