@@ -101,12 +101,10 @@ content_blocks:
           accessibility. The data is also published by legal research companies,
           but much of the data is only available behind paywalls for law firms.
           Meanwhile, people, including attorneys, are asking legal questions to
-          LLMs trained on pre-pandemic law.
-
-          At this talk, OpenLaws discusses how we use Hugo to publish 4 million
-          pieces of legal data in our efforts to make our laws more accessible
-          to everyone. We’ll share our approach to generating and hosting
-          millions of pages and our CI/CD pipeline.
+          LLMs trained on pre-pandemic law. At this talk, OpenLaws discusses how
+          we use Hugo to publish 4 million pieces of legal data in our efforts
+          to make our laws more accessible to everyone. We’ll share our approach
+          to generating and hosting millions of pages and our CI/CD pipeline.
         speakers:
           - speaker: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
       - time_string: ''
@@ -118,18 +116,25 @@ content_blocks:
           enhanced performance, offline access, and immersive experiences. Then
           I'll introduce Hugo, a dynamic static site generator, and I'll explore
           how its speed and simplicity make it an excellent candidate for PWA
-          conversion.
-
-
-          I'll then break down PWA essentials, explaining service workers that
-          enable background processes, caching, and offline functionality. I'll
-          choose a Hugo theme and will publish it to Netlify. Then I'll start
-          converting a Hugo site into a PWA, guiding attendees through service
-          worker implementation for intelligent caching and offline
-          capabilities. Crafting a Web App Manifest comes next, ensuring
-          metadata and icons create a captivating user experience.
+          conversion. I'll then break down PWA essentials, explaining service
+          workers that enable background processes, caching, and offline
+          functionality. I'll choose a Hugo theme and will publish it to
+          Netlify. Then I'll start converting a Hugo site into a PWA, guiding
+          attendees through service worker implementation for intelligent
+          caching and offline capabilities. Crafting a Web App Manifest comes
+          next, ensuring metadata and icons create a captivating user
+          experience.
         speakers:
           - speaker: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
+      - time_string: ''
+        video_link:
+        type: Tech Talk
+        title: Building your portfolio with Hugo
+        description: "In a world where a digital portfolio is your gateway to opportunities, creating an engaging online presence has never been more crucial. In this talk, we will cover how to build an impressive portfolio website using the Hugo framework.<br/>This session is all about action. We'll cover:<br/>\n•\_An introduction to static site generators and their advantages.<br/>\n•\_Step-by-step guidance on setting up Hugo, selecting a suitable theme, and integrating personalized content.<br/>\n•\_Tips for optimizing website performance, responsiveness, and SEO within the Hugo framework.<br/>\n•\_Real-world examples of successful portfolio websites built using Hugo."
+        speakers:
+          - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
+  - _bookshop_name: generic/markdown-content
+    content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
     notice_message: ''
     button:
