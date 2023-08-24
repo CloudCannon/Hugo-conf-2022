@@ -55,10 +55,13 @@ content_blocks:
         title: Hugobricks — stackable content blocks for Hugo
         description: >-
           Create a website with stackable content blocks. My current WIP can be
-          found here: https://www.hugobricks.preview.usecue.com/. It is
-          currently based on the awesome Hugo starter template from
-          https://zeon.studio, but will soon be more similar to
-          https://wpstackable.com. WordPress here we come! ;-)
+          found at <u><a
+          href="https://www.hugobricks.preview.usecue.com/">hugobricks.preview.usecue.com</a></u>.
+          It is currently based on the awesome Hugo starter template from <u><a
+          href="https://zeon.studio">zeon.studio</a></u>, but will soon be more
+          similar to <u><a
+          href="https://wpstackable.com.">wpstackable.com</a></u>. WordPress
+          here we come! ;-)
         speakers:
           - speaker: d25749e8-ef87-497b-8d55-40ee2faa0eca
       - time_string: ''
