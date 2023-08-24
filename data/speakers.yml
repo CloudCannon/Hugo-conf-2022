@@ -3,13 +3,13 @@
   image: /uploads/steve-francia.jpg
   title: Creator of Hugo
   company: Google
-  twitter_handle: spf13
+  twitter_handle: https://twitter.com/spf13
 - uuid: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
   name: Liam Bigelow
   image: /uploads/p8260736.jpg
   title: Senior Software Engineer
   company: CloudCannon
-  twitter_handle: LiamBigelow
+  twitter_handle: https://twitter.com/LiamBigelow
 - uuid: 3e17b350-fcab-4207-bf98-117b4013a298
   name: Kimberley Brown
   image: /uploads/kimberley-brown.jpg
@@ -21,19 +21,19 @@
   image: /uploads/tommy-byrd.jpg
   title: Senior Software Engineer
   company: GitHub
-  twitter_handle: tcbyrd_dev
+  twitter_handle: https://twitter.com/tcbyrd_dev
 - uuid: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
   name: Grayson Campbell
   image: /uploads/grayson-campbell.jpg
   title: Digital Media Lead
   company: PaperCut
-  twitter_handle: PaperCutDev
+  twitter_handle: https://twitter.com/PaperCutDev
 - uuid: 560175c7-7640-4ca0-8315-782aa58caa97
   name: Jan Claasen
   image: /uploads/jan.jpg
   title: Web Developer
   company: CloudCannon
-  twitter_handle: janclaasen
+  twitter_handle: https://twitter.com/janclaasen
 - uuid: c8135d38-a962-4b26-9425-8a457a267893
   name: Aaron Collier
   image: /uploads/aaron-collier.jpg
@@ -45,19 +45,19 @@
   image: /uploads/chris-dance.jpg
   title: CEO and Co-Founder
   company: PaperCut
-  twitter_handle: PaperCutDev
+  twitter_handle: https://twitter.com/PaperCutDev
 - uuid: 885c6952-2e32-4a7d-96b1-f85db602d38f
   name: Gift Egwuenu
   image: /uploads/gift.jpeg
   title: Developer Advocate
   company: Cloudflare
-  twitter_handle: lauragift_
+  twitter_handle: https://twitter.com/lauragift_
 - uuid: e65c92be-dd89-45c2-95f2-6aec071b546c
   name: Duccio Marco Gasparri
   image: /uploads/duccio-marco-gasparri.jpg
   title:
   company:
-  twitter_handle: dgasparri
+  twitter_handle: https://twitter.com/dgasparri
 - uuid: 8e33cfb2-0eb5-419e-a9ae-d0a0d5a9594d
   name: Noah Gift
   image: /uploads/noah-gift-400x400.jpeg
@@ -69,7 +69,7 @@
   image: /uploads/chris-griffing.jpg
   title: Senior Software Developer
   company:
-  twitter_handle: cmgriffing
+  twitter_handle: https://twitter.com/cmgriffing
 - uuid: 4da37e8e-65fc-4ecb-8f2c-d0b2f0e1dfe7
   name: Jeanne Haskett
   image: /uploads/jeanne-haskett.jpg
@@ -81,91 +81,91 @@
   image: /uploads/emruz.jpg
   title: Software Engineer
   company: AppsCode Inc.
-  twitter_handle: Emruz_Hossain
+  twitter_handle: https://twitter.com/Emruz_Hossain
 - uuid: 3866eff7-f376-468a-9a82-d77035e39604
   name: Carl M. Johnson
   image: /uploads/carl-johnson.jpg
   title: Director of Technology
   company: Spotlight PA
-  twitter_handle: carlmjohnson
+  twitter_handle: https://twitter.com/carlmjohnson
 - uuid: 61890716-983e-46c8-bbb8-39e0111827c4
   name: Ado Kukic
   image: /uploads/ado-kukic.jpg
   title: Director, Developer Advocacy
   company: DigitalOcean LLC
-  twitter_handle: kukicado
+  twitter_handle: https://twitter.com/kukicado
 - uuid: mr.large
   name: David Large
   image: /uploads/david-large-cloudcannon.jpg
   title: Digital Content Specialist
   company: CloudCannon
-  twitter_handle: avidlarge
+  twitter_handle: https://twitter.com/avidlarge
 - uuid: 41f68e43-63ca-45df-af44-343b6b1133ea
   name: Nathalie Laroche
   image: /uploads/nathalie-laroche.jpg
   title: Senior Principal Technical Writer
   company: Nuance Communications
-  twitter_handle: nathalielaroche
+  twitter_handle: https://twitter.com/nathalielaroche
 - uuid: dcd40ef1-331c-4c07-b031-bc506d57669c
   name: Ravi Lingineni
   image: /uploads/ravi.jpg
   title: Creator
   company: Figmage
-  twitter_handle: heyraviteja
+  twitter_handle: https://twitter.com/heyraviteja
 - uuid: d2c18ec3-dde6-4ad3-a473-7211a35d0757
   name: Mark McFadden
   image: /uploads/markmcfadden.jpeg
   title: Software Developer
   company:
-  twitter_handle: m2web
+  twitter_handle: https://twitter.com/m2web
 - uuid: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
   name: Haimantika Mitra
   image: /uploads/haimantika-mitra.jpg
   title: Developer Advocate
   company: Appwrite
-  twitter_handle: HaimantikaM
+  twitter_handle: https://twitter.com/HaimantikaM
 - uuid: 4b453d60-77a1-43a6-90d5-bdf73a31e621
   name: Mike Neumegen
   image: /uploads/cyghsayo-400x400.jpg
   title: Host of HugoConf
   company: CloudCannon
-  twitter_handle: mikeneumegen
+  twitter_handle: https://twitter.com/mikeneumegen
 - uuid: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
   name: Christian Oliff
   image: /uploads/christian-oliff.jpg
   title: Front-end Web Developer
   company: Trimble
-  twitter_handle: christianoliff
+  twitter_handle: https://twitter.com/christianoliff
 - uuid: 495375a5-7de1-4d51-a917-dd5ae066a95b
   name: Régis Philibert
   image: /uploads/regis.jpg
   title: Lead Developer
   company: The New Dynamic
-  twitter_handle: regisphilibert
+  twitter_handle: https://twitter.com/regisphilibert
 - uuid: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   name: Scott Reilly
   image: /uploads/scott-reilly-jpg.jpg
   title: CEO
   company: Reilly Media
-  twitter_handle: reillymedia
+  twitter_handle: https://twitter.com/reillymedia
 - uuid: 2930d573-f186-4091-816d-afec11601a2c
   name: Pim Snel
   image: /uploads/pim-snel.jpeg
   title: Founder
   company: Quiqr
-  twitter_handle: mipselaer
+  twitter_handle: https://twitter.com/mipselaer
 - uuid: c8db3822-2372-43d6-8381-93dbc98b5861
   name: Elio Struyf
   image: /uploads/eliostruyf-bg-1200x1200.jpg
   title: Lead DevTools Engineer
   company: RapidAPI
-  twitter_handle: eliostruyf
+  twitter_handle: https://twitter.com/eliostruyf
 - uuid: e8804521-2be8-4d8b-b544-45d4ac695a0b
   name: Ashish Tiwari
   image: /uploads/ashish-tiwari.jpg
   title: Developer Advocate
   company: Elastic
-  twitter_handle: _ashish_tiwari
+  twitter_handle: https://twitter.com/_ashish_tiwari
 - uuid: f596b9bd-767c-4206-91d4-f06e10d1ab52
   name: Miguel Useche
   image: /uploads/miguel.jpeg
@@ -177,46 +177,46 @@
   image: /uploads/talkpic.jpg
   title: Web Developer and Owner,
   company: Usecue BV
-  twitter_handle: jhvanderschee
+  twitter_handle: https://twitter.com/jhvanderschee
 - uuid: a4084077-a718-46ef-ad23-9509b8698475
   name: Jon Yablonski
   image: /uploads/jonyablonski-p1660449.jpg
   title: Senior Product Designer
   company: Mixpanel
-  twitter_handle: JonYablonski
+  twitter_handle: https://twitter.com/JonYablonski
 - uuid: 85e0c227-254a-4e07-bfa2-f42a23a51244
   name: Joe Mooring
   image: /uploads/joe-mooring.jpg
   title: Contributor
   company: Hugo
-  twitter_handle: ''
+  twitter_handle: https://github.com/jmooring
 - uuid: 1031f5dd-67ed-432e-8a13-44c189534425
   name: Elio Struyf
   image: /uploads/eliostruyf-2022.jpg
   title: Creator
   company: Front Matter CMS
-  twitter_handle: eliostruyf
+  twitter_handle: https://twitter.com/eliostruyf
 - uuid: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
   name: John Phamvan
   image: /uploads/john-phamvan-headshot-openlaws.jpg
   title: Founder
   company: OpenLaws PBC
-  twitter_handle: ''
+  twitter_handle: https://ruby.social/@johnphamvan
 - uuid: d25749e8-ef87-497b-8d55-40ee2faa0eca
   name: Joost van der Schee
   image: /uploads/joost.jpg
   title: Web Developer and Owner
   company: Usecue BV
-  twitter_handle: jhvanderschee
+  twitter_handle: https://twitter.com/jhvanderschee
 - uuid: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
   name: Kendra Little
   image: /uploads/kendra-little-2023.jpg
   title: Founder
   company: Catalyze SQL
-  twitter_handle: Kendra_Little
+  twitter_handle: https://twitter.com/Kendra_Little
 - uuid: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
   name: Vishakha Sawra
   image: /uploads/vishakha-s.jpg
   title: Frontend Enthusiast
   company: ''
-  twitter_handle: ''
+  twitter_handle: https://vishakhasawra.com/
