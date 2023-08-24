@@ -30,10 +30,10 @@ content_blocks:
       - time_string: "9:00am —\_9:45am PDT"
         video_link:
         type: Live Interview
-        title: Live Interview with Hugo contributor - Joe Mooring
+        title: Live Interview with Hugo contributor Joe Mooring
         description: >-
           Learn how to contribute effectively (without code) to the Hugo
-          project.
+          project, with Joe Mooring.
         speakers:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
       - time_string: ''
