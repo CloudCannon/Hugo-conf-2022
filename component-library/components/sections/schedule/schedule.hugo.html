@@ -2,9 +2,9 @@
 	<h2 class="text-white text-4xl">{{- .title -}}</h2>
 
 	{{- range .talks -}}
-        <div class="c-sections-schedule-talk text-white border-b border-pink mt-12 pb-12">
+        <div class="c-sections-schedule-talk text-white border-b border-pink mt-12 pb-6">
         	<div class="c-sections-schedule-talk-details">
-        		<p class=" uppercase font-bold mb-8 
+        		<p class=" uppercase font-bold mb-6 
         		{{ if eq .type "Lightning Talk" }}
         			text-pink
         		{{ else if eq .type "Tech Talk" }}
@@ -13,11 +13,13 @@
         			text-yellow
         		{{ end }}
 	        	">{{- .type -}}</p>
-	        	<h3 class="text-2xl mb-4"><a class="underline
-	        	decoration-yellow
-		        hover:decoration-pink
-		        motion-safe:transition-all motion-safe:duration-200
-		        focus:decoration-pink" target="_blank" href="{{- .video_link -}}">{{- .title -}}</a></h3>
+	        	<p class="mr-4 mb-6 text-right text-white">{{- .time_string -}}</p>
+	        	<h3 class="text-2xl mb-4">
+	        	  {{- if .video_link -}}
+	        	    <a class="underline decoration-yellow hover:decoration-pink motion-safe:transition-all motion-safe:duration-200 focus:decoration-pink" target="_blank" href="{{- .video_link -}}">{{- .title -}}</a>
+		          {{- else -}}
+				      	{{- .title -}}
+				      {{- end -}}</h3>
 	        	<p>{{- .description |  safeHTML -}}</p>
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}

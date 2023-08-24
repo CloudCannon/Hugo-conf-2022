@@ -184,3 +184,39 @@
   title: Senior Product Designer
   company: Mixpanel
   twitter_handle: JonYablonski
+- uuid: 85e0c227-254a-4e07-bfa2-f42a23a51244
+  name: Joe Mooring
+  image: /uploads/joe-mooring.jpg
+  title: Contributor
+  company: Hugo
+  twitter_handle: ''
+- uuid: 1031f5dd-67ed-432e-8a13-44c189534425
+  name: Elio Struyf
+  image: /uploads/eliostruyf-2022.jpg
+  title: Creator
+  company: Front Matter CMS
+  twitter_handle: eliostruyf
+- uuid: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
+  name: John Phamvan
+  image: /uploads/john-phamvan-headshot-openlaws.jpg
+  title: Founder
+  company: OpenLaws PBC
+  twitter_handle: ''
+- uuid: d25749e8-ef87-497b-8d55-40ee2faa0eca
+  name: Joost van der Schee
+  image: /uploads/joost.jpg
+  title: Web Developer and Owner
+  company: Usecue BV
+  twitter_handle: jhvanderschee
+- uuid: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
+  name: Kendra Little
+  image: /uploads/kendra-little-2023.jpg
+  title: Founder
+  company: Catalyze SQL
+  twitter_handle: Kendra_Little
+- uuid: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
+  name: Vishakha Sawra
+  image: /uploads/vishakha-s.jpg
+  title: Frontend Enthusiast
+  company: ''
+  twitter_handle: ''
