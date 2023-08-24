@@ -35,7 +35,7 @@ content_blocks:
           Learn how to contribute effectively (without code) to the Hugo
           project.
         speakers:
-          - speaker: cf1c5e11-712e-4390-ab4f-e0aebe7a0424
+          - speaker: ''
       - time_string: ''
         video_link: ''
         type: ''
