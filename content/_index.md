@@ -27,7 +27,7 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
-      - time_string: "9:00am —\_9:45am PDT"
+      - time_string:
         video_link:
         type: Live Interview
         title: Live Interview with Hugo contributor Joe Mooring
