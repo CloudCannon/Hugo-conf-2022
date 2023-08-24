@@ -19,6 +19,7 @@
 		          {{- else -}}
 				      	{{- .title -}}
 				      {{- end -}}</h3>
+				    <p class="mr-4 text-white">{{- .time_string -}}</p>
 	        	<p>{{- .description |  safeHTML -}}</p>
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
