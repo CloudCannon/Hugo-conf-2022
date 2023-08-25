@@ -11,14 +11,14 @@
   title: Senior Software Engineer
   company: CloudCannon
   personal_url: https://twitter.com/LiamBigelow
-  company_url:
+  company_url: https://cloudcannon.com
 - uuid: 3e17b350-fcab-4207-bf98-117b4013a298
   name: Kimberley Brown
   image: /uploads/kimberley-brown.jpg
   title: Frontend Developer
   company: Nuance Communications
   personal_url:
-  company_url:
+  company_url: https://www.nuance.com/
 - uuid: 5c8cc9dd-c966-4a15-ba4f-514bfa0453ba
   name: Tommy Byrd
   image: /uploads/tommy-byrd.jpg
@@ -39,7 +39,7 @@
   title: Web Developer
   company: CloudCannon
   personal_url: https://twitter.com/janclaasen
-  company_url:
+  company_url: https://cloudcannon.com
 - uuid: c8135d38-a962-4b26-9425-8a457a267893
   name: Aaron Collier
   image: /uploads/aaron-collier.jpg
@@ -88,7 +88,7 @@
   title: Content Architect & Senior Principal Technical Writer
   company: Nuance Communications
   personal_url:
-  company_url:
+  company_url: https://www.nuance.com/
 - uuid: 8c0aa56a-a8da-4ea7-ad5f-86b6ccc18d8b
   name: Emruz Hossain
   image: /uploads/emruz.jpg
@@ -116,7 +116,7 @@
   title: Digital Content Specialist
   company: CloudCannon
   personal_url: https://twitter.com/avidlarge
-  company_url:
+  company_url: https://cloudcannon.com
 - uuid: 41f68e43-63ca-45df-af44-343b6b1133ea
   name: Nathalie Laroche
   image: /uploads/nathalie-laroche.jpg
@@ -144,14 +144,14 @@
   title: Developer Advocate
   company: Appwrite
   personal_url: https://twitter.com/HaimantikaM
-  company_url:
+  company_url: https://appwrite.io/
 - uuid: 4b453d60-77a1-43a6-90d5-bdf73a31e621
   name: Mike Neumegen
   image: /uploads/cyghsayo-400x400.jpg
   title: Host of HugoConf
   company: CloudCannon
   personal_url: https://twitter.com/mikeneumegen
-  company_url:
+  company_url: https://cloudcannon.com
 - uuid: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
   name: Christian Oliff
   image: /uploads/christian-oliff.jpg
@@ -165,7 +165,7 @@
   title: Lead Developer
   company: The New Dynamic
   personal_url: https://twitter.com/regisphilibert
-  company_url:
+  company_url: https://www.thenewdynamic.com/
 - uuid: 0f5d9642-5901-4193-8a51-0ee3b25859d7
   name: Scott Reilly
   image: /uploads/scott-reilly-jpg.jpg
@@ -220,35 +220,35 @@
   title: Contributor
   company: Hugo
   personal_url: https://github.com/jmooring
-  company_url:
+  company_url: https://gohugo.io/
 - uuid: 1031f5dd-67ed-432e-8a13-44c189534425
   name: Elio Struyf
   image: /uploads/eliostruyf-2022.jpg
   title: Creator
   company: Front Matter CMS
   personal_url: https://twitter.com/eliostruyf
-  company_url:
+  company_url: https://frontmatter.codes
 - uuid: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
   name: John Phamvan
   image: /uploads/john-phamvan-headshot-openlaws.jpg
   title: Founder
   company: OpenLaws PBC
   personal_url: https://ruby.social/@johnphamvan
-  company_url:
+  company_url: https://openlaws.us
 - uuid: d25749e8-ef87-497b-8d55-40ee2faa0eca
   name: Joost van der Schee
   image: /uploads/joost.jpg
   title: Web Developer and Owner
   company: Usecue BV
   personal_url: https://twitter.com/jhvanderschee
-  company_url:
+  company_url: https://www.usecue.com/
 - uuid: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
   name: Kendra Little
   image: /uploads/kendra-little-2023.jpg
   title: Founder
   company: Catalyze SQL
   personal_url: https://twitter.com/Kendra_Little
-  company_url:
+  company_url: https://catalyzesql.com/
 - uuid: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
   name: Vishakha Sawra
   image: /uploads/vishakha-s.jpg
