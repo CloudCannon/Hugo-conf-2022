@@ -32,8 +32,8 @@
 								</div>
 								<div class="flex-1 pl-4">
 				        			<p class="font-bold">
-				        				{{- if .twitter_handle -}}
-				        					<a target="_blank" href="{{- .twitter_handle -}}" 
+				        				{{- if .personal_url -}}
+				        					<a target="_blank" href="{{- .personal_url -}}" 
 				        					class="underline
 									        hover:decoration-pink
 									        motion-safe:transition-all motion-safe:duration-200
@@ -43,7 +43,17 @@
 				        				{{- end -}}
 				        				</p>
 				        			<p class="text-sm">{{- .title -}}</p>
-				        			<p class="text-sm">{{- .company -}}</p>
+				        			<p class="text-sm">
+				        			  {{- if .company_url -}}
+				        					<a target="_blank" href="{{- .company_url -}}" 
+				        					class="underline
+									        hover:decoration-yellow
+									        motion-safe:transition-all motion-safe:duration-200
+									        focus:decoration-yellow">{{- .company -}}</a>
+				        				{{- else -}}
+				        					{{- .company -}}
+				        				{{- end -}}
+				        				</p>
 				        		</div>
 			        		</div>
 		        		{{- end -}}
