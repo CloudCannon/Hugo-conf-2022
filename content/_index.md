@@ -42,7 +42,7 @@ content_blocks:
         title: >-
           Dismantling the Monolith: Migrating from WordPress to Hugo (with your
           components and layouts!)
-        description: "One of the biggest hurdles to using a static site generator like Hugo is the initial transition from a monolithic legacy CMS (WordPress, Drupal, etc). Of course, the advantages are huge: you can select the best hosting, CI/CD, and CMS option for yourself, and maintain full control of your site content, without the same maintenance overheads.  \n\n<br/><br/>Beginning with a WordPress site, I’ll demonstrate CloudCannon’s open-source component migrator, which reads any site’s flat files and builds a “data + markup + layouts” model. This model can be plugged into Hugo (or any SSG) —\_and with minimal configuration, can then be set up for page-building and live visual editing for non-technical users.  "
+        description: "One of the biggest hurdles to using a static site generator like Hugo is the initial transition from a monolithic legacy CMS (WordPress, Drupal, etc). Of course, the advantages are huge: you can select the best hosting, CI/CD, and CMS options for yourself, and maintain full control of your site content, without the same maintenance overheads.  \n\n<br/><br/>Beginning with a WordPress site, I’ll demonstrate CloudCannon’s open-source component migrator, which reads any site’s flat files and builds a “data + markup + layouts” model. This model can be plugged into Hugo (or any SSG) —\_and with minimal configuration, can then be set up for page-building and live visual editing for non-technical users.  "
         speakers:
           - speaker: 1ecc2e19-92f5-4b44-8ba2-281dc47d48ea
       - time_string: ''
