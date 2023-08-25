@@ -25,7 +25,7 @@
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
 		        		{{- range where site.Data.speakers "uuid" .speaker -}}
-			        		<div class="flex flex-wrap flex-auto w-full box-border pr-5 mb-2">
+			        		<div class="flex flex-wrap flex-auto w-full box-border pr-5">
 			        			<div
 									class="relative flex items-center justify-center overflow-hidden max-w-[60px] z-10 rounded-full flex-initial mt-1 aspect-square">
 									<img src="{{ .image }}" alt="{{ .name }}">

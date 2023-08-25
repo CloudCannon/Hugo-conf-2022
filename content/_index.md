@@ -36,7 +36,6 @@ content_blocks:
           project, with Joe Mooring.
         speakers:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
-          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string: ''
         video_link:
         type: Tech Talk
