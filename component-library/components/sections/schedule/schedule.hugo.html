@@ -22,7 +22,6 @@
 		          {{- else -}}
 				      	{{- .title -}}
 				      {{- end -}}</h3>
-	        	<p>{{- .description |  safeHTML -}}</p>
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
 		        		{{- range where site.Data.speakers "uuid" .speaker -}}
@@ -50,6 +49,7 @@
 		        		{{- end -}}
 		        	{{- end -}}
 		        </div>
+	        	<p>{{- .description |  safeHTML -}}</p>
 	        </div>
         </div>
     {{- end -}}
