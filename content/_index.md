@@ -165,6 +165,20 @@ content_blocks:
           Hugo? No problem — beginners are welcome too!
         speakers:
           - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
+      - time_string: ''
+        video_link:
+        type: Workshop
+        title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
+        description: >-
+          Learn to craft a standout technical portfolio using Hugo's robust
+          features. We'll walk you through live project creation and teach you
+          how to add dynamic content effortlessly. Perfect for developers,
+          engineers, and tech aficionados looking to enhance their online
+          presence. <br/><br/>By the end, you'll be equipped to make a strong
+          digital impression, setting you apart in the tech world. Upgrade your
+          portfolio, elevate your technical brand.
+        speakers:
+          - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
