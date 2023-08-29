@@ -71,6 +71,16 @@ content_blocks:
           - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
       - time_string: ''
         video_link:
+        type: Workshop
+        title: How to create a Hugo theme from scratch
+        description: >-
+          Join me for a workshop where you'll discover the step-by-step process
+          of crafting a custom Hugo theme from scratch. No prior knowledge of
+          Hugo? No problem — beginners are welcome too!
+        speakers:
+          - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
+      - time_string: ''
+        video_link:
         type: Tech Talk
         title: Improving Access to 4M U.S. Laws with Hugo
         description: >-
@@ -101,6 +111,20 @@ content_blocks:
           <br/><br/>WordPress here we come! ;-)
         speakers:
           - speaker: d25749e8-ef87-497b-8d55-40ee2faa0eca
+      - time_string: ''
+        video_link:
+        type: Workshop
+        title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
+        description: >-
+          Learn to craft a standout technical portfolio using Hugo's robust
+          features. We'll walk you through live project creation and teach you
+          how to add dynamic content effortlessly. Perfect for developers,
+          engineers, and tech aficionados looking to enhance their online
+          presence. <br/><br/>By the end, you'll be equipped to make a strong
+          digital impression, setting you apart in the tech world. Upgrade your
+          portfolio, elevate your technical brand.
+        speakers:
+          - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
       - time_string: ''
         video_link:
         type: Tech Talk
@@ -155,30 +179,6 @@ content_blocks:
           variables, or self hosted fonts!
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
-      - time_string: ''
-        video_link:
-        type: Workshop
-        title: How to create a Hugo theme from scratch
-        description: >-
-          Join me for a workshop where you'll discover the step-by-step process
-          of crafting a custom Hugo theme from scratch. No prior knowledge of
-          Hugo? No problem — beginners are welcome too!
-        speakers:
-          - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
-      - time_string: ''
-        video_link:
-        type: Workshop
-        title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
-        description: >-
-          Learn to craft a standout technical portfolio using Hugo's robust
-          features. We'll walk you through live project creation and teach you
-          how to add dynamic content effortlessly. Perfect for developers,
-          engineers, and tech aficionados looking to enhance their online
-          presence. <br/><br/>By the end, you'll be equipped to make a strong
-          digital impression, setting you apart in the tech world. Upgrade your
-          portfolio, elevate your technical brand.
-        speakers:
-          - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
