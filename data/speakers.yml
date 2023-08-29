@@ -263,3 +263,10 @@
   company: CloudCannon
   personal_url: https://www.twitter.com/cloudcannon
   company_url: https://cloudcannon.com
+- uuid: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
+  name: Berkay Çubuk
+  image: /uploads/berkay-cubuk.jpg
+  title: Problem Solver
+  company: MQTT Studio
+  personal_url: https://twitter.com/brkycubuk
+  company_url: https://mqtt.studio/
