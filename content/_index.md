@@ -147,16 +147,24 @@ content_blocks:
           Even though Hugo handles a lot from configuration, most of its later
           features (pipes, js.build, image transformation) do not. HUGE aligns
           their ease of use with other features of Hugo. Namely: configuration
-          files!<br/><br/>
-
-          This means users don't have to educate themselves about the Pipes or
-          Media transformation APIs and can focus on what matters: HTML,
-          Javascript, CSS. <br/><br/>We’ll review how easy it is to setup HUGE,
-          how to configure your project’s asset pipeline with it, and how it can
-          help you handle other things like local environment variables, or self
-          hosted fonts!
+          files!<br/><br/> This means users don't have to educate themselves
+          about the Pipes or Media transformation APIs and can focus on what
+          matters: HTML, Javascript, CSS. <br/><br/>We’ll review how easy it is
+          to setup HUGE, how to configure your project’s asset pipeline with it,
+          and how it can help you handle other things like local environment
+          variables, or self hosted fonts!
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
+      - time_string: ''
+        video_link:
+        type: Workshop
+        title: How to create a Hugo theme from scratch
+        description: >-
+          Join me for a workshop where you'll discover the step-by-step process
+          of crafting a custom Hugo theme from scratch. No prior knowledge of
+          Hugo? No problem — beginners are welcome too!
+        speakers:
+          - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
