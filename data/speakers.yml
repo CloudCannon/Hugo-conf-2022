@@ -277,3 +277,10 @@
   company: Learn Robotics
   personal_url: http://facebook.com/learnrobotics
   company_url: https://www.learnrobotics.org/
+- uuid: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
+  name: Bryan Klein
+  image: /uploads/bk-headshot-1-sm.jpg
+  title: Steering Committee Member
+  company: The Good Docs Project
+  personal_url: https://universeodon.com/@bryanklein
+  company_url: 'https://thegooddocsproject.dev '

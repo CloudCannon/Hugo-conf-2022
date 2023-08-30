@@ -179,6 +179,18 @@ content_blocks:
           variables, or self hosted fonts!
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: Use of The Good Docs Project content Templates as Archetypes in Hugo
+        description: >-
+          Hugo archetypes provide an easy way to generate new content from
+          existing files. The Good Docs Project provides a suite of markdown
+          templates that can be freely used for typical content types in any
+          project. This talk demonstrates how easy it is to take the provided
+          templates and make new content files from them as Hugo archetypes.
+        speakers:
+          - speaker: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
