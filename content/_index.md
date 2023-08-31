@@ -214,6 +214,18 @@ content_blocks:
           - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
       - time_string: ''
         video_link:
+        type: Tech Talk
+        title: Static Search on Hugo with Pagefind v1.0
+        description: >-
+          Pagefind is a free and fully static search library that aims to
+          perform well on large sites, while using as little of your users’
+          bandwidth as possible, and without hosting any
+          infrastructure.<br/><br/>We’ll discuss newly released features in
+          Pagefind’s 1.0 release, enabling ...
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+      - time_string: ''
+        video_link:
         type: Lightning Talk
         title: >-
           Collaborative Web Building: PaperCut's Experience with Hugo,
@@ -223,13 +235,14 @@ content_blocks:
           to web development, powered by Hugo, CloudCannon, and Bookshop. Rachel
           Uberti and Sanjay Jayaprakash will take you through the journey of
           designing and constructing reusable, scalable website components that
-          benefit our entire organization. <br/><br/>Discover the strategies and insights
-          that have shaped PaperCut's web practices and find inspiration for
-          implementing similar solutions within your organization. Let's embark
-          on this shared exploration and learn from one another's experiences.
+          benefit our entire organization. <br/><br/>Discover the strategies and
+          insights that have shaped PaperCut's web practices and find
+          inspiration for implementing similar solutions within your
+          organization. Let's embark on this shared exploration and learn from
+          one another's experiences.
         speakers:
-          - speaker: 'b7889b30-af8a-4023-a6a8-4a5203f60a0a'
-          - speaker: '8786c935-3c4b-4def-b747-4b14719fb975'
+          - speaker: b7889b30-af8a-4023-a6a8-4a5203f60a0a
+          - speaker: 8786c935-3c4b-4def-b747-4b14719fb975
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
