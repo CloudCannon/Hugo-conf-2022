@@ -210,8 +210,26 @@ content_blocks:
           the journey of enhancing web search in a relatable and approachable
           manner!
         speakers:
-          - speaker: '9d5cfb77-eba0-4e76-b5d3-7a4fe2666991'
-          - speaker: 'd38a2708-88c0-42bc-9537-d85e29086a42'
+          - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
+          - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: >-
+          Collaborative Web Building: PaperCut's Experience with Hugo,
+          CloudCannon, and Bookshop
+        description: >-
+          Join us for a session that explores PaperCut's collaborative approach
+          to web development, powered by Hugo, CloudCannon, and Bookshop. Rachel
+          Uberti and Sanjay Jayaprakash will take you through the journey of
+          designing and constructing reusable, scalable website components that
+          benefit our entire organization. <br/><br/>Discover the strategies and insights
+          that have shaped PaperCut's web practices and find inspiration for
+          implementing similar solutions within your organization. Let's embark
+          on this shared exploration and learn from one another's experiences.
+        speakers:
+          - speaker: 'b7889b30-af8a-4023-a6a8-4a5203f60a0a'
+          - speaker: '8786c935-3c4b-4def-b747-4b14719fb975'
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
