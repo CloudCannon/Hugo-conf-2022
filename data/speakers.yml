@@ -291,3 +291,17 @@
   company: CloudCannon
   personal_url: ''
   company_url: https://twitter.com/CloudCannon
+- uuid: b7889b30-af8a-4023-a6a8-4a5203f60a0a
+  name: Rachel Uberti
+  image: /uploads/rachel-uberti.jpg
+  title: Product Engineer
+  company: PaperCut
+  personal_url: ''
+  company_url: https://www.papercut.com/
+- uuid: 8786c935-3c4b-4def-b747-4b14719fb975
+  name: Sanjay Jayaprakash
+  image: /uploads/sanjay.jpg
+  title: UX / UI Designer
+  company: PaperCut
+  personal_url: ''
+  company_url: https://www.papercut.com/
