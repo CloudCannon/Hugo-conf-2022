@@ -32,7 +32,7 @@
   title: Digital Media Lead
   company: PaperCut
   personal_url: https://twitter.com/PaperCutDev
-  company_url:
+  company_url: https://www.papercut.com/
 - uuid: 560175c7-7640-4ca0-8315-782aa58caa97
   name: Jan Claasen
   image: /uploads/jan.jpg
@@ -277,3 +277,31 @@
   company: Learn Robotics
   personal_url: http://facebook.com/learnrobotics
   company_url: https://www.learnrobotics.org/
+- uuid: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
+  name: Bryan Klein
+  image: /uploads/bk-headshot-1-sm.jpg
+  title: Steering Committee Member
+  company: The Good Docs Project
+  personal_url: https://universeodon.com/@bryanklein
+  company_url: https://thegooddocsproject.dev
+- uuid: d38a2708-88c0-42bc-9537-d85e29086a42
+  name: Alysha Jo Nolan
+  image: /uploads/alysha-jo-nolan.jpeg
+  title: Frontend Developer
+  company: CloudCannon
+  personal_url: ''
+  company_url: https://twitter.com/CloudCannon
+- uuid: b7889b30-af8a-4023-a6a8-4a5203f60a0a
+  name: Rachel Uberti
+  image: /uploads/rachel-uberti.jpg
+  title: Product Engineer
+  company: PaperCut
+  personal_url: ''
+  company_url: https://www.papercut.com/
+- uuid: 8786c935-3c4b-4def-b747-4b14719fb975
+  name: Sanjay Jayaprakash
+  image: /uploads/sanjay.jpg
+  title: UX / UI Designer
+  company: PaperCut
+  personal_url: ''
+  company_url: https://www.papercut.com/

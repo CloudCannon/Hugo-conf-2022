@@ -135,6 +135,27 @@ content_blocks:
       - time_string: ''
         video_link:
         type: Lightning Talk
+        title: >-
+          Enhancing Website Search: A Practical Journey with PaperCut, Algolia,
+          & Hugo
+        description: >-
+          We will share our real-world experiences in improving the search
+          functionality of <a href="https://papercut.com">papercut.com</a>, a
+          website with an impressive 4000 pages. <br/><br/>In this session,
+          we'll explore the challenges and lessons learned in creating a more
+          effective website search. We'll discuss why the usual open-source
+          solutions might not always be the best fit and provide straightforward
+          guidance on the essential factors to consider when upgrading your
+          site's search features. Plus, we'll offer a simple technical demo to
+          illustrate our practical approach. <br/><br/>Come along and discover
+          the journey of enhancing web search in a relatable and approachable
+          manner!
+        speakers:
+          - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
+          - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
         title: From blog to small business with Hugo
         description: >-
           After writing and maintaining a technical blog for 10+ years on data
@@ -179,6 +200,53 @@ content_blocks:
           variables, or self hosted fonts!
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: Use of The Good Docs Project content Templates as Archetypes in Hugo
+        description: >-
+          Hugo archetypes provide an easy way to generate new content from
+          existing files. The Good Docs Project provides a suite of markdown
+          templates that can be freely used for typical content types in any
+          project. This talk demonstrates how easy it is to take the provided
+          templates and make new content files from them as Hugo archetypes.
+        speakers:
+          - speaker: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
+      - time_string: ''
+        video_link:
+        type: Tech Talk
+        title: Static Search on Hugo — The Journey to Pagefind v1.0
+        description: >-
+          <a href="https://pagefind.app">Pagefind</a> is a free and fully static
+          search library that aims to perform well on large sites, while using
+          as little of your users’ bandwidth as possible, and without hosting
+          any infrastructure.<br/><br/>We’ll showcase newly released features in
+          Pagefind 1.0, allowing you to index custom content and improve the
+          relevance of your search results.<br/><br/>
+
+          We'll also discuss what we have built and learned one year (and 58
+          releases) on from launching Pagefind at HugoConf 2022.
+        speakers:
+          - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: >-
+          Collaborative Web Building: PaperCut's Experience with Hugo,
+          CloudCannon, and Bookshop
+        description: >-
+          Join us for a session that explores PaperCut's collaborative approach
+          to web development, powered by Hugo, CloudCannon, and Bookshop. Rachel
+          Uberti and Sanjay Jayaprakash will take you through the journey of
+          designing and constructing reusable, scalable website components that
+          benefit our entire organization. <br/><br/>Discover the strategies and
+          insights that have shaped PaperCut's web practices and find
+          inspiration for implementing similar solutions within your
+          organization. Let's embark on this shared exploration and learn from
+          one another's experiences.
+        speakers:
+          - speaker: b7889b30-af8a-4023-a6a8-4a5203f60a0a
+          - speaker: 8786c935-3c4b-4def-b747-4b14719fb975
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
