@@ -16,7 +16,7 @@
         		{{ end }}
 	        	">{{- .type -}}</p>
 	        	<p class="mr-4 mb-6 text-right text-white">{{- .time_string -}}</p>
-	        	<h3 class="text-2xl mb-4">
+	        	<h3 class="text-2xl mb-2">
 	        	  {{- if .video_link -}}
 	        	    <a class="underline decoration-yellow hover:decoration-pink motion-safe:transition-all motion-safe:duration-200 focus:decoration-pink" target="_blank" href="{{- .video_link -}}">{{- .title -}}</a>
 		          {{- else -}}
@@ -25,7 +25,7 @@
 	        	<div class="flex flex-wrap">
 		        	{{- range .speakers -}}
 		        		{{- range where site.Data.speakers "uuid" .speaker -}}
-			        		<div class="flex flex-wrap flex-auto w-full box-border pr-5">
+			        		<div class="flex flex-wrap flex-auto w-full box-border pr-5 mt-2">
 			        			<div
 									class="relative flex items-center justify-center overflow-hidden max-w-[60px] z-10 rounded-full flex-initial mt-1 aspect-square">
 									<img src="{{ .image }}" alt="{{ .name }}">
