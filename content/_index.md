@@ -215,13 +215,17 @@ content_blocks:
       - time_string: ''
         video_link:
         type: Tech Talk
-        title: Static Search on Hugo with Pagefind v1.0
+        title: Static Search on Hugo — The Journey to Pagefind v1.0
         description: >-
-          Pagefind is a free and fully static search library that aims to
-          perform well on large sites, while using as little of your users’
-          bandwidth as possible, and without hosting any
-          infrastructure.<br/><br/>We’ll discuss newly released features in
-          Pagefind’s 1.0 release, enabling ...
+          <a href="https://pagefind.app">Pagefind</a> is a free and fully static
+          search library that aims to perform well on large sites, while using
+          as little of your users’ bandwidth as possible, and without hosting
+          any infrastructure.<br/><br/>We’ll showcase newly released features in
+          Pagefind 1.0, allowing you to index custom content and improve the
+          relevance of your search results.<br/><br/>
+
+          We'll also discuss what we have built and learned one year (and 58
+          releases) on from launching Pagefind at HugoConf 2022.
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string: ''
