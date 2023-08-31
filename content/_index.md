@@ -191,6 +191,27 @@ content_blocks:
           templates and make new content files from them as Hugo archetypes.
         speakers:
           - speaker: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: >-
+          Enhancing Website Search: A Practical Journey with PaperCut, Algolia,
+          & Hugo
+        description: >-
+          We will share our real-world experiences in improving the search
+          functionality of <a href="https://papercut.com">papercut.com</a>, a
+          website with an impressive 4000 pages. <br/><br/>In this session,
+          we'll explore the challenges and lessons learned in creating a more
+          effective website search. We'll discuss why the usual open-source
+          solutions might not always be the best fit and provide straightforward
+          guidance on the essential factors to consider when upgrading your
+          site's search features. Plus, we'll offer a simple technical demo to
+          illustrate our practical approach. <br/><br/>Come along and discover
+          the journey of enhancing web search in a relatable and approachable
+          manner!
+        speakers:
+          - speaker: '9d5cfb77-eba0-4e76-b5d3-7a4fe2666991'
+          - speaker: 'd38a2708-88c0-42bc-9537-d85e29086a42'
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
