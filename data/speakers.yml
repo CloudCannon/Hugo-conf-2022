@@ -305,3 +305,10 @@
   company: PaperCut
   personal_url: ''
   company_url: https://www.papercut.com/
+- uuid: 782ac691-46d0-4765-ac17-36a77aabb62c
+  name: Christian Oliff
+  image: /uploads/christian-oliff-1.jpg
+  title: Front-end Web Developer at Trimble
+  company: ChristianOliff.com
+  personal_url: https://mastodon.social/@christianoliff
+  company_url: https://christianoliff.com/

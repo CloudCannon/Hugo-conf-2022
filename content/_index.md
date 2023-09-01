@@ -249,17 +249,13 @@ content_blocks:
       - time_string: ''
         video_link:
         type: Lightning Talk
-        title: Using Markdown Render Hooks with Hugo
+        title: Using Markdown render hooks with Hugo
         description: >-
-          A short talk about using <a
-          href="https://gohugo.io/templates/render-hooks/">Markdown render
-          hooks</a> with Hugo.<br/><br/>They are very useful and I have a bunch
-          of interesting uses and tips for them, particularly for links, images,
-          and headings.
+          Hugo supports Markdown rendering hooks for links, images and headers.
+          In this quick talk I'll show you how to get set up with some ideas for
+          using them in your projects.
         speakers:
-          - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
-  - _bookshop_name: generic/markdown-content
-    content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
+          - speaker: 782ac691-46d0-4765-ac17-36a77aabb62c
   - _bookshop_name: sections/video-section
     notice_message: ''
     button:
