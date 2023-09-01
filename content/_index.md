@@ -222,10 +222,9 @@ content_blocks:
           as little of your users’ bandwidth as possible, and without hosting
           any infrastructure.<br/><br/>We’ll showcase newly released features in
           Pagefind 1.0, allowing you to index custom content and improve the
-          relevance of your search results.<br/><br/>
-
-          We'll also discuss what we have built and learned one year (and 58
-          releases) on from launching Pagefind at HugoConf 2022.
+          relevance of your search results.<br/><br/> We'll also discuss what we
+          have built and learned one year (and 58 releases) on from launching
+          Pagefind at HugoConf 2022.
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string: ''
@@ -247,6 +246,18 @@ content_blocks:
         speakers:
           - speaker: b7889b30-af8a-4023-a6a8-4a5203f60a0a
           - speaker: 8786c935-3c4b-4def-b747-4b14719fb975
+      - time_string: ''
+        video_link:
+        type: Lightning Talk
+        title: Using Markdown Render Hooks with Hugo
+        description: >-
+          A short talk about using <a
+          href="https://gohugo.io/templates/render-hooks/">Markdown render
+          hooks</a> with Hugo.<br/><br/>They are very useful and I have a bunch
+          of interesting uses and tips for them, particularly for links, images,
+          and headings.
+        speakers:
+          - speaker: 2016b95f-88ad-4c54-9c07-02cc8d9a03f6
   - _bookshop_name: generic/markdown-content
     content_html: "<h2 class=\"center-align\">More talks and workshops<br />will be announced soon!</h2><p>\_</p><p>\_</p>"
   - _bookshop_name: sections/video-section
