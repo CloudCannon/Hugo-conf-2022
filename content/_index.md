@@ -27,6 +27,15 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
+      - time_string: 9:00am PDT
+        video_link:
+        type: Introduction
+        title: Welcome to HugoConf
+        description: >-
+          Content Content Content Content Content Content Content Content
+          Content Content Content 
+        speakers:
+          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string:
         video_link:
         type: Live Interview
@@ -256,6 +265,14 @@ content_blocks:
           using them in your projects.
         speakers:
           - speaker: 782ac691-46d0-4765-ac17-36a77aabb62c
+      - time_string: ''
+        video_link:
+        type: ''
+        title: ''
+        description: ''
+        speakers:
+          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
+          - speaker: mr.large
   - _bookshop_name: sections/video-section
     notice_message: ''
     button:
