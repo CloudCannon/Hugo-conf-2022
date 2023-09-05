@@ -267,9 +267,11 @@ content_blocks:
           - speaker: 782ac691-46d0-4765-ac17-36a77aabb62c
       - time_string: ''
         video_link:
-        type: ''
-        title: ''
-        description: ''
+        type: Final Thoughts
+        title: Wrapping up HugoConf 2023
+        description: >-
+          Content Content Content Content Content Content Content Content
+          Content Content Content 
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
           - speaker: mr.large
