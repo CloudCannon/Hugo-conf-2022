@@ -14,8 +14,8 @@ content_blocks:
       id:
       view_label_icon: true
       border_color: border-blue
-      add_modal: true
-      open_modal: false
+      add_modal: false
+      open_modal: true
       modal:
         _bookshop_name: simple/modal
         heading: Sign up for HugoConf updates
