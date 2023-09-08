@@ -32,8 +32,8 @@ content_blocks:
         type: Introduction
         title: Welcome to HugoConf
         description: >-
-          Opening remarks from static site historian and CloudCannon CEO Mike
-          Neumegen. 
+          Opening remarks from static site advocate and CloudCannon CEO Mike
+          Neumegen.
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
       - time_string:
