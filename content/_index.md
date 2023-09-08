@@ -48,9 +48,7 @@ content_blocks:
       - time_string:
         video_link:
         type: Tech Talk
-        title: >-
-          Automated migration at scale: Migrate to Hugo from any CMS, site
-          builder, or SSG
+        title: 'Automated migration at scale: Migrate to Hugo from any existing site'
         description: >-
           One of the biggest hurdles to using a static site generator like Hugo
           is the initial transition from a different build tool, or a monolithic
