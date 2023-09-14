@@ -27,7 +27,7 @@ content_blocks:
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
-      - time_string:
+      - time_string: 9:20am
         video_link:
         type: Introduction
         title: Welcome to HugoConf
@@ -36,7 +36,7 @@ content_blocks:
           Neumegen.
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
-      - time_string:
+      - time_string: 9:25am
         video_link:
         type: Live Interview
         title: Live Interview with Hugo contributor Joe Mooring
@@ -45,7 +45,7 @@ content_blocks:
           project, with Joe Mooring.
         speakers:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
-      - time_string:
+      - time_string: 9:50am
         video_link:
         type: Tech Talk
         title: 'Automated migration at scale: Migrate to Hugo from any existing site'
@@ -63,7 +63,7 @@ content_blocks:
           and live visual editing for non-technical users. 
         speakers:
           - speaker: 1ecc2e19-92f5-4b44-8ba2-281dc47d48ea
-      - time_string:
+      - time_string: 10:20am
         video_link:
         type: Lightning Talk
         title: Manage your Hugo website with external content and assets
@@ -76,7 +76,7 @@ content_blocks:
           keep it all in sync.
         speakers:
           - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
-      - time_string:
+      - time_string: 10:30am
         video_link:
         type: Workshop
         title: How to create a Hugo theme from scratch
