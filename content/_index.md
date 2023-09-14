@@ -90,6 +90,20 @@ content_blocks:
           - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
       - time_string: 11:00am
         video_link:
+        type: Workshop
+        title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
+        description: >-
+          Learn to craft a standout technical portfolio using Hugo's robust
+          features. We'll walk you through live project creation and teach you
+          how to add dynamic content effortlessly. Perfect for developers,
+          engineers, and tech aficionados looking to enhance their online
+          presence. <br/><br/>By the end, you'll be equipped to make a strong
+          digital impression, setting you apart in the tech world. Upgrade your
+          portfolio, elevate your technical brand.
+        speakers:
+          - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
+      - time_string: 11:45am
+        video_link:
         type: Tech Talk
         title: Improving Access to 4M U.S. Laws with Hugo
         description: >-
@@ -105,7 +119,7 @@ content_blocks:
           pipeline.
         speakers:
           - speaker: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
-      - time_string: 11:25am
+      - time_string: 12:10pm
         video_link:
         type: Lightning Talk
         title: Manage your Hugo website with external content and assets
@@ -118,20 +132,6 @@ content_blocks:
           keep it all in sync.
         speakers:
           - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
-      - time_string: 11:35am
-        video_link:
-        type: Workshop
-        title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
-        description: >-
-          Learn to craft a standout technical portfolio using Hugo's robust
-          features. We'll walk you through live project creation and teach you
-          how to add dynamic content effortlessly. Perfect for developers,
-          engineers, and tech aficionados looking to enhance their online
-          presence. <br/><br/>By the end, you'll be equipped to make a strong
-          digital impression, setting you apart in the tech world. Upgrade your
-          portfolio, elevate your technical brand.
-        speakers:
-          - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
       - time_string: 12:20pm
         video_link:
         type: Lightning Talk
