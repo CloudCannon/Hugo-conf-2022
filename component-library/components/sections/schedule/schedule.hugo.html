@@ -4,7 +4,7 @@
 	{{- range .talks -}}
         <div class="c-sections-schedule-talk text-white border-b border-pink mt-12 pb-6">
         	<div class="c-sections-schedule-talk-details">
-        		<p class=" uppercase font-bold mb-6 
+        		<p class="mb-6"><span class="text-white">{{- .time_string -}}&nbsp(PDT)&nbsp—&nbsp</span><span class=" uppercase font-bold  
         		{{ if eq .type "Lightning Talk" }}
         			text-pink
         		{{ else if eq .type "Tech Talk" }}
@@ -14,8 +14,7 @@
         		{{ else if eq .type "Workshop" }}
         			text-yellow
         		{{ end }}
-	        	">{{- .type -}}</p>
-	        	<p class="mr-4 mb-6 text-right text-white">{{- .time_string -}}</p>
+	        	">{{- .type -}}</span></p>
 	        	<h3 class="text-2xl mb-2">
 	        	  {{- if .video_link -}}
 	        	    <a class="underline decoration-yellow hover:decoration-pink motion-safe:transition-all motion-safe:duration-200 focus:decoration-pink" target="_blank" href="{{- .video_link -}}">{{- .title -}}</a>
