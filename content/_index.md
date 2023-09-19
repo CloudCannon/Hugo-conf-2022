@@ -27,7 +27,7 @@ content_blocks:
   - _bookshop_name: sections/video-section
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/YE7VzlLtp-4
+      url: https://youtube.com/embed/OTclpTZq-S4
     button:
     notice_message: ''
   - _bookshop_name: sections/schedule
