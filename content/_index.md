@@ -47,7 +47,7 @@ content_blocks:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
       - time_string: 9:40am
         video_link:
-        type: Tech Talk
+        type: Lightning Talk
         title: 'Automated migration at scale: Migrate to Hugo from any existing site'
         description: >-
           One of the biggest hurdles to using a static site generator like Hugo
@@ -57,13 +57,14 @@ content_blocks:
           for yourself, and maintain full control of your site content, without
           the same maintenance overheads.
 
-          <br/><br/>I’ll show our new process of converting any site's static
-          output to a set of templates, markup, and layouts. I’ll bring a site
-          into Hugo and set up our new site for component-based page-building
-          and live visual editing for non-technical users. 
+          <br/><br/>Using our (very) new open-source tool <u><a
+          href="https://staticshape.app">StaticShape</a></u>, I’ll show the
+          beginnings of a new process — migrating and converting any site's
+          static output to a set of templates, markup, and layouts ready for use
+          in Hugo.
         speakers:
           - speaker: 1ecc2e19-92f5-4b44-8ba2-281dc47d48ea
-      - time_string: 10:05am
+      - time_string: 9:55am
         video_link:
         type: Lightning Talk
         title: Hugobricks — stackable content blocks for Hugo
@@ -78,6 +79,19 @@ content_blocks:
           <br/><br/>WordPress here we come! ;-)
         speakers:
           - speaker: d25749e8-ef87-497b-8d55-40ee2faa0eca
+      - time_string: 10:05am
+        video_link:
+        type: Lightning Talk
+        title: Manage your Hugo website with external content and assets
+        description: >-
+          We will explore a strategy of separating the contents of your website
+          from the source code like theme, partials, etc. It is a strategy that
+          Elio has taken to allow contributors to edit the content without
+          fiddling with the source code and accidentally breaking it.<br/>
+          <br/>You will learn how you can separate the content, and how you can
+          keep it all in sync.
+        speakers:
+          - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
       - time_string: 10:15am
         video_link:
         type: Workshop
@@ -122,19 +136,6 @@ content_blocks:
       - time_string: 12:10pm
         video_link:
         type: Lightning Talk
-        title: Manage your Hugo website with external content and assets
-        description: >-
-          We will explore a strategy of separating the contents of your website
-          from the source code like theme, partials, etc. It is a strategy that
-          Elio has taken to allow contributors to edit the content without
-          fiddling with the source code and accidentally breaking it.<br/>
-          <br/>You will learn how you can separate the content, and how you can
-          keep it all in sync.
-        speakers:
-          - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
-      - time_string: 12:20pm
-        video_link:
-        type: Lightning Talk
         title: >-
           Enhancing Website Search: A Practical Journey with PaperCut, Algolia,
           & Hugo
@@ -153,7 +154,7 @@ content_blocks:
         speakers:
           - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
           - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
-      - time_string: 12:35pm
+      - time_string: 12:25pm
         video_link:
         type: Lightning Talk
         title: From blog to small business with Hugo
@@ -165,7 +166,7 @@ content_blocks:
           Hugo to efficiently launch my new small business.
         speakers:
           - speaker: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
-      - time_string: 12:50pm
+      - time_string: 12:40pm
         video_link:
         type: Tech Talk
         title: Static Search on Hugo — The Journey to Pagefind v1.0
