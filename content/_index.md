@@ -10,7 +10,7 @@ content_blocks:
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button
-      label: Register for HugoConf 2023
+      label: Join the HugoConf mailing list
       id:
       view_label_icon: true
       border_color: border-blue
@@ -18,7 +18,7 @@ content_blocks:
       open_modal: false
       modal:
         _bookshop_name: simple/modal
-        heading: Sign up for HugoConf updates
+        heading: Sign up for the HugoConf mailing list
         modal_content:
           - _bookshop_name: simple/hubspot-form
             region: na1
@@ -281,27 +281,6 @@ content_blocks:
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
           - speaker: mr.large
-  - _bookshop_name: sections/video-section
-    notice_message: ''
-    button:
-      _bookshop_name: generic/button
-      label: Submit your talk
-      id:
-      view_label_icon: false
-      border_color: border-white
-      add_modal: true
-      open_modal: false
-      modal:
-        _bookshop_name: simple/modal
-        heading: Register to speak at HugoConf
-        modal_content:
-          - _bookshop_name: simple/hubspot-form
-            region: na1
-            portalId: 22461532
-            formId: c1a95734-9550-4306-9e12-892c5112b894
-    video:
-      _bookshop_name: simple/video
-      url: https://youtube.com/embed/auctAccLbns
   - _bookshop_name: generic/markdown-content
     content_html: >-
       <h2 class="center-align"><br />HugoConf is better thanks to our
