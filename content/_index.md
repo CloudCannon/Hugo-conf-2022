@@ -24,6 +24,12 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+  - _bookshop_name: sections/video-section
+    video:
+      _bookshop_name: simple/video
+      url: https://www.youtube.com/embed/YE7VzlLtp-4
+    button:
+    notice_message: ''
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
