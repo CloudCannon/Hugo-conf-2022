@@ -13,7 +13,7 @@
       {{ end }}
     </button>
     {{ if .add_modal }}
-      <div x-show="open">
+      <div x-show="open" x-cloak>
         {{ partial "bookshop" (slice "simple/modal" .modal) }}
       </div>
     {{ end }}

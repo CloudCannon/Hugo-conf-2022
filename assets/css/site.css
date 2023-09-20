@@ -25,3 +25,5 @@
 body {
     --twelve-column: 1fr repeat(12, calc(min(128px, 7.3%))) 1fr;
 }
+
+[x-cloak] { display: none !important; }
