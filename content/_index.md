@@ -166,8 +166,8 @@ content_blocks:
           Hugo to efficiently launch my new small business.
         speakers:
           - speaker: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
-      - time_string: https://youtu.be/WgoBoX4qTk8
-        video_link:
+      - time_string:
+        video_link: https://youtu.be/WgoBoX4qTk8
         type: Tech Talk
         title: Static Search on Hugo — The Journey to Pagefind v1.0
         description: >-
