@@ -65,7 +65,7 @@ content_blocks:
         speakers:
           - speaker: 1ecc2e19-92f5-4b44-8ba2-281dc47d48ea
       - time_string:
-        video_link:
+        video_link: https://youtu.be/BusNdoZNVRk
         type: Lightning Talk
         title: Hugobricks — stackable content blocks for Hugo
         description: >-
@@ -80,7 +80,7 @@ content_blocks:
         speakers:
           - speaker: d25749e8-ef87-497b-8d55-40ee2faa0eca
       - time_string:
-        video_link:
+        video_link: https://youtu.be/fo8WY4RrRE0
         type: Lightning Talk
         title: Manage your Hugo website with external content and assets
         description: >-
@@ -103,7 +103,7 @@ content_blocks:
         speakers:
           - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
       - time_string:
-        video_link:
+        video_link: https://youtu.be/AdMkW_3E17A
         type: Workshop
         title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
         description: >-
@@ -117,7 +117,7 @@ content_blocks:
         speakers:
           - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
       - time_string:
-        video_link:
+        video_link: https://youtu.be/9OiU3N2Ps9g
         type: Tech Talk
         title: Improving Access to 4M U.S. Laws with Hugo
         description: >-
@@ -134,7 +134,7 @@ content_blocks:
         speakers:
           - speaker: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
       - time_string:
-        video_link:
+        video_link: https://youtu.be/c1FxsbxMPFo
         type: Lightning Talk
         title: >-
           Enhancing Website Search: A Practical Journey with PaperCut, Algolia,
@@ -155,7 +155,7 @@ content_blocks:
           - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
           - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
       - time_string:
-        video_link:
+        video_link: https://youtu.be/oheP-1iOUSs
         type: Lightning Talk
         title: From blog to small business with Hugo
         description: >-
@@ -166,7 +166,7 @@ content_blocks:
           Hugo to efficiently launch my new small business.
         speakers:
           - speaker: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
-      - time_string:
+      - time_string: https://youtu.be/WgoBoX4qTk8
         video_link:
         type: Tech Talk
         title: Static Search on Hugo — The Journey to Pagefind v1.0
@@ -182,7 +182,7 @@ content_blocks:
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
       - time_string:
-        video_link:
+        video_link: https://youtu.be/gBSOTAOA-LY
         type: Lightning Talk
         title: Using Markdown render hooks with Hugo
         description: >-
@@ -192,7 +192,7 @@ content_blocks:
         speakers:
           - speaker: 782ac691-46d0-4765-ac17-36a77aabb62c
       - time_string:
-        video_link:
+        video_link: https://youtu.be/PpT8JE5BbZI
         type: Tech Talk
         title: How to Turn a Hugo Website into a PWA for better user engagement
         description: >-
@@ -211,7 +211,7 @@ content_blocks:
         speakers:
           - speaker: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
       - time_string:
-        video_link:
+        video_link: https://youtu.be/VRwNA0gGTgE
         type: Lightning Talk
         title: Use of The Good Docs Project content Templates as Archetypes in Hugo
         description: >-
@@ -223,7 +223,7 @@ content_blocks:
         speakers:
           - speaker: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
       - time_string:
-        video_link:
+        video_link: https://youtu.be/z3sWZu7pEPI
         type: Tech Talk
         title: Introducing HUGE, a Hugo framework
         description: >-
@@ -239,7 +239,7 @@ content_blocks:
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
       - time_string:
-        video_link:
+        video_link: https://youtu.be/JS6Hwsc0OnA
         type: Lightning Talk
         title: >-
           Collaborative Web Building: PaperCut's Experience with Hugo,
@@ -258,7 +258,7 @@ content_blocks:
           - speaker: b7889b30-af8a-4023-a6a8-4a5203f60a0a
           - speaker: 8786c935-3c4b-4def-b747-4b14719fb975
       - time_string:
-        video_link:
+        video_link: https://youtu.be/EGXSwC9UYiQ
         type: Tech Talk
         title: Building your portfolio with Hugo
         description: "In a world where a digital portfolio is your gateway to opportunities, creating an engaging online presence has never been more crucial. In this talk, we will cover how to build an impressive portfolio website using the Hugo framework.<br/><br/>This session is all about action. We'll cover:<br/><br/>\n•\_An introduction to static site generators and their advantages.<br/>\n•\_Step-by-step guidance on setting up Hugo, selecting a suitable theme, and integrating personalized content.<br/>\n•\_Tips for optimizing website performance, responsiveness, and SEO within the Hugo framework.<br/>\n•\_Real-world examples of successful portfolio websites built using Hugo."
