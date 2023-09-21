@@ -24,16 +24,10 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
-  - _bookshop_name: sections/video-section
-    video:
-      _bookshop_name: simple/video
-      url: https://youtube.com/embed/OTclpTZq-S4
-    button:
-    notice_message: ''
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
-      - time_string: 9:00am
+      - time_string:
         video_link:
         type: Introduction
         title: Welcome to HugoConf
@@ -42,7 +36,7 @@ content_blocks:
           Neumegen.
         speakers:
           - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
-      - time_string: 9:10am
+      - time_string:
         video_link:
         type: Live Interview
         title: Live Interview with Hugo contributor Joe Mooring
@@ -51,7 +45,7 @@ content_blocks:
           project, with Joe Mooring.
         speakers:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
-      - time_string: 9:40am
+      - time_string:
         video_link:
         type: Lightning Talk
         title: 'Automated migration at scale: Migrate to Hugo from any existing site'
@@ -70,7 +64,7 @@ content_blocks:
           in Hugo.
         speakers:
           - speaker: 1ecc2e19-92f5-4b44-8ba2-281dc47d48ea
-      - time_string: 9:55am
+      - time_string:
         video_link:
         type: Lightning Talk
         title: Hugobricks — stackable content blocks for Hugo
@@ -85,7 +79,7 @@ content_blocks:
           <br/><br/>WordPress here we come! ;-)
         speakers:
           - speaker: d25749e8-ef87-497b-8d55-40ee2faa0eca
-      - time_string: 10:05am
+      - time_string:
         video_link:
         type: Lightning Talk
         title: Manage your Hugo website with external content and assets
@@ -98,7 +92,7 @@ content_blocks:
           keep it all in sync.
         speakers:
           - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
-      - time_string: 10:15am
+      - time_string:
         video_link:
         type: Workshop
         title: How to create a Hugo theme from scratch
@@ -108,7 +102,7 @@ content_blocks:
           Hugo? No problem — beginners are welcome too!
         speakers:
           - speaker: d99c72fe-c2b8-47ae-9a87-aa22c285cf2e
-      - time_string: 11:00am
+      - time_string:
         video_link:
         type: Workshop
         title: 'Portfolio Power-Up: Elevate Your Technical Brand with Hugo'
@@ -122,7 +116,7 @@ content_blocks:
           portfolio, elevate your technical brand.
         speakers:
           - speaker: a1f9b5cc-e5bc-4d2b-b886-380698b5c094
-      - time_string: 12:00pm
+      - time_string:
         video_link:
         type: Tech Talk
         title: Improving Access to 4M U.S. Laws with Hugo
@@ -139,7 +133,7 @@ content_blocks:
           pipeline.
         speakers:
           - speaker: 4866361d-faa0-4928-b4bb-9f92ed2f7a31
-      - time_string: 12:25pm
+      - time_string:
         video_link:
         type: Lightning Talk
         title: >-
@@ -160,7 +154,7 @@ content_blocks:
         speakers:
           - speaker: 9d5cfb77-eba0-4e76-b5d3-7a4fe2666991
           - speaker: d38a2708-88c0-42bc-9537-d85e29086a42
-      - time_string: 12:40pm
+      - time_string:
         video_link:
         type: Lightning Talk
         title: From blog to small business with Hugo
@@ -172,7 +166,7 @@ content_blocks:
           Hugo to efficiently launch my new small business.
         speakers:
           - speaker: 6c7f23d9-7d3a-4f8b-8821-c008ec09e90a
-      - time_string: 12:55pm
+      - time_string:
         video_link:
         type: Tech Talk
         title: Static Search on Hugo — The Journey to Pagefind v1.0
@@ -187,7 +181,7 @@ content_blocks:
           Pagefind at HugoConf 2022.
         speakers:
           - speaker: edf5bbc1-6d08-4861-b6f1-bf5b21682a5f
-      - time_string: 1:25pm
+      - time_string:
         video_link:
         type: Lightning Talk
         title: Using Markdown render hooks with Hugo
@@ -197,7 +191,7 @@ content_blocks:
           using them in your projects.
         speakers:
           - speaker: 782ac691-46d0-4765-ac17-36a77aabb62c
-      - time_string: 1:40pm
+      - time_string:
         video_link:
         type: Tech Talk
         title: How to Turn a Hugo Website into a PWA for better user engagement
@@ -216,7 +210,7 @@ content_blocks:
           experience.
         speakers:
           - speaker: 3c6e6756-fcb8-432f-82dd-96404a1dcc6a
-      - time_string: 2:10pm
+      - time_string:
         video_link:
         type: Lightning Talk
         title: Use of The Good Docs Project content Templates as Archetypes in Hugo
@@ -228,7 +222,7 @@ content_blocks:
           templates and make new content files from them as Hugo archetypes.
         speakers:
           - speaker: 4ae4ceb9-47b0-4e8e-865b-e35eebe14f88
-      - time_string: 2:25pm
+      - time_string:
         video_link:
         type: Tech Talk
         title: Introducing HUGE, a Hugo framework
@@ -244,7 +238,7 @@ content_blocks:
           variables, or self hosted fonts!
         speakers:
           - speaker: 495375a5-7de1-4d51-a917-dd5ae066a95b
-      - time_string: 2:55pm
+      - time_string:
         video_link:
         type: Lightning Talk
         title: >-
@@ -263,14 +257,14 @@ content_blocks:
         speakers:
           - speaker: b7889b30-af8a-4023-a6a8-4a5203f60a0a
           - speaker: 8786c935-3c4b-4def-b747-4b14719fb975
-      - time_string: 3:05pm
+      - time_string:
         video_link:
         type: Tech Talk
         title: Building your portfolio with Hugo
         description: "In a world where a digital portfolio is your gateway to opportunities, creating an engaging online presence has never been more crucial. In this talk, we will cover how to build an impressive portfolio website using the Hugo framework.<br/><br/>This session is all about action. We'll cover:<br/><br/>\n•\_An introduction to static site generators and their advantages.<br/>\n•\_Step-by-step guidance on setting up Hugo, selecting a suitable theme, and integrating personalized content.<br/>\n•\_Tips for optimizing website performance, responsiveness, and SEO within the Hugo framework.<br/>\n•\_Real-world examples of successful portfolio websites built using Hugo."
         speakers:
           - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
-      - time_string: 3:30pm
+      - time_string:
         video_link:
         type: Final Thoughts
         title: Wrapping up HugoConf 2023
