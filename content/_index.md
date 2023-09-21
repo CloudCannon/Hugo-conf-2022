@@ -46,7 +46,7 @@ content_blocks:
         speakers:
           - speaker: 85e0c227-254a-4e07-bfa2-f42a23a51244
       - time_string:
-        video_link:
+        video_link: https://youtu.be/wlJkQEC2LNQ
         type: Lightning Talk
         title: 'Automated migration at scale: Migrate to Hugo from any existing site'
         description: >-
