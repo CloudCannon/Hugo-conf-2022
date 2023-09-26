@@ -24,6 +24,11 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
+  - _bookshop_name: generic/markdown-content
+    content_html: >-
+      <h2 class="center-align">Thanks to all our speakers, sponsors, and
+      organizers for another great conference!<br />Let's do it all again next
+      year 🗓️</h2>
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
