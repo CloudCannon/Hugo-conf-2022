@@ -28,16 +28,7 @@ content_blocks:
     title: Talks and workshops
     talks:
       - time_string:
-        video_link:
-        type: Introduction
-        title: Welcome to HugoConf
-        description: >-
-          Opening remarks from static site advocate and CloudCannon CEO Mike
-          Neumegen.
-        speakers:
-          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
-      - time_string:
-        video_link:
+        video_link: https://youtu.be/PuRDrL0NcAg
         type: Live Interview
         title: Live Interview with Hugo contributor Joe Mooring
         description: >-
@@ -93,7 +84,7 @@ content_blocks:
         speakers:
           - speaker: 1031f5dd-67ed-432e-8a13-44c189534425
       - time_string:
-        video_link:
+        video_link: https://youtu.be/0WJ2lWNhqm8
         type: Workshop
         title: How to create a Hugo theme from scratch
         description: >-
@@ -264,17 +255,6 @@ content_blocks:
         description: "In a world where a digital portfolio is your gateway to opportunities, creating an engaging online presence has never been more crucial. In this talk, we will cover how to build an impressive portfolio website using the Hugo framework.<br/><br/>This session is all about action. We'll cover:<br/><br/>\n•\_An introduction to static site generators and their advantages.<br/>\n•\_Step-by-step guidance on setting up Hugo, selecting a suitable theme, and integrating personalized content.<br/>\n•\_Tips for optimizing website performance, responsiveness, and SEO within the Hugo framework.<br/>\n•\_Real-world examples of successful portfolio websites built using Hugo."
         speakers:
           - speaker: d12c1b9b-bc45-4998-9f62-aba6e3f1654a
-      - time_string:
-        video_link:
-        type: Final Thoughts
-        title: Wrapping up HugoConf 2023
-        description: >-
-          Closing remarks from host Mike Neumegen and David Large, a member of
-          the HugoConf organizational team. We'll recap the day's talks and
-          workshops, and highlight those that stood out to us.
-        speakers:
-          - speaker: 4b453d60-77a1-43a6-90d5-bdf73a31e621
-          - speaker: mr.large
   - _bookshop_name: generic/markdown-content
     content_html: >-
       <h2 class="center-align"><br />HugoConf is better thanks to our
