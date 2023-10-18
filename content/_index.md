@@ -26,9 +26,10 @@ content_blocks:
             formId: e199cbb1-2dcc-441f-8516-224f3ee65e8d
   - _bookshop_name: generic/markdown-content
     content_html: >-
-      <h2 class="center-align">Thanks to all our speakers, sponsors, and
-      organizers for another great conference!<br />Let's do it all again next
-      year 🗓️</h2>
+      <h3 class="center-align">HugoConf 2023 was incredible!</h3><p>Thanks to
+      all our speakers, sponsors, and organizers for another great
+      conference.<br />Let's do it all again next year!&nbsp;</p><p>If you
+      missed any talks at the conference, you can watch them all below.</p>
   - _bookshop_name: sections/schedule
     title: Talks and workshops
     talks:
