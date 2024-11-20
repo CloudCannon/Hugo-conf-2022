@@ -30,9 +30,10 @@ content_blocks:
       - '#FCD804'
   - _bookshop_name: generic/markdown-content
     content_html: >-
-      <h2 class="center-align">What's happening in the Hugo community?
-      </h2><p>Check out our recent videos recapping the Hugo news — at the speed
-      of a typical Hugo build. (And then in human speed!)</p><p></p>
+      <h2 class="center-align">What's happening in the Hugo community? </h2><p
+      class="center-align">Check out our recent videos recapping the Hugo news —
+      at the speed of a typical Hugo build. (And then in human
+      speed!)</p><p></p>
   - _bookshop_name: sections/video-section
     video:
       _bookshop_name: simple/video
