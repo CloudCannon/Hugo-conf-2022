@@ -1,5 +1,5 @@
 ---
-title: Home
+title: HugoConf 2023
 content_blocks:
   - _bookshop_name: sections/hero
     logo_image: /uploads/hugo-logo.svg
