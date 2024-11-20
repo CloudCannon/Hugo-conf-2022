@@ -8,7 +8,7 @@ content_blocks:
     content:
     button:
       _bookshop_name: generic/button
-      label: Register your interest for HugoConf 2023
+      label: Sign up for the ~monthly Hugo newsletter
       id:
       view_label_icon: true
       border_color: border-blue
@@ -430,7 +430,9 @@ content_blocks:
   - _bookshop_name: generic/markdown-content
     content_html: "<h3>HugoConf 2022 Wrap up video</h3><p>\_</p>"
   - _bookshop_name: sections/video-section
-    notice_message: ''
+    video:
+      _bookshop_name: simple/video
+      url: https://www.youtube.com/embed/0iwNjcFIHNM
     button:
       _bookshop_name: generic/button
       label: Submit your talk
@@ -447,9 +449,7 @@ content_blocks:
             region: na1
             portalId: 22461532
             formId: c1a95734-9550-4306-9e12-892c5112b894
-    video:
-      _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/0iwNjcFIHNM
+    notice_message: ''
   - _bookshop_name: sections/side_animation
     colours:
       - '#C9177E'

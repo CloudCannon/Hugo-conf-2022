@@ -5,8 +5,6 @@ content_blocks:
     logo_image: /uploads/hugo-logo.svg
     post_logo: conf
     date:
-      _bookshop_name: simple/event-date
-      date:
     content: The free, online conference for everything Hugo
     button:
       _bookshop_name: generic/button

@@ -5,12 +5,10 @@ content_blocks:
     logo_image: /uploads/hugo-logo.svg
     post_logo: conf
     date:
-      _bookshop_name: simple/event-date
-      date:
-    content: The free, online conference for everything Hugo
+    content:
     button:
       _bookshop_name: generic/button
-      label: Join the HugoConf mailing list
+      label: Sign up for the ~monthly Hugo newsletter
       id:
       view_label_icon: true
       border_color: border-blue
@@ -18,7 +16,7 @@ content_blocks:
       open_modal: false
       modal:
         _bookshop_name: simple/modal
-        heading: Sign up for the HugoConf mailing list
+        heading: Sign up for HugoConf updates
         modal_content:
           - _bookshop_name: simple/hubspot-form
             region: na1
