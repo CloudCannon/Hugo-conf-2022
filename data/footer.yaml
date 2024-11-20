@@ -6,12 +6,12 @@ links:
     label: Home
     icon:
     icon_alt:
-  - url: /hugoconf-2022/
-    label: HugoConf 2022
-    icon: ''
-    icon_alt: ''
   - url: /hugoconf-2023/
     label: HugoConf 2023
+    icon: ''
+    icon_alt: ''
+  - url: /hugoconf-2022/
+    label: HugoConf 2022
     icon: ''
     icon_alt: ''
   - url: /code-of-conduct
@@ -19,8 +19,8 @@ links:
     icon:
     icon_alt:
   - url: https://twitter.com/hugoconf
-    label: Twitter
-    icon: /uploads/twitter-logo.svg
+    label: X
+    icon:
     icon_alt: Twitter
   - url: https://fosstodon.org/@hugoconf
     label: Mastodon
