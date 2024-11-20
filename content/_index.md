@@ -31,12 +31,13 @@ content_blocks:
   - _bookshop_name: generic/markdown-content
     content_html: >-
       <h2 class="center-align">What's happening in the Hugo community?
-      </h2><p>Check out our videos recapping the Hugo news — at the speed of a
-      typical Hugo build. (And then in human speed!)</p>
+      </h2><p>Check out our recent videos recapping the Hugo news — at the speed
+      of a typical Hugo build. (And then in human speed!)</p><p></p>
   - _bookshop_name: sections/video-section
     video:
       _bookshop_name: simple/video
-      url: https://www.youtube.com/embed/PLrxYIq_0LFJfer4sb-Vz3HnGR_3JfLuhL
+      url: >-
+        https://www.youtube.com/embed/videoseries?si=6Ic_O9TSTgBr887G&amp;list=PLrxYIq_0LFJfer4sb-Vz3HnGR_3JfLuhL
     button:
     notice_message: ''
 ---
