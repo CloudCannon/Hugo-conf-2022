@@ -3,12 +3,12 @@ title: Home
 content_blocks:
   - _bookshop_name: sections/hero
     logo_image: /uploads/hugo-logo.svg
-    post_logo: conf
+    post_logo: community
     date:
-    content: The free, online conference for everything Hugo
+    content: The free, online community for everything Hugo
     button:
       _bookshop_name: generic/button
-      label: Join the HugoConf mailing list
+      label: Join the Hugo Community mailing list
       id:
       view_label_icon: true
       border_color: border-blue
